@@ -22,3 +22,6 @@ The old setup imported malscraper's `covers/auto`. That mode no longer works, be
 - MAL escapes a plain `@import`, so the paste file uses `@\import`.
 - The modern list loads 300 rows per request.
 - jsDelivr caches `@main` for up to 12 hours. The Action purges the cache after each commit. To purge by hand, open `https://purge.jsdelivr.net/gh/Snolled37/mal-list-css@main/dist/<file>`.
+
+## Banner credits
+`assets/manga/*.webp` are short cropped loops made from Elaina (Majo no Tabitabi / Wandering Witch) live wallpapers on [moewalls.com](https://moewalls.com): *Elaina in the Snow*, *Drinking Milk Tea*, *Vineyard*, *Drinking Coffee Near Window*, *Butterflies*, *Early Morning*. Used for a personal list page only; all rights belong to the original artists. Ask and they will be removed.

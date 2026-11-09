@@ -3,3 +3,4 @@ __pycache__/
 .env
 .mal-token*.json
 backups/
+banners-local/

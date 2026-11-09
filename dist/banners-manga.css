@@ -1,0 +1,13 @@
+/* Manga list banners (animated WebP, 1060x230, 6 s loop).
+   Only the banner of the open tab is downloaded. Kept in an imported file on
+   purpose: MAL rewrites url() written directly in the Custom CSS box through its
+   image proxy, which may flatten animation.
+   Source clips: Elaina wallpapers from moewalls.com (credit in README). */
+body.ownlist.manga{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-snow.webp)}
+body.ownlist.manga[data-query*='"status":1']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-milktea.webp)}
+body.ownlist.manga[data-query*='"status":2']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-vineyard.webp)}
+body.ownlist.manga[data-query*='"status":3']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-coffee.webp)}
+body.ownlist.manga[data-query*='"status":4']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-butterflies.webp)}
+body.ownlist.manga[data-query*='"status":6']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-morning.webp)}
+/* reduced motion: hide the animated banner, the static star sky shows instead */
+@media (prefers-reduced-motion:reduce){body.ownlist.manga{--banner:none!important}}
