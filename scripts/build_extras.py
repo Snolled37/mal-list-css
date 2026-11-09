@@ -224,12 +224,20 @@ def award_badges(items: list[dict], kind: str) -> list[str]:
 
 def score_frames(items: list[dict], kind: str) -> list[str]:
     """Cover frame tier from the MAL score: 8 / 9 / 10 (tokens live in the theme)."""
+    tiers = {
+        8: "--frame-pad:1.5px;--frame-bg:var(--f8-bg);--frame-glow:var(--f8-glow)",
+        9: "--frame-pad:2px;--frame-bg:var(--f9-bg);--frame-glow:var(--f9-glow)",
+        # declared on the link itself so var(--ang) is the animated, per-element value
+        10: "--frame-pad:2.5px;--frame-glow:var(--f10-glow);--frame-anim:mlc-ring;"
+            "--frame-bg:conic-gradient(from var(--ang),var(--f10-c1),var(--f10-c2),var(--f10-c3),"
+            "var(--f10-c1),var(--f10-c2),var(--f10-c1))",
+    }
     rules = []
-    for s in (8, 9, 10):
+    for s, decl in tiers.items():
         ids = [it[kind + "_id"] for it in items if it.get("score") == s]
         if ids:
             sel = ",".join(f'body.ownlist .data.image a[href^="/{kind}/{i}/"]' for i in ids)
-            rules.append(f"{sel}{{--frame:var(--frame-{s})}}")
+            rules.append(f"{sel}{{{decl}}}")
     return rules
 
 

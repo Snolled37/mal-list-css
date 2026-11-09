@@ -250,16 +250,27 @@ body.ownlist .list-table-data .data.image{position:relative}
 body.ownlist .data.image a::after,
 body.ownlist .list-table-data .data.image::before,
 body.ownlist .list-table-data .data.image::after{
-  position:absolute;right:-7px;width:19px;height:19px;border-radius:50%;
+  position:absolute;width:19px;height:19px;border-radius:50%;
   display:grid;place-items:center;font-size:10.5px;line-height:1;color:#3b2a10;
   box-shadow:0 0 0 2px var(--surface),0 2px 6px rgba(0,0,0,.35);pointer-events:none;
 }
-body.ownlist .data.image a::after{content:var(--b1-t,none);background:var(--b1-bg);top:-6px;z-index:3}
-body.ownlist .list-table-data .data.image::before{content:var(--b2-t,none);background:var(--b2-bg);top:15px;z-index:2}
-body.ownlist .list-table-data .data.image::after{content:var(--b3-t,none);background:var(--b3-bg);top:29px;z-index:1}
+/* first award in front; the others peek out to the right, like fanned coins */
+body.ownlist .data.image a::after{content:var(--b1-t,none);background:var(--b1-bg);top:-6px;right:-7px;z-index:3}
+body.ownlist .list-table-data .data.image::before{content:var(--b2-t,none);background:var(--b2-bg);top:2px;right:-15px;z-index:2}
+body.ownlist .list-table-data .data.image::after{content:var(--b3-t,none);background:var(--b3-bg);top:2px;right:-23px;z-index:1}
 
-/* ---------- cover frame by MAL score (8 / 9 / 10), tokens per theme ---------- */
-body.ownlist .data.image a{border-radius:7px;box-shadow:var(--frame,none)}
+/* ---------- cover frame by MAL score (8 / 9 / 10) ----------
+   The ring is the link's own background showing through a small padding around
+   the cover (no pseudo-element left for it). Colours live in the theme;
+   tier 10's ring is a conic gradient that slowly turns (registered --ang). */
+@property --ang{syntax:"<angle>";inherits:false;initial-value:0deg}
+@keyframes mlc-ring{to{--ang:360deg}}
+body.ownlist .data.image a{
+  border-radius:9px;padding:var(--frame-pad,0);margin:calc(var(--frame-pad,0px) * -1);
+  background:var(--frame-bg,none);box-shadow:var(--frame-glow,none);
+  animation:var(--frame-anim,none) 7s linear infinite;
+}
+@media (prefers-reduced-motion:reduce){body.ownlist .data.image a{animation:none}}
 
 /* ---------- season / studio hover cards (data from extras) ---------- */
 body.ownlist .data.season a::after,body.ownlist .data.studio a::after{
