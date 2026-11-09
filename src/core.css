@@ -187,7 +187,6 @@ body.ownlist .list-table-data .data.type,body.ownlist .list-table-data .data.sea
   font-size:11px;color:var(--muted);white-space:nowrap;overflow:visible}
 body.ownlist .list-table-data .data.type{padding-bottom:2px!important;letter-spacing:.04em}
 body.ownlist .list-table-data .data.season{padding-bottom:2px!important}
-body.ownlist .list-table-data .data.season::before{content:"·";margin-right:8px;opacity:.6}
 body.ownlist .list-table-data .data.studio{padding-top:3px!important}
 body.ownlist .list-table-data .data.season a,body.ownlist .list-table-data .data.studio a{color:var(--muted)!important;position:relative}
 body.ownlist .list-table-data .data.season a:hover,body.ownlist .list-table-data .data.studio a:hover{color:var(--accent)!important}
@@ -196,11 +195,12 @@ body.ownlist .list-table-data .data.score{font-size:15px;font-weight:700}
 body.ownlist .list-table-data .data.score .score-label{color:var(--text)}
 
 /* progress: number + bar (bar width from extras --p; completed = full) */
-body.ownlist .list-table-data .data.progress,body.ownlist .list-table-data .data.chapter{font-size:12px;color:var(--muted)}
+body.ownlist .list-table-data .data.progress,body.ownlist .list-table-data .data.chapter{font-size:12px;color:var(--muted);text-align:center!important}
+body.ownlist .list-table-header .header-title.progress,body.ownlist .list-table-header .header-title.chapters{text-align:center!important}
 body.ownlist .list-table-data .data.progress a,body.ownlist .list-table-data .data.chapter a{color:var(--text)!important;font-weight:600}
 body.ownlist .list-table-data [class^="progress-"],body.ownlist .list-table-data [class^="chapter-"]{position:relative;padding-bottom:7px}
 body.ownlist .list-table-data [class^="progress-"]::after,body.ownlist .list-table-data [class^="chapter-"]::after{
-  content:"";position:absolute;left:0;bottom:0;width:72px;height:3px;border-radius:2px;
+  content:"";position:absolute;left:calc(50% - 36px);bottom:0;width:72px;height:3px;border-radius:2px;
   background:linear-gradient(var(--st-watching),var(--st-watching)) 0 0/calc(var(--p,0) * 100%) 100% no-repeat,var(--line);
 }
 body.ownlist .list-table-data .data.status.completed ~ .data [class^="progress-"],
