@@ -75,7 +75,8 @@ body.ownlist .list-unit .list-status-title .text{color:var(--text)!important;let
 body.ownlist .list-unit .list-status-title .stats a{color:var(--muted)!important}
 body.ownlist .list-unit .list-stats{background:var(--surface);color:var(--muted);border-color:var(--line)}
 
-body.ownlist .list-table{background:transparent!important;border-collapse:separate;border-spacing:0 4px}
+body.ownlist .list-table{background:transparent!important;border:0!important;border-collapse:separate;border-spacing:0 4px}
+body.ownlist .list-table > tbody:first-of-type{background:transparent!important}
 body.ownlist .list-table .list-table-header .header-title{
   background:transparent!important;color:var(--muted)!important;border:0!important;
   font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;
