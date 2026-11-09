@@ -1,9 +1,11 @@
 /* ============================================================
    mal-list-css — core (shared by anime + manga)
    Own theme for MAL modern list. Palette/motif tokens live in
-   anime.css / manga.css. Perf rules: no backdrop-filter, no
-   background-attachment:fixed, no root :has(), no `*`, no
-   transition:all; animate transform/opacity only.
+   anime.css / manga.css; data-driven values (progress, season /
+   studio cards, top-rated badges) come from extras-*.css.
+   Perf rules: no backdrop-filter, no background-attachment:fixed,
+   no root :has(), no `*`, no transition:all; animate
+   transform/opacity only; rows use content-visibility.
    ============================================================ */
 
 /* ---------- page ---------- */
@@ -14,47 +16,54 @@ body.ownlist{
 }
 body.ownlist a{color:var(--link)}
 body.ownlist a:hover{color:var(--accent)}
-
-/* top MAL bar */
 body.ownlist .header{background:transparent;border:0;box-shadow:none}
-body.ownlist .header .header-title{color:var(--muted)}
-body.ownlist .header .btn-menu,body.ownlist .header .header-info{color:var(--muted)}
+body.ownlist .header .header-title,body.ownlist .header .btn-menu,body.ownlist .header .header-info{color:var(--muted)}
 
 /* ---------- banner ---------- */
 body.ownlist .cover-block{
-  position:relative;height:230px;margin:0 auto 0;overflow:hidden;
-  border-radius:0 0 18px 18px;
+  position:relative;height:230px;overflow:hidden;border-radius:0 0 18px 18px;
   background:var(--banner-tint),var(--banner,none) center/cover no-repeat,var(--banner-fallback);
 }
-/* static star field */
 body.ownlist .cover-block::before{
   content:"";position:absolute;inset:0;pointer-events:none;
   background-image:var(--stars);background-size:220px 160px;opacity:.9;
 }
-/* twinkle layer: a second sparse star field that fades in/out (opacity only) */
 body.ownlist .cover-block::after{
   content:var(--name,"");position:absolute;left:32px;bottom:22px;
-  color:var(--banner-text);font:600 34px/1 var(--title-font,system-ui);letter-spacing:.12em;
+  color:var(--banner-text);font:600 34px/1 system-ui,sans-serif;letter-spacing:.12em;
   text-shadow:0 2px 12px var(--banner-glow);pointer-events:none;
 }
+/* twinkle layer (opacity only) */
 body.ownlist #cover-image-container{
   display:block!important;position:absolute;inset:0;pointer-events:none;
   background-image:var(--stars-twinkle);background-size:300px 200px;
   opacity:.25;animation:mlc-twinkle 4.5s ease-in-out infinite alternate;
 }
 body.ownlist #cover-image-container img{display:none}
+/* a shooting star crossing the banner every ~14 s (transform + opacity only) */
+body.ownlist .cover-block #cover-image-container::after{
+  content:"";position:absolute;top:28px;left:-120px;width:110px;height:2px;border-radius:2px;
+  background:linear-gradient(90deg,transparent,var(--shoot,#fff));
+  opacity:0;transform:rotate(-14deg);animation:mlc-shoot 14s linear infinite 3s;
+}
 @keyframes mlc-twinkle{from{opacity:.15}to{opacity:1}}
-@media (prefers-reduced-motion:reduce){body.ownlist #cover-image-container{animation:none;opacity:.6}}
+@keyframes mlc-shoot{
+  0%{opacity:0;transform:translate(0,0) rotate(-14deg)}
+  2%{opacity:1}
+  9%{opacity:0;transform:translate(820px,-190px) rotate(-14deg)}
+  100%{opacity:0;transform:translate(820px,-190px) rotate(-14deg)}
+}
 
-/* avatar (set --avatar + --avatar-size in Custom CSS to show) */
+/* avatar (set --avatar, --avatar-size, --avatar-display:block in Custom CSS) */
 body.ownlist .list-status-title::before{
-  content:"";display:var(--avatar-display,none);position:absolute;left:24px;top:calc(-1 * var(--avatar-size,0px) / 2 - 8px);
+  content:"";display:var(--avatar-display,none);position:absolute;left:24px;
+  top:calc(-1 * var(--avatar-size,0px) / 2 - 8px);
   width:var(--avatar-size,0px);height:var(--avatar-size,0px);border-radius:50%;
   background:var(--avatar,none) center/cover no-repeat;
   box-shadow:0 0 0 3px var(--bg),0 0 0 4px var(--accent);
 }
 
-/* ---------- status tabs ---------- */
+/* ---------- status tabs (dot in the status colour) ---------- */
 body.ownlist .status-menu-container{background:transparent!important;border:0!important;box-shadow:none!important}
 body.ownlist .status-menu-container.fixed{background:var(--bg)!important;box-shadow:0 1px 0 var(--line)!important}
 body.ownlist .status-menu{background:transparent!important}
@@ -62,153 +71,247 @@ body.ownlist .status-menu .status-button{color:var(--muted)!important;border-bot
 body.ownlist .status-menu .status-button:hover{color:var(--text)!important}
 body.ownlist .status-menu .status-button.on{color:var(--text)!important;border-bottom-color:var(--accent)}
 body.ownlist .status-menu .status-button.on::after{display:none}
+body.ownlist .status-menu .status-button::before{
+  content:"";display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:7px;vertical-align:1px;
+  background:var(--dot,var(--muted));
+}
+body.ownlist .status-menu .status-button.watching,body.ownlist .status-menu .status-button.reading{--dot:var(--st-watching)}
+body.ownlist .status-menu .status-button.completed{--dot:var(--st-completed)}
+body.ownlist .status-menu .status-button.onhold{--dot:var(--st-onhold)}
+body.ownlist .status-menu .status-button.dropped{--dot:var(--st-dropped)}
+body.ownlist .status-menu .status-button.plantowatch,body.ownlist .status-menu .status-button.plantoread{--dot:var(--st-plan)}
+body.ownlist .status-menu .status-button.all_anime,body.ownlist .status-menu .status-button.all_manga{--dot:var(--accent)}
 body.ownlist #search-box,body.ownlist #search-box input{background:var(--surface);color:var(--text);border-color:var(--line)}
 body.ownlist #search-button{color:var(--muted)}
 
 /* ---------- list frame ---------- */
 body.ownlist #list-container,body.ownlist .list-block,body.ownlist .list-unit{background:transparent!important;border:0!important;box-shadow:none!important}
-body.ownlist .list-unit .list-status-title{
-  position:relative;background:transparent!important;color:var(--text)!important;
-  border-bottom:1px solid var(--line);
-}
+body.ownlist .list-unit .list-status-title{position:relative;background:transparent!important;color:var(--text)!important;border-bottom:1px solid var(--line)}
 body.ownlist .list-unit .list-status-title .text{color:var(--text)!important;letter-spacing:.2em;font-weight:600}
 body.ownlist .list-unit .list-status-title .stats a{color:var(--muted)!important}
 body.ownlist .list-unit .list-stats{background:var(--surface);color:var(--muted);border-color:var(--line)}
 
-body.ownlist .list-table{background:transparent!important;border:0!important;border-collapse:separate;border-spacing:0 4px}
-body.ownlist .list-table > tbody:first-of-type{background:transparent!important}
+/* ============================================================
+   ROW LAYOUT — each row becomes a grid card
+   [strip][#][cover][ title ............................ ][score][progress][dates][tags]
+                     [ type · premiered · studio ]                [days]   [→ end]
+   ============================================================ */
+body.ownlist .list-table{display:block;background:transparent!important;border:0!important}
+body.ownlist .list-table > tbody{display:block;background:transparent!important}
+body.ownlist .list-table .list-table-header,
+body.ownlist .list-table .list-table-data{
+  display:grid;align-items:center;column-gap:14px;
+  grid-template-columns:[strip] 4px [num] 26px [img] 54px [t1] auto [t2] auto [t3] minmax(0,1fr) [score] 48px [prog] 92px [dates] 84px [tags] 196px [end];
+  grid-template-rows:auto auto;padding-right:12px;
+}
+body.ownlist .list-table .list-table-header{padding-bottom:6px}
+body.ownlist .list-table .list-table-data .data,
 body.ownlist .list-table .list-table-header .header-title{
-  background:transparent!important;color:var(--muted)!important;border:0!important;
-  font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;
+  display:block;width:auto!important;min-width:0;padding:0!important;margin:0;
+  background:transparent!important;border:0!important;text-align:left;
 }
-body.ownlist .list-table .list-table-header .header-title a{color:inherit!important}
 
-/* rows */
-body.ownlist .list-table .list-table-data .data{
-  background:var(--surface)!important;color:var(--text);
-  border:0!important;border-top:1px solid var(--line)!important;border-bottom:1px solid var(--line)!important;
+/* row card */
+body.ownlist .list-table tbody.list-item{
+  margin:0 0 6px;content-visibility:auto;contain-intrinsic-size:auto 92px;
 }
-body.ownlist .list-table .list-item:nth-of-type(even) .list-table-data .data{background:var(--surface-2)!important}
+body.ownlist .list-table .list-table-data{
+  position:relative;min-height:84px;background:var(--surface);border-radius:12px;
+  box-shadow:0 0 0 1px var(--line);
+}
+body.ownlist .list-table tbody.list-item:nth-of-type(even) .list-table-data{background:var(--surface-2)}
 @media (hover:hover){
-  body.ownlist .list-table .list-item:hover .list-table-data .data{background:var(--surface-hover)!important}
+  body.ownlist .list-table tbody.list-item:hover{content-visibility:visible;position:relative;z-index:5}
+  body.ownlist .list-table tbody.list-item:hover .list-table-data{background:var(--surface-hover)}
 }
-body.ownlist .list-table .list-table-data .data.number{color:var(--muted)}
-body.ownlist .list-table .list-table-data .data.title .link{color:var(--text)!important;font-weight:600}
-body.ownlist .list-table .list-table-data .data.title .link:hover{color:var(--accent)!important}
-body.ownlist .list-table .list-table-data .data.title .add-edit-more a,
-body.ownlist .list-table .list-table-data .data.title .content-status,
-body.ownlist .list-table .list-table-data .data.title .airing{color:var(--muted)!important}
-body.ownlist .list-table .list-table-data .data.type,
-body.ownlist .list-table .list-table-data .data.started,
-body.ownlist .list-table .list-table-data .data.finished,
-body.ownlist .list-table .list-table-data .data.days,
-body.ownlist .list-table .list-table-data .data.season a,
-body.ownlist .list-table .list-table-data .data.studio a,
-body.ownlist .list-table .list-table-data .data.progress{color:var(--muted)!important}
-body.ownlist .list-table .list-table-data .data.progress a{color:var(--text)!important}
-body.ownlist .list-table .list-table-data .data.score .score-label{color:var(--text)}
-body.ownlist .more-info .more-content{background:var(--surface-2)!important;color:var(--text);border:0!important}
 
-/* status strip (left) */
-body.ownlist .list-table .list-table-data .data.status{width:4px!important;padding:0!important;border-radius:4px 0 0 4px}
-body.ownlist .list-table .list-table-data .data.status.watching{background:var(--st-watching)!important}
-body.ownlist .list-table .list-table-data .data.status.completed{background:var(--st-completed)!important}
-body.ownlist .list-table .list-table-data .data.status.onhold{background:var(--st-onhold)!important}
-body.ownlist .list-table .list-table-data .data.status.dropped{background:var(--st-dropped)!important}
-body.ownlist .list-table .list-table-data .data.status.plantowatch,
-body.ownlist .list-table .list-table-data .data.status.plantoread{background:var(--st-plan)!important}
-body.ownlist .list-table .list-table-data .data.status.reading{background:var(--st-watching)!important}
+/* placement — anime + manga */
+body.ownlist .list-table-data .data.status,body.ownlist .list-table-header .header-title.status{grid-column:strip;grid-row:1/3;align-self:stretch;border-radius:12px 0 0 12px}
+body.ownlist .list-table-data .data.number,body.ownlist .list-table-header .header-title.number{grid-column:num;grid-row:1/3;text-align:center;color:var(--muted);font-size:11px}
+body.ownlist .list-table-data .data.image,body.ownlist .list-table-header .header-title.image{grid-column:img;grid-row:1/3;padding:8px 0!important}
+body.ownlist .list-table-data .data.title,body.ownlist .list-table-header .header-title.title{grid-column:t1/score;grid-row:1;align-self:end}
+body.ownlist .list-table-data .data.type{grid-column:t1;grid-row:2;align-self:start}
+body.ownlist .list-table-data .data.season{grid-column:t2;grid-row:2;align-self:start}
+body.ownlist .list-table-data .data.studio{grid-column:t3;grid-row:2;align-self:start}
+body.ownlist .list-table-data .data.score,body.ownlist .list-table-header .header-title.score{grid-column:score;grid-row:1/3;text-align:center}
+body.ownlist .list-table-data .data.progress,body.ownlist .list-table-data .data.chapter,
+body.ownlist .list-table-header .header-title.progress,body.ownlist .list-table-header .header-title.chapters{grid-column:prog;grid-row:1;align-self:end}
+body.ownlist .list-table-data .data.days,body.ownlist .list-table-data .data.volume{grid-column:prog;grid-row:2;align-self:start}
+body.ownlist .list-table-data .data.started,body.ownlist .list-table-header .header-title.started{grid-column:dates;grid-row:1;align-self:end}
+body.ownlist .list-table-data .data.finished{grid-column:dates;grid-row:2;align-self:start}
+body.ownlist .list-table-data .data.tags,body.ownlist .list-table-header .header-title.tags{grid-column:tags;grid-row:1/3}
+body.ownlist .list-table-header .header-title{grid-row:1!important;align-self:end!important}
 
-/* small cover */
-body.ownlist .list-table .list-table-data .data.image img{border-radius:6px}
+/* header: hide the columns that now live inside other cells */
+body.ownlist .list-table-header .header-title.type,
+body.ownlist .list-table-header .header-title.finished,
+body.ownlist .list-table-header .header-title.days,
+body.ownlist .list-table-header .header-title.studio,
+body.ownlist .list-table-header .header-title.volumes,
+body.ownlist .list-table-header .header-title.started ~ .header-title.started{display:none!important}
+body.ownlist .list-table-header .header-title{color:var(--muted)!important;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:600}
+body.ownlist .list-table-header .header-title a{color:inherit!important}
+body.ownlist .list-table-header .header-title.started a{font-size:0}
+body.ownlist .list-table-header .header-title.started a::before{content:"Dates";font-size:10.5px}
+body.ownlist .list-table-header .header-title.tags{font-size:0!important;text-align:center}
+body.ownlist .list-table-header .header-title.tags::before{content:"Should · Review";font-size:10.5px}
 
-/* ---------- hover cover (needs covers-*.css) ---------- */
-body.ownlist .data.image a{position:relative;overflow:visible}
+/* cell styling */
+body.ownlist .list-table-data .data.status.watching,body.ownlist .list-table-data .data.status.reading{background:var(--st-watching)!important}
+body.ownlist .list-table-data .data.status.completed{background:var(--st-completed)!important}
+body.ownlist .list-table-data .data.status.onhold{background:var(--st-onhold)!important}
+body.ownlist .list-table-data .data.status.dropped{background:var(--st-dropped)!important}
+body.ownlist .list-table-data .data.status.plantowatch,body.ownlist .list-table-data .data.status.plantoread{background:var(--st-plan)!important}
+
+body.ownlist .list-table-data .data.image img{width:54px;height:76px;object-fit:cover;border-radius:7px;display:block}
+body.ownlist .list-table-data .data.title{font-size:13px;line-height:1.35}
+body.ownlist .list-table-data .data.title .link{color:var(--text)!important;font-weight:600}
+body.ownlist .list-table-data .data.title .link:hover{color:var(--accent)!important}
+body.ownlist .list-table-data .data.title .add-edit-more{display:inline;margin-left:8px;font-size:10.5px}
+body.ownlist .list-table-data .data.title .add-edit-more a,body.ownlist .list-table-data .data.title .content-status,
+body.ownlist .list-table-data .data.title .airing{color:var(--muted)!important;font-size:10.5px}
+
+/* meta line under the title: type · premiered · studio */
+body.ownlist .list-table-data .data.type,body.ownlist .list-table-data .data.season,body.ownlist .list-table-data .data.studio{
+  font-size:11px;color:var(--muted);white-space:nowrap;padding-top:3px!important}
+body.ownlist .list-table-data .data.season a,body.ownlist .list-table-data .data.studio a{color:var(--muted)!important;position:relative}
+body.ownlist .list-table-data .data.season a:hover,body.ownlist .list-table-data .data.studio a:hover{color:var(--accent)!important}
+body.ownlist .list-table-data .data.season::before,body.ownlist .list-table-data .data.studio::before{content:"·";margin-right:10px;opacity:.6}
+body.ownlist .list-table-data .data.studio{overflow:visible;text-overflow:ellipsis}
+
+body.ownlist .list-table-data .data.score{font-size:15px;font-weight:700}
+body.ownlist .list-table-data .data.score .score-label{color:var(--text)}
+
+/* progress: number + bar (bar width from extras --p; completed = full) */
+body.ownlist .list-table-data .data.progress,body.ownlist .list-table-data .data.chapter{font-size:12px;color:var(--muted)}
+body.ownlist .list-table-data .data.progress a,body.ownlist .list-table-data .data.chapter a{color:var(--text)!important;font-weight:600}
+body.ownlist .list-table-data [class^="progress-"],body.ownlist .list-table-data [class^="chapter-"]{position:relative;padding-bottom:6px}
+body.ownlist .list-table-data [class^="progress-"]::after,body.ownlist .list-table-data [class^="chapter-"]::after{
+  content:"";position:absolute;left:0;bottom:0;width:72px;height:3px;border-radius:2px;
+  background:linear-gradient(var(--st-watching),var(--st-watching)) 0 0/calc(var(--p,0) * 100%) 100% no-repeat,var(--line);
+}
+body.ownlist .list-table-data .data.status.completed ~ .data [class^="progress-"],
+body.ownlist .list-table-data .data.status.completed ~ .data [class^="chapter-"]{--p:1}
+body.ownlist .list-table-data .data.status.completed ~ .data [class^="progress-"]::after,
+body.ownlist .list-table-data .data.status.completed ~ .data [class^="chapter-"]::after{background:var(--st-completed)}
+body.ownlist .list-table-data .data.days{font-size:10.5px;color:var(--muted);padding-top:3px!important}
+body.ownlist .list-table-data .data.days::after{content:" days"}
+body.ownlist .list-table-data .data.volume{font-size:10.5px;color:var(--muted);padding-top:3px!important}
+body.ownlist .list-table-data .data.volume::before{content:"vol "}
+
+/* dates: start on top, "→ finish" below */
+body.ownlist .list-table-data .data.started,body.ownlist .list-table-data .data.finished{font-size:11.5px;color:var(--text);font-variant-numeric:tabular-nums;white-space:nowrap}
+body.ownlist .list-table-data .data.finished{color:var(--muted);padding-top:3px!important}
+body.ownlist .list-table-data .data.finished::before{content:"→ ";opacity:.6}
+
+/* ---------- cover hover (big cover, needs covers-*.css) ---------- */
+body.ownlist .data.image a{position:relative;display:block;overflow:visible}
 body.ownlist .data.image a::before{
-  content:"";position:absolute;top:calc(50% - 100px);left:-176px;z-index:50;
+  content:"";position:absolute;top:calc(50% - 106px);left:-186px;z-index:50;
   width:150px;height:212px;border-radius:10px;
-  /* longhands only: a `background:` shorthand here would reset the
-     background-image set by covers-*.css */
+  /* longhands only: a `background:` shorthand would reset covers-*.css */
   background-color:var(--surface);background-repeat:no-repeat;background-position:center;background-size:cover;
   box-shadow:0 0 0 1px var(--line),0 10px 30px rgba(0,0,0,.45);
   opacity:0;transform:translateX(8px) scale(.92);transform-origin:right center;
   pointer-events:none;transition:opacity .18s ease,transform .18s ease;
 }
-@media (hover:hover){
-  body.ownlist .list-item:hover .data.image a::before{opacity:1;transform:none}
+@media (hover:hover){body.ownlist .list-item:hover .data.image a::before{opacity:1;transform:none}}
+/* top-rated badge (Review >= 9, from extras --top) */
+body.ownlist .data.image a::after{
+  content:"✦";position:absolute;top:-5px;right:-6px;width:18px;height:18px;border-radius:50%;
+  display:grid;place-items:center;font-size:11px;line-height:1;color:var(--bg);
+  background:var(--star);box-shadow:0 0 0 2px var(--surface),0 0 10px var(--star);
+  opacity:var(--top,0);
 }
-@media (prefers-reduced-motion:reduce){body.ownlist .data.image a::before{transition:none}}
 
-/* ---------- tags column = Should ★ · Review meter ---------- */
-body.ownlist .list-table .list-table-header .header-title.tags{font-size:0!important;min-width:150px}
-body.ownlist .list-table .list-table-header .header-title.tags::before{content:"Should · Review";font-size:11px}
-body.ownlist .list-table .list-table-data .data.tags{min-width:150px;text-align:left!important;font-size:0}
-body.ownlist .data.tags [class^="tags-"]{display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px}
-body.ownlist .data.tags [class^="tags-"] > span{font-size:0;padding:0!important;display:contents}
-/* free-text tags = quiet chips, after the two rating tags */
-body.ownlist .data.tags a{
-  order:3;font-size:10px;line-height:1.35;padding:1px 6px;margin:0!important;
-  color:var(--muted)!important;background:var(--chip);border-radius:8px;
-  max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+/* ---------- season / studio hover cards (data from extras) ---------- */
+body.ownlist .data.season a::after,body.ownlist .data.studio a::after{
+  content:var(--card-txt,none);position:absolute;left:-12px;bottom:calc(100% + 10px);z-index:60;
+  width:340px;padding:108px 14px 12px;border-radius:12px;white-space:pre-line;text-align:left;
+  font-size:11.5px;line-height:1.55;color:var(--text);font-weight:400;
+  background-color:var(--card-bg);background-image:var(--card-img,none);background-repeat:no-repeat;
+  background-size:58px 82px;
+  background-position:14px 14px,78px 14px,142px 14px,206px 14px,270px 14px;
+  box-shadow:0 0 0 1px var(--line-strong),0 14px 34px rgba(0,0,0,.5);
+  opacity:0;transform:translateY(6px);pointer-events:none;visibility:hidden;
+  transition:opacity .16s ease,transform .16s ease,visibility 0s linear .16s;
 }
-body.ownlist .data.tags a:hover{color:var(--text)!important;white-space:normal}
+@media (hover:hover){
+  body.ownlist .data.season a:hover::after,body.ownlist .data.studio a:hover::after{
+    opacity:1;transform:none;visibility:visible;transition-delay:0s,0s,0s}
+}
+body.ownlist .data.studio a::after{left:auto;right:-12px}
+
+/* ---------- tags column: Should ★ · Review meter · chips ---------- */
+body.ownlist .list-table-data .data.tags{position:static;font-size:0;text-align:center!important;padding:6px 0!important}
+/* owner's "Edit" link in the tags cell — hidden on request */
+body.ownlist .data.tags > :not([class^="tags-"]){display:none!important}
+body.ownlist .data.tags [class^="tags-"]{
+  display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:4px 5px;
+  max-height:66px;overflow:hidden;border-radius:10px;
+}
+body.ownlist .data.tags [class^="tags-"] > span{font-size:0;padding:0!important;display:contents}
+/* free-text tags = quiet chips under the scores */
+body.ownlist .data.tags a{
+  order:3;font-size:10px;line-height:1.4;padding:1px 7px;margin:0!important;
+  color:var(--chip-text)!important;background:var(--chip);border-radius:9px;
+  max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+/* hover: the cell grows into a card showing every tag in full */
+@media (hover:hover){
+  body.ownlist .data.tags:hover [class^="tags-"]{
+    position:absolute;top:6px;right:6px;width:208px;z-index:40;max-height:none;padding:8px;
+    background:var(--card-bg);box-shadow:0 0 0 1px var(--line-strong),0 12px 28px rgba(0,0,0,.45);
+  }
+  body.ownlist .data.tags:hover a{white-space:normal;max-width:none;text-align:left}
+}
 
 /* Should Watch → 5 stars (value /10, so 7/10 = 3.5 ★) */
 body.ownlist .data.tags a[href*="tag=Should"]{
-  order:1;flex:0 0 100%;max-width:none;padding:0;background:none;
-  --v:-1;position:relative;height:14px;
+  order:1;flex:0 0 100%;max-width:none;padding:0;background:none;border-radius:0;
+  --v:-1;position:relative;height:15px;
 }
 body.ownlist .data.tags a[href*="tag=Should"]::before{
-  content:"";position:absolute;left:0;top:0;width:76px;height:14px;
+  content:"";position:absolute;left:calc(50% - 38px);top:0;width:76px;height:14px;
   background:linear-gradient(90deg,var(--star) calc(var(--v) * 10%),var(--star-empty) 0);
   -webkit-mask:var(--star-svg) 0 0/15.2px 14px repeat-x;mask:var(--star-svg) 0 0/15.2px 14px repeat-x;
 }
-/* Review Score → number + thin meter */
+/* Review Score → number + meter */
 body.ownlist .data.tags a[href*="tag=Review"]{
-  order:2;flex:0 0 100%;max-width:none;padding:0 0 4px;background:
-    var(--meter) 0 100%/calc(var(--v) * 10%) 3px no-repeat,
-    linear-gradient(var(--line),var(--line)) 0 100%/100% 3px no-repeat;
-  border-radius:0;--v:0;height:auto;
+  order:2;flex:0 0 100%;max-width:none;padding:0 0 5px;border-radius:0;--v:0;
+  background:var(--meter) 50% 100%/calc(var(--v) * 9.6px) 3px no-repeat,
+             linear-gradient(var(--line),var(--line)) 50% 100%/96px 3px no-repeat;
 }
-body.ownlist .data.tags a[href*="tag=Review"]::before{
-  content:var(--txt,"–");font-size:12px;font-weight:600;color:var(--text);letter-spacing:.02em;
-}
+body.ownlist .data.tags a[href*="tag=Review"]::before{content:var(--txt,"–");font-size:12.5px;font-weight:700;color:var(--text)}
 body.ownlist .data.tags a[href*="tag=Review"]::after{content:" / 10";font-size:10px;color:var(--muted)}
-/* hide the raw "Should Watch : 7/10" text — kept in DOM for search/accessibility */
 body.ownlist .data.tags a[href*="tag=Should"],body.ownlist .data.tags a[href*="tag=Review"]{font-size:0;color:transparent!important;white-space:normal}
-
 /* unrated "?/10" */
 body.ownlist .data.tags a[href*="tag=Should"][href$="%3F%2F10"]::before{background:var(--star-empty)}
 body.ownlist .data.tags a[href*="tag=Review"][href$="%3F%2F10"]::before{content:"?";color:var(--muted)}
-/* owner-only reminder: unrated tags glow softly */
 body.ownlist[data-owner="1"] .data.tags a[href$="%3F%2F10"]{animation:mlc-nudge 2.4s ease-in-out infinite alternate}
 @keyframes mlc-nudge{from{opacity:.55}to{opacity:1}}
-/* owner-only: completed rows with no rating tags yet get a small "rate me" note */
 body.ownlist[data-owner="1"][data-query*='"status":2'] .data.tags:not(:has(a[href*="tag=Review"]))::before{
-  content:"✎ rate me";display:block;margin-bottom:3px;font-size:10px;color:var(--accent);opacity:.8;
-}
-@media (prefers-reduced-motion:reduce){body.ownlist[data-owner="1"] .data.tags a{animation:none!important}}
+  content:"✎ rate me";display:block;margin-bottom:3px;font-size:10px;color:var(--accent);opacity:.8}
 
-/* ---------- favourite marker (tag: Favorite / Favourite / Trophy) ---------- */
-body.ownlist .data.tags a[href$="tag=Favorite"],
-body.ownlist .data.tags a[href$="tag=Favourite"],
-body.ownlist .data.tags a[href$="tag=Trophy"],
-body.ownlist .data.tags a[href$="tag=trophy"]{
-  position:absolute;left:-30px;top:calc(50% - 11px);width:22px;height:22px;padding:0;max-width:none;
-  font-size:0;color:transparent!important;background:var(--fav-bg);border-radius:var(--fav-radius);
-  box-shadow:var(--fav-shadow);
+/* ---------- favourite marker ----------
+   extras-*.css sets  #tags-ID{--fav-on:var(--fav-glyph)}  for titles tagged
+   Trophy / Favorite / Favourite. The td is static, so this ::after sits on the
+   row (tr is position:relative), left of the card. */
+body.ownlist .list-table-data .data.tags::after{
+  content:var(--fav-on,none);position:absolute;left:-30px;top:calc(50% - 11px);
+  width:22px;height:22px;display:grid;place-items:center;font-size:12px;color:var(--fav-color);
+  background:var(--fav-bg);border-radius:var(--fav-radius);box-shadow:var(--fav-shadow);
 }
-body.ownlist .data.tags a[href$="tag=Favorite"]::before,
-body.ownlist .data.tags a[href$="tag=Favourite"]::before,
-body.ownlist .data.tags a[href$="tag=Trophy"]::before,
-body.ownlist .data.tags a[href$="tag=trophy"]::before{
-  content:var(--fav-glyph);position:absolute;inset:0;display:grid;place-items:center;
-  font-size:12px;color:var(--fav-color);
-}
-body.ownlist .list-table .list-table-data .data.number{position:relative}
-body.ownlist .list-table .list-table-data{position:relative}
+body.ownlist .data.tags a[href$="tag=Favorite"],body.ownlist .data.tags a[href$="tag=Favourite"],
+body.ownlist .data.tags a[href$="tag=Trophy"],body.ownlist .data.tags a[href$="tag=trophy"]{display:none}
 
 /* ---------- misc ---------- */
+body.ownlist .more-info{display:block}
+body.ownlist .more-info .more-content{display:block;background:var(--surface-2)!important;color:var(--text);border:0!important;border-radius:0 0 12px 12px}
 body.ownlist footer,body.ownlist #footer-block{background:transparent!important;color:var(--muted)}
 body.ownlist ::selection{background:var(--accent);color:var(--bg)}
 body.ownlist{scrollbar-color:var(--line-strong) var(--bg)}
+@media (prefers-reduced-motion:reduce){
+  body.ownlist #cover-image-container,body.ownlist #cover-image-container::after,body.ownlist[data-owner="1"] .data.tags a{animation:none!important}
+  body.ownlist .data.image a::before,body.ownlist .data.season a::after,body.ownlist .data.studio a::after{transition:none}
+}

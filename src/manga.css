@@ -14,16 +14,20 @@ body.ownlist.manga{
   --line:rgba(207,211,224,.09);
   --line-strong:#3a3850;
   --chip:rgba(185,163,234,.09);
+  --chip-text:#b3b0c6;
+  --card-bg:#1f2129;
+  --shoot:#ece8ff;
 
   --star:#e6e0ff;            /* silver-violet star */
   --star-empty:rgba(236,235,243,.14);
   --meter:linear-gradient(90deg,#cfd3e0,#b9a3ea);
 
-  --st-watching:#b9a3ea;
-  --st-completed:#cfd3e0;
-  --st-onhold:#d8c48a;
-  --st-dropped:#5a586b;
-  --st-plan:#363547;
+  /* MAL status colours, muted to the witch's palette */
+  --st-watching:#93bf9e;     /* green  → sage   */
+  --st-completed:#97a9d6;    /* blue   → steel  */
+  --st-onhold:#d6c28c;       /* yellow → brass  */
+  --st-dropped:#c47f88;      /* red    → wine   */
+  --st-plan:#76748a;         /* grey   → ash    */
 
   --banner-fallback:radial-gradient(120% 140% at 15% 0%,#3b3557 0%,#1f2030 50%,#121319 100%);
   --banner-tint:linear-gradient(to top,rgba(18,19,25,.88),rgba(18,19,25,0) 60%);
