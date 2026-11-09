@@ -4,21 +4,21 @@
   {
    "id": 249,
    "title": "InuYasha",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/1589/95329.webp",
    "members": 874229,
    "tv": true
   },
   {
    "id": 263,
    "title": "Hajime no Ippo",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/4/86334.webp",
    "members": 714784,
    "tv": true
   },
   {
    "id": 1281,
    "title": "Gakkou no Kaidan",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/1414/112029.webp",
    "members": 259798,
    "tv": true
   },
@@ -32,7 +32,7 @@
   {
    "id": 180,
    "title": "Vandread",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/5/75446.webp",
    "members": 91634,
    "tv": true
   }

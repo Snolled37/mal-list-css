@@ -68,7 +68,7 @@ def cards(page: str, marker: str) -> list[dict]:
     out = []
     parts = page.split(marker)[1:]
     for p in parts:
-        p = p[:6000]
+        # (no length cut: season cards embed long streaming-service JSON before the image)
         m_id = re.search(r'myanimelist\.net/anime/(\d+)/', p)
         m_t = re.search(r'class="link-title">([^<]+)<', p) or re.search(r'<div class="title">\s*<a [^>]+>([^<]+)<', p)
         img = None
@@ -150,8 +150,9 @@ def short(s: str, n: int = 34) -> str:
 
 
 def imgs(items: list[dict]) -> str:
-    urls = [f"url({i['img']})" for i in items if i.get("img")]
-    return ",".join(urls) if urls else "none"
+    # keep one layer per title so cover N always lines up with line N of the text
+    layers = [f"url({i['img']})" if i.get("img") else "linear-gradient(transparent,transparent)" for i in items]
+    return ",".join(layers) if layers else "none"
 
 
 def progress_rules(items: list[dict], kind: str) -> list[str]:

@@ -4,8 +4,8 @@
   {
    "id": 21,
    "title": "One Piece",
-   "img": null,
-   "members": 2744437,
+   "img": "https://cdn.myanimelist.net/images/anime/1244/138851.webp",
+   "members": 2744442,
    "tv": true
   },
   {
@@ -25,14 +25,14 @@
   {
    "id": 160,
    "title": "Ima, Soko ni Iru Boku",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/1094/109008.webp",
    "members": 163839,
    "tv": true
   },
   {
    "id": 379,
    "title": "Heppoko Jikken Animation Excel♥Saga",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/2/11744.webp",
    "members": 122968,
    "tv": true
   }

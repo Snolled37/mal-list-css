@@ -258,7 +258,6 @@ body.ownlist .data.season a::after,body.ownlist .data.studio a::after{
   body.ownlist .data.season a:hover::after,body.ownlist .data.studio a:hover::after{
     opacity:1;transform:none;visibility:visible;transition-delay:0s,0s,0s}
 }
-body.ownlist .data.studio a::after{left:auto;right:-12px}
 
 /* ---------- tags column: Should ★ · Review meter · chips ---------- */
 body.ownlist .list-table-data .data.tags{position:static;font-size:0;text-align:center!important;padding:6px 0!important}

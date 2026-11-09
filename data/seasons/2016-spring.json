@@ -4,21 +4,21 @@
   {
    "id": 31964,
    "title": "Boku no Hero Academia",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/10/78745.webp",
    "members": 3367370,
    "tv": true
   },
   {
    "id": 31240,
    "title": "Re:Zero kara Hajimeru Isekai Seikatsu",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/1522/128039.webp",
    "members": 2526919,
    "tv": true
   },
   {
    "id": 31478,
    "title": "Bungou Stray Dogs",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/3/79409.webp",
    "members": 1581555,
    "tv": true
   },
@@ -32,7 +32,7 @@
   {
    "id": 28623,
    "title": "Koutetsujou no Kabaneri",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/12/79164.webp",
    "members": 900526,
    "tv": true
   }

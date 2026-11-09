@@ -4,21 +4,21 @@
   {
    "id": 205,
    "title": "Samurai Champloo",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/1370/135212.webp",
    "members": 1374799,
    "tv": true
   },
   {
    "id": 19,
    "title": "Monster",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/10/18793.webp",
    "members": 1373635,
    "tv": true
   },
   {
    "id": 384,
    "title": "Gantz",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/13/5998.webp",
    "members": 390528,
    "tv": true
   },
@@ -32,7 +32,7 @@
   {
    "id": 174,
    "title": "Tenjou Tenge",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/1507/101835.webp",
    "members": 202635,
    "tv": true
   }

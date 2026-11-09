@@ -4,21 +4,21 @@
   {
    "id": 6547,
    "title": "Angel Beats!",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/1244/111115.webp",
    "members": 2229470,
    "tv": true
   },
   {
    "id": 7054,
    "title": "Kaichou wa Maid-sama!",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/6/25254.webp",
    "members": 1359269,
    "tv": true
   },
   {
    "id": 7791,
    "title": "K-On!!",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/12/76121.webp",
    "members": 767341,
    "tv": true
   },
@@ -32,7 +32,7 @@
   {
    "id": 7088,
    "title": "Ichiban Ushiro no Daimaou",
-   "img": null,
+   "img": "https://cdn.myanimelist.net/images/anime/11/75554.webp",
    "members": 568523,
    "tv": true
   }
