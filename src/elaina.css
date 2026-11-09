@@ -1,8 +1,8 @@
 /* ============================================================
-   manga list — Majo no Tabitabi / Elaina mood
+   anime list — Majo no Tabitabi / Elaina mood
    ashen silver · witch-robe ink · soft violet · travel-journal lines
    ============================================================ */
-body.ownlist.manga{
+body.ownlist.anime{
   --bg:#121319;
   --surface:#1a1c24;
   --surface-2:#171920;
@@ -41,6 +41,20 @@ body.ownlist.manga{
   --fav-glyph:"★";
   --fav-color:#f4f2ff;
 
+  /* cover frames by score — bronze / silver / gold in the witch's palette:
+     8  = antique bronze (old brooch metal), faint warm halo
+     9  = ashen silver (Elaina's hair) with a violet tint, moon sheen + one sparkle
+     10 = pale witch-gold, slowly turning, violet-gold aura, golden sheen + twinkling sparkles */
+  --f8-bg:linear-gradient(150deg,#e7cdb2,#9c7458 40%,#6b4b3a 70%,#c9a688);
+  --f8-glow:0 0 7px rgba(156,116,88,.35);
+  --f8-line:rgba(231,205,178,.4);
+  --f9-bg:linear-gradient(150deg,#ffffff,#cfcfdc 35%,#8f8da6 65%,#ebe8f4);
+  --f9-glow:0 0 9px 1px rgba(207,200,232,.42);
+  --f9-line:rgba(255,255,255,.4);--f9-spark:#f1eeff;--f9-gleam:rgba(255,255,255,.3);
+  --f10-c1:#fbf3dc;--f10-c2:#d9b867;--f10-c3:#b9a3ea;
+  --f10-glow:0 0 12px 2px rgba(217,184,103,.45),0 0 24px 5px rgba(185,163,234,.25);
+  --f10-line:rgba(251,240,205,.6);--f10-spark:#fff5d6;--f10-gleam:rgba(255,240,200,.42);
+
   --stars:
     radial-gradient(1px 1px at 30px 40px,#e8e6ff 50%,transparent 51%),
     radial-gradient(1px 1px at 150px 25px,#fff 50%,transparent 51%),
@@ -52,4 +66,4 @@ body.ownlist.manga{
     radial-gradient(1.5px 1.5px at 160px 170px,#fff 50%,transparent 51%);
 }
 /* travel-journal feel: thin double rule under the list title */
-body.ownlist.manga .list-unit .list-status-title{border-bottom:3px double var(--line-strong)}
+body.ownlist.anime .list-unit .list-status-title{border-bottom:3px double var(--line-strong)}

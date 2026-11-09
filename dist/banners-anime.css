@@ -1,14 +1,13 @@
-/* Anime list banners (1060x230; On Hold / Dropped / Plan to Watch are animated 6 s loops).
-   Only the banner of the open tab is downloaded. Kept in an imported file on purpose:
-   MAL rewrites url() written in the Custom CSS box through its image proxy.
-   Sources: see README "Banner credits". */
-body.ownlist.anime{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-comet.webp)}
-body.ownlist.anime[data-query*='"status":1']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-underwater.webp)}
-body.ownlist.anime[data-query*='"status":2']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-fruba.webp)}
-body.ownlist.anime[data-query*='"status":3']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-steins.webp)}
-body.ownlist.anime[data-query*='"status":4']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-saki.webp)}
-body.ownlist.anime[data-query*='"status":6']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-frieren.webp)}
-/* reduced motion: animated tabs fall back to the still All-Anime banner */
-@media (prefers-reduced-motion:reduce){
-  body.ownlist.anime[data-query*='"status":3'],body.ownlist.anime[data-query*='"status":4'],body.ownlist.anime[data-query*='"status":6']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-comet.webp)!important}
-}
+/* Anime list banners (Elaina theme) (animated WebP, 1060x230, 6 s loop).
+   Only the banner of the open tab is downloaded. Kept in an imported file on
+   purpose: MAL rewrites url() written directly in the Custom CSS box through its
+   image proxy, which may flatten animation.
+   Source clips: Elaina wallpapers from moewalls.com (credit in README). */
+body.ownlist.anime{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-morning.webp)}
+body.ownlist.anime[data-query*='"status":1']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-vineyard.webp)}
+body.ownlist.anime[data-query*='"status":2']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-butterflies.webp)}
+body.ownlist.anime[data-query*='"status":3']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-snow.webp)}
+body.ownlist.anime[data-query*='"status":4']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-milktea.webp)}
+body.ownlist.anime[data-query*='"status":6']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-coffee.webp)}
+/* reduced motion: hide the animated banner, the static star sky shows instead */
+@media (prefers-reduced-motion:reduce){body.ownlist.anime{--banner:none!important}}

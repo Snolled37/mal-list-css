@@ -141,13 +141,13 @@ def studio_data(f: Fetcher, sid: int) -> dict | None:
     return data
 
 
-def detail_data(f: Fetcher, aid: int) -> dict | None:
-    """Rank + source from the anime's own MAL page (not in load.json). Cached 45 days."""
-    path = DATA / "anime" / f"{aid}.json"
+def detail_data(f: Fetcher, aid: int, kind: str = "anime") -> dict | None:
+    """Rank + source (anime) / authors (manga) from the title's own MAL page. Cached 45 days."""
+    path = DATA / kind / f"{aid}.json"
     cache = load_cache(path)
     if not stale(cache, 45):
         return cache
-    page = f.get(f"https://myanimelist.net/anime/{aid}")
+    page = f.get(f"https://myanimelist.net/{kind}/{aid}")
     if not page:
         return cache
     def field(name: str) -> str | None:
@@ -157,6 +157,9 @@ def detail_data(f: Fetcher, aid: int) -> dict | None:
     m = re.match(r"#(\d+)", ranked)
     data = {"fetched": TODAY.isoformat(), "rank": int(m.group(1)) if m else None,
             "source": html.unescape(field("Source") or "") or None}
+    if kind == "manga":  # "Miura, Kentarou (Story & Art), Studio Gaga (Art)" -> names only
+        authors = html.unescape(field("Authors") or "")
+        data["authors"] = re.sub(r"\s*\([^)]*\)", "", authors).strip(" ,") or None
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
     return data
@@ -244,30 +247,35 @@ def main() -> int:
                 if {t.strip().lower() for t in (it.get("tags") or "").split(",")} & {"trophy", "favorite", "favourite"}]
         if favs:
             out.append(",".join(f"body.ownlist #tags-{i}" for i in favs) + "{--fav-on:var(--fav-glyph)}")
-        if kind == "anime":  # manga gets these in its own theme pass
-            out += score_frames(items, kind)
+        out += score_frames(items, kind)
+
+        for it in items:
+            aid = it[kind + "_id"]
+            d = detail_data(f, aid, kind) or {}
+            # titles like "1" arrive as JSON numbers
+            eng = it.get("anime_title_eng") if kind == "anime" else it.get("manga_english")
+            title = str(eng or it.get(kind + "_title") or "")
+            try:
+                score = float(it.get(kind + "_score_val") or 0)
+            except (TypeError, ValueError):
+                score = 0
+            l1 = f"{short(title, 44)}  ★ {score:.2f}" if score else f"{short(title, 44)}  ★ N/A"
+            bits = []
+            if d.get("rank"):
+                bits.append(f"#{d['rank']:,} ranked")
+            if it.get(kind + "_popularity"):
+                bits.append(f"#{it[kind + '_popularity']:,} popular")
+            if it.get(kind + "_total_members"):
+                bits.append(f"{it[kind + '_total_members']:,} members")
+            if kind == "anime":
+                extra = f"Source: {d['source']}" if d.get("source") else ""
+            else:
+                extra = f"Authors: {short(d['authors'], 60)}" if d.get("authors") else ""
+            lines = [l1, " · ".join(bits), extra]
+            txt = "\\A ".join(css_str(l) for l in lines if l)
+            out.append(f'body.ownlist .data.title > .link[href^="/{kind}/{aid}/"]{{--detail:"{txt}"}}')
 
         if kind == "anime":
-            for it in items:
-                aid = it["anime_id"]
-                d = detail_data(f, aid) or {}
-                # titles like "1" arrive as JSON numbers
-                title = str(it.get("anime_title_eng") or it.get("anime_title") or "")
-                try:
-                    score = float(it.get("anime_score_val") or 0)
-                except (TypeError, ValueError):
-                    score = 0
-                l1 = f"{short(title, 44)}  ★ {score:.2f}" if score else f"{short(title, 44)}  ★ N/A"
-                bits = []
-                if d.get("rank"):
-                    bits.append(f"#{d['rank']:,} ranked")
-                if it.get("anime_popularity"):
-                    bits.append(f"#{it['anime_popularity']:,} popular")
-                if it.get("anime_total_members"):
-                    bits.append(f"{it['anime_total_members']:,} members")
-                lines = [l1, " · ".join(bits)] + ([f"Source: {d['source']}"] if d.get("source") else [])
-                txt = "\\A ".join(css_str(l) for l in lines if l)
-                out.append(f'body.ownlist .data.title > .link[href^="/anime/{aid}/"]{{--detail:"{txt}"}}')
             seasons = sorted({(it["anime_season"]["year"], it["anime_season"]["season"])
                               for it in items if it.get("anime_season")})
             for year, season in seasons:
@@ -295,10 +303,10 @@ def main() -> int:
                     f'body.ownlist .data.studio a[href$="/anime/producer/{sid}"]'
                     f'{{--card-img:{imgs(d["top"])};--card-txt:"{txt}"}}'
                 )
-        # anime: fold the banner rules in, so the list page needs no extra @import
-        # (manga stays separate until its theme pass)
+        # fold the banner rules in, so the list page needs no extra @import
+
         banners = DIST / f"banners-{kind}.css"
-        if kind == "anime" and banners.exists():
+        if banners.exists():
             out.append(banners.read_text(encoding="utf-8").strip())
         path = DIST / f"extras-{kind}.css"
         path.write_text("\n".join(out) + "\n", encoding="utf-8", newline="\n")

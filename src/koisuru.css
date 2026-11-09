@@ -1,9 +1,9 @@
 /* ============================================================
-   anime list — Koisuru Asteroid mood (softened)
+   manga list — Koisuru Asteroid mood (softened)
    dusk slate · dusty pink · pale sky · warm star gold
    Low saturation backgrounds; colour lives in small accents.
    ============================================================ */
-body.ownlist.anime{
+body.ownlist.manga{
   --bg:#15171f;
   --surface:#1c1f2a;
   --surface-2:#1a1d27;

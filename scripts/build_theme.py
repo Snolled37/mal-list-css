@@ -54,7 +54,7 @@ def minify(css: str) -> str:
 
 
 def main() -> None:
-    parts = [(SRC / f).read_text(encoding="utf-8") for f in ("core.css", "anime.css", "manga.css")]
+    parts = [(SRC / f).read_text(encoding="utf-8") for f in ("core.css", "elaina.css", "koisuru.css")]
     parts.append(rating_rules())
     css = "/* mal-list-css theme — github.com/Snolled37/mal-list-css */\n" + minify("\n".join(parts))
     OUT.parent.mkdir(exist_ok=True)
