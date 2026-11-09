@@ -141,11 +141,33 @@ def studio_data(f: Fetcher, sid: int) -> dict | None:
     return data
 
 
+def detail_data(f: Fetcher, aid: int) -> dict | None:
+    """Rank + source from the anime's own MAL page (not in load.json). Cached 45 days."""
+    path = DATA / "anime" / f"{aid}.json"
+    cache = load_cache(path)
+    if not stale(cache, 45):
+        return cache
+    page = f.get(f"https://myanimelist.net/anime/{aid}")
+    if not page:
+        return cache
+    def field(name: str) -> str | None:
+        m = re.search(r'<span class="dark_text">' + name + r':</span>\s*(.*?)</div>', page, re.S)
+        return re.sub(r"<[^>]+>|\s+", " ", m.group(1)).strip() if m else None
+    ranked = field("Ranked") or ""
+    m = re.match(r"#(\d+)", ranked)
+    data = {"fetched": TODAY.isoformat(), "rank": int(m.group(1)) if m else None,
+            "source": html.unescape(field("Source") or "") or None}
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+    return data
+
+
 def css_str(s: str) -> str:
     return s.replace("\\", "\\\\").replace('"', '\\"').replace("\n", " ")
 
 
-def short(s: str, n: int = 34) -> str:
+def short(s, n: int = 34) -> str:
+    s = str(s)
     return s if len(s) <= n else s[: n - 1].rstrip() + "…"
 
 
@@ -166,6 +188,48 @@ def progress_rules(items: list[dict], kind: str) -> list[str]:
             continue  # completed = full, plan = empty: nothing to draw
         p = min(done / total, 1)
         rules.append(f".{cls}-{it[kind + '_id']}{{--p:{p:.3f}}}")
+    return rules
+
+
+AWARDS = [  # (tag prefix, badge key) in stacking order: top first
+    ("aoty", "aoty"),
+    ("aots", "aots"),
+    ("hidden gem", "gem"),
+]
+
+
+def award_badges(items: list[dict], kind: str) -> list[str]:
+    """Up to 3 stacked badges on the cover's top-right, from tags.
+    Slot 1 = a::after (on the cover link); slots 2-3 = the image cell's ::before/::after,
+    which need a scoped :has() (only emitted for the few titles that have 2+ awards)."""
+    rules = []
+    for it in items:
+        tags = [t.strip().lower() for t in str(it.get("tags") or "").split(",") if t.strip()]
+        keys = []
+        for prefix, key in AWARDS:
+            if any(t.startswith(prefix) for t in tags):
+                if key == "aots":
+                    season = str((it.get("anime_season") or {}).get("season") or "").lower()
+                    key = {"winter": "win", "spring": "spr", "summer": "sum", "fall": "fal"}.get(season, "aots")
+                keys.append(key)
+        if not keys:
+            continue
+        link = f'a[href^="/{kind}/{it[kind + "_id"]}/"]'
+        rules.append(f"body.ownlist .data.image {link}{{--b1-t:var(--bd-{keys[0]}-t);--b1-bg:var(--bd-{keys[0]}-bg)}}")
+        if len(keys) > 1:
+            more = ";".join(f"--b{n}-t:var(--bd-{k}-t);--b{n}-bg:var(--bd-{k}-bg)" for n, k in enumerate(keys[1:], 2))
+            rules.append(f"body.ownlist .data.image:has(> {link}){{{more}}}")
+    return rules
+
+
+def score_frames(items: list[dict], kind: str) -> list[str]:
+    """Cover frame tier from the MAL score: 8 / 9 / 10 (tokens live in the theme)."""
+    rules = []
+    for s in (8, 9, 10):
+        ids = [it[kind + "_id"] for it in items if it.get("score") == s]
+        if ids:
+            sel = ",".join(f'body.ownlist .data.image a[href^="/{kind}/{i}/"]' for i in ids)
+            rules.append(f"{sel}{{--frame:var(--frame-{s})}}")
     return rules
 
 
@@ -194,12 +258,31 @@ def main() -> int:
                 if {t.strip().lower() for t in (it.get("tags") or "").split(",")} & {"trophy", "favorite", "favourite"}]
         if favs:
             out.append(",".join(f"body.ownlist #tags-{i}" for i in favs) + "{--fav-on:var(--fav-glyph)}")
-        ids = top_rated(items, kind)
-        if ids:
-            sel = ",".join(f'body.ownlist .data.image a[href^="/{kind}/{i}/"]' for i in ids)
-            out.append(f"{sel}{{--top:1}}")
+        if kind == "anime":  # manga gets these in its own theme pass
+            out += award_badges(items, kind)
+            out += score_frames(items, kind)
 
         if kind == "anime":
+            for it in items:
+                aid = it["anime_id"]
+                d = detail_data(f, aid) or {}
+                # titles like "1" arrive as JSON numbers
+                title = str(it.get("anime_title_eng") or it.get("anime_title") or "")
+                try:
+                    score = float(it.get("anime_score_val") or 0)
+                except (TypeError, ValueError):
+                    score = 0
+                l1 = f"{short(title, 44)}  ★ {score:.2f}" if score else f"{short(title, 44)}  ★ N/A"
+                bits = []
+                if d.get("rank"):
+                    bits.append(f"#{d['rank']:,} ranked")
+                if it.get("anime_popularity"):
+                    bits.append(f"#{it['anime_popularity']:,} popular")
+                if it.get("anime_total_members"):
+                    bits.append(f"{it['anime_total_members']:,} members")
+                lines = [l1, " · ".join(bits)] + ([f"Source: {d['source']}"] if d.get("source") else [])
+                txt = "\\A ".join(css_str(l) for l in lines if l)
+                out.append(f'body.ownlist .data.title > .link[href^="/anime/{aid}/"]{{--detail:"{txt}"}}')
             seasons = sorted({(it["anime_season"]["year"], it["anime_season"]["season"])
                               for it in items if it.get("anime_season")})
             for year, season in seasons:

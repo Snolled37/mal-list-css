@@ -42,6 +42,12 @@ body.ownlist.anime{
   --fav-glyph:"✦";
   --fav-color:#fffbe6;
 
+  /* cover frames by score — night-sky tiers:
+     8 = thin sky ring · 9 = pink + sky double ring · 10 = star-gold ring, pink halo, warm glow */
+  --frame-8:0 0 0 2px #9fc3e3;
+  --frame-9:0 0 0 2px #e8b4c8,0 0 0 4px var(--surface),0 0 0 5px #9fc3e3,0 0 10px rgba(232,180,200,.35);
+  --frame-10:0 0 0 2px #f1d28a,0 0 0 4px var(--surface),0 0 0 6px #e8b4c8,0 0 16px 3px rgba(241,210,138,.55);
+
   --stars:
     radial-gradient(1px 1px at 20px 30px,#fff 50%,transparent 51%),
     radial-gradient(1px 1px at 60px 110px,#dbe8f5 50%,transparent 51%),
