@@ -126,7 +126,9 @@ body.ownlist .data.image a{position:relative;overflow:visible}
 body.ownlist .data.image a::before{
   content:"";position:absolute;top:calc(50% - 100px);left:-176px;z-index:50;
   width:150px;height:212px;border-radius:10px;
-  background:var(--surface) no-repeat center/cover;
+  /* longhands only: a `background:` shorthand here would reset the
+     background-image set by covers-*.css */
+  background-color:var(--surface);background-repeat:no-repeat;background-position:center;background-size:cover;
   box-shadow:0 0 0 1px var(--line),0 10px 30px rgba(0,0,0,.45);
   opacity:0;transform:translateX(8px) scale(.92);transform-origin:right center;
   pointer-events:none;transition:opacity .18s ease,transform .18s ease;
@@ -182,7 +184,7 @@ body.ownlist[data-owner="1"] .data.tags a[href$="%3F%2F10"]{animation:mlc-nudge 
 @keyframes mlc-nudge{from{opacity:.55}to{opacity:1}}
 /* owner-only: completed rows with no rating tags yet get a small "rate me" note */
 body.ownlist[data-owner="1"][data-query*='"status":2'] .data.tags:not(:has(a[href*="tag=Review"]))::before{
-  content:"✎ rate me";font-size:10px;color:var(--accent);opacity:.8;
+  content:"✎ rate me";display:block;margin-bottom:3px;font-size:10px;color:var(--accent);opacity:.8;
 }
 @media (prefers-reduced-motion:reduce){body.ownlist[data-owner="1"] .data.tags a{animation:none!important}}
 
