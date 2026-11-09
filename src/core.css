@@ -266,8 +266,11 @@ body.ownlist .list-table-data .data.image::after{content:var(--b3-t,none);backgr
 @property --ang{syntax:"<angle>";inherits:false;initial-value:0deg}
 @keyframes mlc-ring{to{--ang:360deg}}
 body.ownlist .data.image a{
+  /* default declared here (lower specificity than the extras rules) instead of a
+     var() fallback: Chrome drops `var(--frame-bg,none)` when the value is animated */
+  --frame-bg:none;
   border-radius:9px;padding:var(--frame-pad,0);margin:calc(var(--frame-pad,0px) * -1);
-  background:var(--frame-bg,none);box-shadow:var(--frame-glow,none);
+  background:var(--frame-bg);box-shadow:var(--frame-glow,none);
   animation:var(--frame-anim,none) 7s linear infinite;
 }
 @media (prefers-reduced-motion:reduce){body.ownlist .data.image a{animation:none}}
