@@ -1,7 +1,6 @@
-/* Anime list banners (Elaina theme) (animated WebP, 1060x230, 6 s loop).
-   Only the banner of the open tab is downloaded. Kept in an imported file on
-   purpose: MAL rewrites url() written directly in the Custom CSS box through its
-   image proxy, which may flatten animation.
+/* Anime list banners (Elaina theme): animated WebP, 1060x230, 6 s loop.
+   Only the banner of the open tab is downloaded. Kept in an imported file on purpose:
+   MAL rewrites url() written in the Custom CSS box through its image proxy.
    Source clips: Elaina wallpapers from moewalls.com (credit in README). */
 body.ownlist.anime{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-morning.webp)}
 body.ownlist.anime[data-query*='"status":1']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-vineyard.webp)}
@@ -9,5 +8,12 @@ body.ownlist.anime[data-query*='"status":2']{--banner:url(https://snolled37.gith
 body.ownlist.anime[data-query*='"status":3']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-snow.webp)}
 body.ownlist.anime[data-query*='"status":4']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-milktea.webp)}
 body.ownlist.anime[data-query*='"status":6']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/manga-coffee.webp)}
-/* reduced motion: hide the animated banner, the static star sky shows instead */
-@media (prefers-reduced-motion:reduce){body.ownlist.anime{--banner:none!important}}
+/* reduced motion (e.g. Windows 'Animation effects' off): same picture, still frame */
+@media (prefers-reduced-motion:reduce){
+  body.ownlist.anime{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/still-morning.webp)}
+  body.ownlist.anime[data-query*='"status":1']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/still-vineyard.webp)}
+  body.ownlist.anime[data-query*='"status":2']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/still-butterflies.webp)}
+  body.ownlist.anime[data-query*='"status":3']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/still-snow.webp)}
+  body.ownlist.anime[data-query*='"status":4']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/still-milktea.webp)}
+  body.ownlist.anime[data-query*='"status":6']{--banner:url(https://snolled37.github.io/mal-list-css/assets/manga/still-coffee.webp)}
+}
