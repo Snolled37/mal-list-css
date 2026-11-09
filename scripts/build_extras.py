@@ -191,37 +191,6 @@ def progress_rules(items: list[dict], kind: str) -> list[str]:
     return rules
 
 
-AWARDS = [  # (tag prefix, badge key) in stacking order: top first
-    ("aoty", "aoty"),
-    ("aots", "aots"),
-    ("hidden gem", "gem"),
-]
-
-
-def award_badges(items: list[dict], kind: str) -> list[str]:
-    """Up to 3 stacked badges on the cover's top-right, from tags.
-    Slot 1 = a::after (on the cover link); slots 2-3 = the image cell's ::before/::after,
-    which need a scoped :has() (only emitted for the few titles that have 2+ awards)."""
-    rules = []
-    for it in items:
-        tags = [t.strip().lower() for t in str(it.get("tags") or "").split(",") if t.strip()]
-        keys = []
-        for prefix, key in AWARDS:
-            if any(t.startswith(prefix) for t in tags):
-                if key == "aots":
-                    season = str((it.get("anime_season") or {}).get("season") or "").lower()
-                    key = {"winter": "win", "spring": "spr", "summer": "sum", "fall": "fal"}.get(season, "aots")
-                keys.append(key)
-        if not keys:
-            continue
-        link = f'a[href^="/{kind}/{it[kind + "_id"]}/"]'
-        rules.append(f"body.ownlist .data.image {link}{{--b1-t:var(--bd-{keys[0]}-t);--b1-bg:var(--bd-{keys[0]}-bg)}}")
-        if len(keys) > 1:
-            more = ";".join(f"--b{n}-t:var(--bd-{k}-t);--b{n}-bg:var(--bd-{k}-bg)" for n, k in enumerate(keys[1:], 2))
-            rules.append(f"body.ownlist .data.image:has(> {link}){{{more}}}")
-    return rules
-
-
 def score_frames(items: list[dict], kind: str) -> list[str]:
     """Cover frame tier from the MAL score: 8 / 9 / 10 (tokens live in the theme)."""
     tiers = {
@@ -267,7 +236,6 @@ def main() -> int:
         if favs:
             out.append(",".join(f"body.ownlist #tags-{i}" for i in favs) + "{--fav-on:var(--fav-glyph)}")
         if kind == "anime":  # manga gets these in its own theme pass
-            out += award_badges(items, kind)
             out += score_frames(items, kind)
 
         if kind == "anime":
