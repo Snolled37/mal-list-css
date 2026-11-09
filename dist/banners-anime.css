@@ -1,0 +1,14 @@
+/* Anime list banners (1060x230; Watching / Completed / On Hold are animated 6 s loops).
+   Only the banner of the open tab is downloaded. Kept in an imported file on purpose:
+   MAL rewrites url() written in the Custom CSS box through its image proxy.
+   Sources: see README "Banner credits". */
+body.ownlist.anime{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-comet.webp)}
+body.ownlist.anime[data-query*='"status":1']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-frieren.webp)}
+body.ownlist.anime[data-query*='"status":2']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-steins.webp)}
+body.ownlist.anime[data-query*='"status":3']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-saki.webp)}
+body.ownlist.anime[data-query*='"status":4']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-underwater.webp)}
+body.ownlist.anime[data-query*='"status":6']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-fruba.webp)}
+/* reduced motion: animated tabs fall back to the still All-Anime banner */
+@media (prefers-reduced-motion:reduce){
+  body.ownlist.anime[data-query*='"status":1'],body.ownlist.anime[data-query*='"status":2'],body.ownlist.anime[data-query*='"status":3']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-comet.webp)!important}
+}
