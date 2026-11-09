@@ -1,0 +1,51 @@
+/* ============================================================
+   manga list — Majo no Tabitabi / Elaina mood
+   ashen silver · witch-robe ink · soft violet · travel-journal lines
+   ============================================================ */
+body.ownlist.manga{
+  --bg:#121319;
+  --surface:#1a1c24;
+  --surface-2:#171920;
+  --surface-hover:#22242f;
+  --text:#ecebf3;
+  --muted:#9d9bb0;
+  --link:#cfd3e0;
+  --accent:#b9a3ea;          /* soft violet */
+  --line:rgba(207,211,224,.09);
+  --line-strong:#3a3850;
+  --chip:rgba(185,163,234,.09);
+
+  --star:#e6e0ff;            /* silver-violet star */
+  --star-empty:rgba(236,235,243,.14);
+  --meter:linear-gradient(90deg,#cfd3e0,#b9a3ea);
+
+  --st-watching:#b9a3ea;
+  --st-completed:#cfd3e0;
+  --st-onhold:#d8c48a;
+  --st-dropped:#5a586b;
+  --st-plan:#363547;
+
+  --banner-fallback:radial-gradient(120% 140% at 15% 0%,#3b3557 0%,#1f2030 50%,#121319 100%);
+  --banner-tint:linear-gradient(to top,rgba(18,19,25,.88),rgba(18,19,25,0) 60%);
+  --banner-text:#f4f2ff;
+  --banner-glow:rgba(185,163,234,.5);
+
+  /* witch brooch favourite: violet disc + silver star */
+  --fav-bg:radial-gradient(circle at 35% 30%,#d9ccff,#7d68b8 70%);
+  --fav-radius:50%;
+  --fav-shadow:0 0 0 2px var(--bg),0 0 0 3px #cfd3e0;
+  --fav-glyph:"★";
+  --fav-color:#f4f2ff;
+
+  --stars:
+    radial-gradient(1px 1px at 30px 40px,#e8e6ff 50%,transparent 51%),
+    radial-gradient(1px 1px at 150px 25px,#fff 50%,transparent 51%),
+    radial-gradient(1px 1px at 90px 120px,#d9ccff 50%,transparent 51%),
+    radial-gradient(1px 1px at 190px 95px,#fff 50%,transparent 51%);
+  --stars-twinkle:
+    radial-gradient(1.5px 1.5px at 60px 50px,#f4f2ff 50%,transparent 51%),
+    radial-gradient(2px 2px at 230px 130px,#d9ccff 50%,transparent 51%),
+    radial-gradient(1.5px 1.5px at 160px 170px,#fff 50%,transparent 51%);
+}
+/* travel-journal feel: thin double rule under the list title */
+body.ownlist.manga .list-unit .list-status-title{border-bottom:3px double var(--line-strong)}
