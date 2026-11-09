@@ -246,7 +246,7 @@ def main() -> int:
         favs = [it[kind + "_id"] for it in items
                 if {t.strip().lower() for t in (it.get("tags") or "").split(",")} & {"trophy", "favorite", "favourite"}]
         if favs:
-            out.append(",".join(f"body.ownlist #tags-{i}" for i in favs) + "{--fav-on:var(--fav-glyph)}")
+            out.append(",".join(f"#tags-{i}" for i in favs) + "{--fav-on:var(--fav-glyph)}")
         out += score_frames(items, kind)
 
         for it in items:
@@ -273,7 +273,7 @@ def main() -> int:
                 extra = f"Authors: {short(d['authors'], 60)}" if d.get("authors") else ""
             lines = [l1, " · ".join(bits), extra]
             txt = "\\A ".join(css_str(l) for l in lines if l)
-            out.append(f'body.ownlist .data.title > .link[href^="/{kind}/{aid}/"]{{--detail:"{txt}"}}')
+            out.append(f'.title>.link[href^="/{kind}/{aid}/"]{{--detail:"{txt}"}}')
 
         if kind == "anime":
             seasons = sorted({(it["anime_season"]["year"], it["anime_season"]["season"])
@@ -285,7 +285,7 @@ def main() -> int:
                 lines = [f"{season} {year} · most watched"] + [f"{n}. {short(x['title'])}" for n, x in enumerate(d["items"], 1)]
                 txt = "\\A ".join(css_str(l) for l in lines)
                 out.append(
-                    f'body.ownlist .data.season a[href$="/anime/season/{year}/{season.lower()}"]'
+                    f'.season a[href$="/{year}/{season.lower()}"]'
                     f'{{--card-img:{imgs(d["items"])};--card-txt:"{txt}"}}'
                 )
             studios = sorted({s["id"] for it in items for s in (it.get("anime_studios") or [])})
@@ -300,7 +300,7 @@ def main() -> int:
                     lines.append(f"✦ newest: {short(d['newest']['title'], 30)}")
                 txt = "\\A ".join(css_str(l) for l in lines)
                 out.append(
-                    f'body.ownlist .data.studio a[href$="/anime/producer/{sid}"]'
+                    f'.studio a[href$="/producer/{sid}"]'
                     f'{{--card-img:{imgs(d["top"])};--card-txt:"{txt}"}}'
                 )
         # fold the banner rules in, so the list page needs no extra @import
