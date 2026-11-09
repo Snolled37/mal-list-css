@@ -194,12 +194,20 @@ def progress_rules(items: list[dict], kind: str) -> list[str]:
 def score_frames(items: list[dict], kind: str) -> list[str]:
     """Cover frame tier from the MAL score: 8 / 9 / 10 (tokens live in the theme)."""
     tiers = {
-        8: "--frame-pad:1.5px;--frame-bg:var(--f8-bg);--frame-glow:var(--f8-glow)",
-        9: "--frame-pad:2px;--frame-bg:var(--f9-bg);--frame-glow:var(--f9-glow)",
+        8: "--frame-pad:1.5px;--frame-bg:var(--f8-bg);--frame-glow:var(--f8-glow);"
+           '--f-spark:"";--f-line:var(--f8-line)',
+        9: "--frame-pad:2px;--frame-bg:var(--f9-bg);--frame-glow:var(--f9-glow);"
+           '--f-spark:"✦";--f-spark-c:var(--f9-spark);--f-line:var(--f9-line);'
+           "--f-gleam-bg:linear-gradient(115deg,transparent 40%,var(--f9-gleam) 50%,transparent 60%);"
+           "--f-anim:mlc-gleam 7s ease-in-out infinite",
         # declared on the link itself so var(--ang) is the animated, per-element value
         10: "--frame-pad:2.5px;--frame-glow:var(--f10-glow);--frame-anim:mlc-ring;"
             "--frame-bg:conic-gradient(from var(--ang),var(--f10-c1),var(--f10-c2),var(--f10-c3),"
-            "var(--f10-c1),var(--f10-c2),var(--f10-c1))",
+            "var(--f10-c1),var(--f10-c2),var(--f10-c1));"
+            '--f-spark:"✦";--f-spark-c:var(--f10-spark);--f-spark-sh:40px 62px 0 var(--f10-spark);'
+            "--f-line:var(--f10-line);"
+            "--f-gleam-bg:linear-gradient(115deg,transparent 36%,var(--f10-gleam) 50%,transparent 64%);"
+            "--f-anim:mlc-gleam 5s ease-in-out infinite,mlc-tw 2.4s ease-in-out infinite alternate",
     }
     rules = []
     for s, decl in tiers.items():
