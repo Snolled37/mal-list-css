@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 237,
+   "title": "Koukyoushihen Eureka Seven",
+   "img": null,
+   "members": 465602,
+   "tv": true
+  },
+  {
+   "id": 16,
+   "title": "Hachimitsu to Clover",
+   "img": "https://cdn.myanimelist.net/images/anime/1301/133577.webp",
+   "members": 288558,
+   "tv": true
+  },
+  {
+   "id": 177,
+   "title": "Tsubasa Chronicle",
+   "img": "https://cdn.myanimelist.net/images/anime/9/6555.webp",
+   "members": 243939,
+   "tv": true
+  },
+  {
+   "id": 67,
+   "title": "Basilisk: Kouga Ninpou Chou",
+   "img": null,
+   "members": 206616,
+   "tv": true
+  },
+  {
+   "id": 27,
+   "title": "Trinity Blood",
+   "img": null,
+   "members": 204012,
+   "tv": true
+  }
+ ]
+}

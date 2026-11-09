@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 40333,
+   "title": "Uzumaki",
+   "img": "https://cdn.myanimelist.net/images/anime/1207/146272.webp",
+   "members": 249417,
+   "tv": true
+  },
+  {
+   "id": 63934,
+   "title": "Date A Live F: Last Date",
+   "img": "https://cdn.myanimelist.net/images/anime/1661/160694.webp",
+   "members": 17775,
+   "tv": false
+  },
+  {
+   "id": 54294,
+   "title": "Dog Signal",
+   "img": "https://cdn.myanimelist.net/images/anime/1507/139161.webp",
+   "members": 8978,
+   "tv": true
+  },
+  {
+   "id": 48701,
+   "title": "Peleliu: Rakuen no Guernica",
+   "img": "https://cdn.myanimelist.net/images/anime/1454/152635.webp",
+   "members": 3502,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 63934,
+  "title": "Date A Live F: Last Date",
+  "img": "https://cdn.myanimelist.net/images/anime/1661/160694.webp",
+  "members": 17775,
+  "tv": false
+ },
+ "count": 6
+}

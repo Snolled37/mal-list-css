@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 21,
+   "title": "One Piece",
+   "img": null,
+   "members": 2744437,
+   "tv": true
+  },
+  {
+   "id": 136,
+   "title": "Hunter x Hunter",
+   "img": "https://cdn.myanimelist.net/images/anime/1305/132237.webp",
+   "members": 660311,
+   "tv": true
+  },
+  {
+   "id": 186,
+   "title": "Initial D Second Stage",
+   "img": "https://cdn.myanimelist.net/images/anime/8/12750.webp",
+   "members": 269439,
+   "tv": true
+  },
+  {
+   "id": 160,
+   "title": "Ima, Soko ni Iru Boku",
+   "img": null,
+   "members": 163839,
+   "tv": true
+  },
+  {
+   "id": 379,
+   "title": "Heppoko Jikken Animation Excel♥Saga",
+   "img": null,
+   "members": 122968,
+   "tv": true
+  }
+ ]
+}

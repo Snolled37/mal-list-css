@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 6953,
+   "title": "Ningen Doubutsuen",
+   "img": "https://cdn.myanimelist.net/images/anime/13/16203.webp",
+   "members": 4783,
+   "tv": false
+  },
+  {
+   "id": 6535,
+   "title": "Ai",
+   "img": "https://cdn.myanimelist.net/images/anime/13/64699.webp",
+   "members": 4579,
+   "tv": false
+  },
+  {
+   "id": 7025,
+   "title": "Kiseichuu no Ichiya",
+   "img": "https://cdn.myanimelist.net/images/anime/1265/154242.webp",
+   "members": 3127,
+   "tv": false
+  },
+  {
+   "id": 6950,
+   "title": "Aos",
+   "img": "https://cdn.myanimelist.net/images/anime/13/69011.webp",
+   "members": 2896,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 59273,
+  "title": "Zero no Hakken",
+  "img": "https://cdn.myanimelist.net/images/anime/1209/144179.webp",
+  "members": 101,
+  "tv": false
+ },
+ "count": 25
+}

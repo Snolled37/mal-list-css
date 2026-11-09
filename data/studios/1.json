@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 20,
+   "title": "Naruto",
+   "img": "https://cdn.myanimelist.net/images/anime/1141/142503.webp",
+   "members": 3177649,
+   "tv": true
+  },
+  {
+   "id": 22319,
+   "title": "Tokyo Ghoul",
+   "img": "https://cdn.myanimelist.net/images/anime/1498/134443.webp",
+   "members": 3106620,
+   "tv": true
+  },
+  {
+   "id": 1735,
+   "title": "Naruto: Shippuuden",
+   "img": "https://cdn.myanimelist.net/images/anime/1565/111305.webp",
+   "members": 2803210,
+   "tv": true
+  },
+  {
+   "id": 269,
+   "title": "Bleach",
+   "img": "https://cdn.myanimelist.net/images/anime/1541/147774.webp",
+   "members": 2265996,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64614,
+  "title": "PUBG Mobile x Naruto: Shippuuden Collab",
+  "img": "https://cdn.myanimelist.net/images/anime/1237/159001.webp",
+  "members": 435,
+  "tv": false
+ },
+ "count": 292
+}

@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 527,
+   "title": "Pokemon",
+   "img": null,
+   "members": 693187,
+   "tv": true
+  },
+  {
+   "id": 440,
+   "title": "Shoujo Kakumei Utena",
+   "img": "https://cdn.myanimelist.net/images/anime/1078/95285.webp",
+   "members": 255622,
+   "tv": true
+  },
+  {
+   "id": 1172,
+   "title": "Slayers Try",
+   "img": "https://cdn.myanimelist.net/images/anime/1262/139054.webp",
+   "members": 60020,
+   "tv": true
+  },
+  {
+   "id": 538,
+   "title": "Shin Tenchi Muyou!",
+   "img": "https://cdn.myanimelist.net/images/anime/1837/151534.webp",
+   "members": 40554,
+   "tv": true
+  },
+  {
+   "id": 2076,
+   "title": "Kindaichi Shounen no Jikenbo",
+   "img": "https://cdn.myanimelist.net/images/anime/1702/120440.webp",
+   "members": 37280,
+   "tv": true
+  }
+ ]
+}

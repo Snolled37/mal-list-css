@@ -1,0 +1,34 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 61186,
+   "title": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana",
+   "img": "https://cdn.myanimelist.net/images/anime/1026/155965.webp",
+   "members": 67027,
+   "tv": true
+  },
+  {
+   "id": 58492,
+   "title": "Mono",
+   "img": "https://cdn.myanimelist.net/images/anime/1677/148603.webp",
+   "members": 54345,
+   "tv": true
+  },
+  {
+   "id": 65214,
+   "title": "NullMeta",
+   "img": "https://cdn.myanimelist.net/images/anime/1752/160604.webp",
+   "members": 1042,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65214,
+  "title": "NullMeta",
+  "img": "https://cdn.myanimelist.net/images/anime/1752/160604.webp",
+  "members": 1042,
+  "tv": true
+ },
+ "count": 3
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 38472,
+   "title": "Isekai Quartet",
+   "img": "https://cdn.myanimelist.net/images/anime/1965/99667.webp",
+   "members": 422409,
+   "tv": true
+  },
+  {
+   "id": 39988,
+   "title": "Isekai Quartet 2",
+   "img": "https://cdn.myanimelist.net/images/anime/1030/103383.webp",
+   "members": 261318,
+   "tv": true
+  },
+  {
+   "id": 41567,
+   "title": "Isekai Quartet Movie: Another World",
+   "img": "https://cdn.myanimelist.net/images/anime/1222/122000.webp",
+   "members": 96648,
+   "tv": false
+  },
+  {
+   "id": 31138,
+   "title": "Overlord: Ple Ple Pleiades",
+   "img": "https://cdn.myanimelist.net/images/anime/1849/100694.webp",
+   "members": 87110,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 64577,
+  "title": "Youjo Shenki 2",
+  "img": "https://cdn.myanimelist.net/images/anime/1690/158939.webp",
+  "members": 2428,
+  "tv": false
+ },
+ "count": 59
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 33255,
+   "title": "Saiki Kusuo no Ψ-nan",
+   "img": "https://cdn.myanimelist.net/images/anime/1973/142750.webp",
+   "members": 1287519,
+   "tv": true
+  },
+  {
+   "id": 34612,
+   "title": "Saiki Kusuo no Ψ-nan 2",
+   "img": "https://cdn.myanimelist.net/images/anime/1961/91383.webp",
+   "members": 739169,
+   "tv": true
+  },
+  {
+   "id": 40542,
+   "title": "Saiki Kusuo no Ψ-nan: Ψ-shidou-hen",
+   "img": "https://cdn.myanimelist.net/images/anime/1993/119022.webp",
+   "members": 256230,
+   "tv": false
+  },
+  {
+   "id": 38249,
+   "title": "Saiki Kusuo no Ψ-nan: Kanketsu-hen",
+   "img": "https://cdn.myanimelist.net/images/anime/1159/95661.webp",
+   "members": 256127,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 53712,
+  "title": "Saiki Kusuo no Ψ-nan Manner Movie",
+  "img": "https://cdn.myanimelist.net/images/anime/1308/131536.webp",
+  "members": 3086,
+  "tv": false
+ },
+ "count": 5
+}

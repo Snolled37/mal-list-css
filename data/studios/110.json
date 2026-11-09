@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 339,
+   "title": "Serial Experiments Lain",
+   "img": "https://cdn.myanimelist.net/images/anime/1718/91550.webp",
+   "members": 930288,
+   "tv": true
+  },
+  {
+   "id": 474,
+   "title": "Macross Plus",
+   "img": "https://cdn.myanimelist.net/images/anime/12/75807.webp",
+   "members": 57840,
+   "tv": false
+  },
+  {
+   "id": 800,
+   "title": "NieA Under 7",
+   "img": "https://cdn.myanimelist.net/images/anime/8/18922.webp",
+   "members": 44983,
+   "tv": true
+  },
+  {
+   "id": 841,
+   "title": "Colorful",
+   "img": "https://cdn.myanimelist.net/images/anime/8/19229.webp",
+   "members": 31198,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 42228,
+  "title": "Junkers Come Here Pilot Film",
+  "img": "https://cdn.myanimelist.net/images/anime/1607/108036.webp",
+  "members": 759,
+  "tv": false
+ },
+ "count": 35
+}

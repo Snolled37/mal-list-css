@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 6205,
+   "title": "Kämpfer",
+   "img": "https://cdn.myanimelist.net/images/anime/5/35423.webp",
+   "members": 307499,
+   "tv": true
+  },
+  {
+   "id": 41103,
+   "title": "Koi to Yobu ni wa Kimochi Warui",
+   "img": "https://cdn.myanimelist.net/images/anime/1519/110527.webp",
+   "members": 262982,
+   "tv": true
+  },
+  {
+   "id": 54968,
+   "title": "Giji Harem",
+   "img": "https://cdn.myanimelist.net/images/anime/1607/143547.webp",
+   "members": 245910,
+   "tv": true
+  },
+  {
+   "id": 357,
+   "title": "Bokusatsu Tenshi Dokuro-chan",
+   "img": "https://cdn.myanimelist.net/images/anime/10/13210.webp",
+   "members": 223841,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 62883,
+  "title": "Bungou Stray Dogs Wan! 2",
+  "img": "https://cdn.myanimelist.net/images/anime/1591/157071.webp",
+  "members": 13201,
+  "tv": true
+ },
+ "count": 40
+}

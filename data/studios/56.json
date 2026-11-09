@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 11757,
+   "title": "Sword Art Online",
+   "img": "https://cdn.myanimelist.net/images/anime/11/39717.webp",
+   "members": 3346955,
+   "tv": true
+  },
+  {
+   "id": 23273,
+   "title": "Shigatsu wa Kimi no Uso",
+   "img": "https://cdn.myanimelist.net/images/anime/1405/143284.webp",
+   "members": 2471272,
+   "tv": true
+  },
+  {
+   "id": 31043,
+   "title": "Boku dake ga Inai Machi",
+   "img": "https://cdn.myanimelist.net/images/anime/10/77957.webp",
+   "members": 2334924,
+   "tv": true
+  },
+  {
+   "id": 23755,
+   "title": "Nanatsu no Taizai",
+   "img": "https://cdn.myanimelist.net/images/anime/8/65409.webp",
+   "members": 2241974,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64558,
+  "title": "Orion",
+  "img": "https://cdn.myanimelist.net/images/anime/1515/158928.webp",
+  "members": 317,
+  "tv": false
+ },
+ "count": 268
+}

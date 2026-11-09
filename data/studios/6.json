@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 30,
+   "title": "Shinseiki Evangelion",
+   "img": "https://cdn.myanimelist.net/images/anime/1314/108941.webp",
+   "members": 2077280,
+   "tv": true
+  },
+  {
+   "id": 2001,
+   "title": "Tengen Toppa Gurren Lagann",
+   "img": "https://cdn.myanimelist.net/images/anime/4/5123.webp",
+   "members": 1803617,
+   "tv": true
+  },
+  {
+   "id": 32,
+   "title": "Shinseiki Evangelion Movie: Air/Magokoro wo, Kimi ni",
+   "img": "https://cdn.myanimelist.net/images/anime/1404/98182.webp",
+   "members": 1068909,
+   "tv": false
+  },
+  {
+   "id": 227,
+   "title": "FLCL",
+   "img": "https://cdn.myanimelist.net/images/anime/7/77356.webp",
+   "members": 913251,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 61377,
+  "title": "Legend of Future",
+  "img": "https://cdn.myanimelist.net/images/anime/1666/149015.webp",
+  "members": 140,
+  "tv": false
+ },
+ "count": 82
+}

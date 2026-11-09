@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 3287,
+   "title": "Tenkuu Danzai Skelter+Heaven",
+   "img": "https://cdn.myanimelist.net/images/anime/9/62115.webp",
+   "members": 43370,
+   "tv": false
+  },
+  {
+   "id": 31785,
+   "title": "Hakuouki: Shinkai - Kaze no Shou",
+   "img": "https://cdn.myanimelist.net/images/anime/2/77471.webp",
+   "members": 4583,
+   "tv": false
+  },
+  {
+   "id": 2362,
+   "title": "Run=Dim",
+   "img": "https://cdn.myanimelist.net/images/anime/1019/144495.webp",
+   "members": 3151,
+   "tv": true
+  },
+  {
+   "id": 2778,
+   "title": "Generation of Chaos III: Toki no Fuuin",
+   "img": "https://cdn.myanimelist.net/images/anime/7/3754.webp",
+   "members": 2101,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 52194,
+  "title": "Run=Dim: Naeseoseu-ui Banran",
+  "img": "https://cdn.myanimelist.net/images/anime/1826/131552.webp",
+  "members": 222,
+  "tv": false
+ },
+ "count": 7
+}

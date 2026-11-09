@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 60489,
+   "title": "Takopii no Genzai",
+   "img": "https://cdn.myanimelist.net/images/anime/1182/149879.webp",
+   "members": 364880,
+   "tv": false
+  },
+  {
+   "id": 64266,
+   "title": "Takopii no Genzai Movie: Arigatou, Mata Ashita",
+   "img": "https://cdn.myanimelist.net/images/anime/1691/160653.webp",
+   "members": 12499,
+   "tv": false
+  },
+  {
+   "id": 41195,
+   "title": "Kokoro Yohou",
+   "img": "https://cdn.myanimelist.net/images/anime/1669/142933.webp",
+   "members": 6336,
+   "tv": false
+  },
+  {
+   "id": 40034,
+   "title": "Tenki no Ko CMs",
+   "img": "https://cdn.myanimelist.net/images/anime/1959/101750.webp",
+   "members": 6274,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 64266,
+  "title": "Takopii no Genzai Movie: Arigatou, Mata Ashita",
+  "img": "https://cdn.myanimelist.net/images/anime/1691/160653.webp",
+  "members": 12499,
+  "tv": false
+ },
+ "count": 9
+}

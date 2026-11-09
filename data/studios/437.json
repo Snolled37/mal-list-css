@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 35330,
+   "title": "Poputepipikku",
+   "img": "https://cdn.myanimelist.net/images/anime/3/88816.webp",
+   "members": 237925,
+   "tv": true
+  },
+  {
+   "id": 49357,
+   "title": "Star Wars: Visions",
+   "img": "https://cdn.myanimelist.net/images/anime/1958/117686.webp",
+   "members": 102322,
+   "tv": false
+  },
+  {
+   "id": 36517,
+   "title": "Ninja Batman",
+   "img": "https://cdn.myanimelist.net/images/anime/1351/95947.webp",
+   "members": 66156,
+   "tv": false
+  },
+  {
+   "id": 50663,
+   "title": "Poputepipikku 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1237/128067.webp",
+   "members": 51063,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 62530,
+  "title": "Blue Gale Xabungle Side L",
+  "img": "https://cdn.myanimelist.net/images/anime/1084/152151.webp",
+  "members": 198,
+  "tv": false
+ },
+ "count": 38
+}

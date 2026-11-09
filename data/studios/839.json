@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 42249,
+   "title": "Tokyo Revengers",
+   "img": "https://cdn.myanimelist.net/images/anime/1839/122012.webp",
+   "members": 1437671,
+   "tv": true
+  },
+  {
+   "id": 28677,
+   "title": "Yamada-kun to 7-nin no Majo",
+   "img": "https://cdn.myanimelist.net/images/anime/2/73700.webp",
+   "members": 866986,
+   "tv": true
+  },
+  {
+   "id": 32951,
+   "title": "Rokudenashi Majutsu Koushi to Akashic Records",
+   "img": "https://cdn.myanimelist.net/images/anime/8/85593.webp",
+   "members": 828591,
+   "tv": true
+  },
+  {
+   "id": 50346,
+   "title": "Yofukashi no Uta",
+   "img": "https://cdn.myanimelist.net/images/anime/1045/123711.webp",
+   "members": 810349,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64344,
+  "title": "Juuou Mujin Dandivine",
+  "img": "https://cdn.myanimelist.net/images/anime/1496/160013.webp",
+  "members": 4757,
+  "tv": true
+ },
+ "count": 125
+}

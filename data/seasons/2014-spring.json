@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 19815,
+   "title": "No Game No Life",
+   "img": null,
+   "members": 2589628,
+   "tv": true
+  },
+  {
+   "id": 20583,
+   "title": "Haikyuu!!",
+   "img": null,
+   "members": 2213728,
+   "tv": true
+  },
+  {
+   "id": 20899,
+   "title": "JoJo no Kimyou na Bouken Part 3: Stardust Crusaders",
+   "img": "https://cdn.myanimelist.net/images/anime/11/55267.webp",
+   "members": 1408338,
+   "tv": true
+  },
+  {
+   "id": 20785,
+   "title": "Mahouka Koukou no Rettousei",
+   "img": null,
+   "members": 1164566,
+   "tv": true
+  },
+  {
+   "id": 22043,
+   "title": "Fairy Tail (2014)",
+   "img": null,
+   "members": 1090837,
+   "tv": true
+  }
+ ]
+}

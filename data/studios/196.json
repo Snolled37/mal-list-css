@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 35203,
+   "title": "Isekai wa Smartphone to Tomo ni.",
+   "img": "https://cdn.myanimelist.net/images/anime/7/86794.webp",
+   "members": 641371,
+   "tv": true
+  },
+  {
+   "id": 31414,
+   "title": "Nijiiro Days",
+   "img": "https://cdn.myanimelist.net/images/anime/8/76691.webp",
+   "members": 248922,
+   "tv": true
+  },
+  {
+   "id": 31143,
+   "title": "Onsen Yousei Hakone-chan",
+   "img": "https://cdn.myanimelist.net/images/anime/12/77820.webp",
+   "members": 31276,
+   "tv": true
+  },
+  {
+   "id": 10178,
+   "title": "Otona Joshi no Anime Time",
+   "img": "https://cdn.myanimelist.net/images/anime/11/28531.webp",
+   "members": 23943,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 36976,
+  "title": "Cutie Honey Universe",
+  "img": "https://cdn.myanimelist.net/images/anime/1879/91014.webp",
+  "members": 21456,
+  "tv": true
+ },
+ "count": 18
+}

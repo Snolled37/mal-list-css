@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 22043,
+   "title": "Fairy Tail (2014)",
+   "img": "https://cdn.myanimelist.net/images/anime/3/60551.webp",
+   "members": 1090837,
+   "tv": true
+  },
+  {
+   "id": 35972,
+   "title": "Fairy Tail: Final Series",
+   "img": "https://cdn.myanimelist.net/images/anime/1536/93863.webp",
+   "members": 569447,
+   "tv": true
+  },
+  {
+   "id": 41619,
+   "title": "Munou na Nana",
+   "img": "https://cdn.myanimelist.net/images/anime/1301/110433.webp",
+   "members": 388331,
+   "tv": true
+  },
+  {
+   "id": 42205,
+   "title": "Shaman King (2021)",
+   "img": "https://cdn.myanimelist.net/images/anime/1416/113270.webp",
+   "members": 287215,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64084,
+  "title": "Sekai Saikyou no Majo, Hajimemashita",
+  "img": "https://cdn.myanimelist.net/images/anime/1341/159753.webp",
+  "members": 28059,
+  "tv": true
+ },
+ "count": 34
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 32664,
+   "title": "Bananya",
+   "img": "https://cdn.myanimelist.net/images/anime/11/80200.webp",
+   "members": 75173,
+   "tv": true
+  },
+  {
+   "id": 9624,
+   "title": "30-sai no Hoken Taiiku",
+   "img": "https://cdn.myanimelist.net/images/anime/2/81172.webp",
+   "members": 67585,
+   "tv": true
+  },
+  {
+   "id": 34257,
+   "title": "Cinderella Girls Gekijou",
+   "img": "https://cdn.myanimelist.net/images/anime/10/89786.webp",
+   "members": 20822,
+   "tv": true
+  },
+  {
+   "id": 40228,
+   "title": "Bananya: Fushigi na Nakama-tachi",
+   "img": "https://cdn.myanimelist.net/images/anime/1449/102481.webp",
+   "members": 18354,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 53745,
+  "title": "Isobe Isobee Monogatari: Ukiyo wa Tsurai yo (2017)",
+  "img": "https://cdn.myanimelist.net/images/anime/1092/131604.webp",
+  "members": 249,
+  "tv": false
+ },
+ "count": 43
+}

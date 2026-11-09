@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 4081,
+   "title": "Natsume Yuujinchou",
+   "img": null,
+   "members": 596790,
+   "tv": true
+  },
+  {
+   "id": 3712,
+   "title": "Zero no Tsukaima: Princesses no Rondo",
+   "img": "https://cdn.myanimelist.net/images/anime/6/10256.webp",
+   "members": 473905,
+   "tv": true
+  },
+  {
+   "id": 4063,
+   "title": "Sekirei",
+   "img": "https://cdn.myanimelist.net/images/anime/10/15182.webp",
+   "members": 438916,
+   "tv": true
+  },
+  {
+   "id": 3667,
+   "title": "Strike Witches",
+   "img": null,
+   "members": 185478,
+   "tv": true
+  },
+  {
+   "id": 3467,
+   "title": "Nogizaka Haruka no Himitsu",
+   "img": null,
+   "members": 141368,
+   "tv": true
+  }
+ ]
+}

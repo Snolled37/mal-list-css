@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 205,
+   "title": "Samurai Champloo",
+   "img": null,
+   "members": 1374799,
+   "tv": true
+  },
+  {
+   "id": 19,
+   "title": "Monster",
+   "img": null,
+   "members": 1373635,
+   "tv": true
+  },
+  {
+   "id": 384,
+   "title": "Gantz",
+   "img": null,
+   "members": 390528,
+   "tv": true
+  },
+  {
+   "id": 18,
+   "title": "Initial D Fourth Stage",
+   "img": "https://cdn.myanimelist.net/images/anime/9/10521.webp",
+   "members": 219889,
+   "tv": true
+  },
+  {
+   "id": 174,
+   "title": "Tenjou Tenge",
+   "img": null,
+   "members": 202635,
+   "tv": true
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 572,
+   "title": "Kaze no Tani no Nausicaä",
+   "img": "https://cdn.myanimelist.net/images/anime/10/75914.webp",
+   "members": 421756,
+   "tv": false
+  },
+  {
+   "id": 2823,
+   "title": "Barbapapa",
+   "img": "https://cdn.myanimelist.net/images/anime/7/3921.webp",
+   "members": 3368,
+   "tv": true
+  },
+  {
+   "id": 7876,
+   "title": "Oz no Mahoutsukai",
+   "img": "https://cdn.myanimelist.net/images/anime/7/64341.webp",
+   "members": 1524,
+   "tv": false
+  },
+  {
+   "id": 3812,
+   "title": "Yume no Hoshi no Button Nose",
+   "img": "https://cdn.myanimelist.net/images/anime/13/74470.webp",
+   "members": 1253,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 38368,
+  "title": "Youkai Ningen Bem: Part II",
+  "img": "https://cdn.myanimelist.net/images/anime/1173/94675.webp",
+  "members": 710,
+  "tv": false
+ },
+ "count": 8
+}

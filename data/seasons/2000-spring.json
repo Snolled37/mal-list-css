@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 481,
+   "title": "Yu☆Gi☆Oh! Duel Monsters",
+   "img": null,
+   "members": 436204,
+   "tv": true
+  },
+  {
+   "id": 189,
+   "title": "Love Hina",
+   "img": "https://cdn.myanimelist.net/images/anime/1153/99366.webp",
+   "members": 284301,
+   "tv": true
+  },
+  {
+   "id": 1313,
+   "title": "Digimon Adventure 02",
+   "img": "https://cdn.myanimelist.net/images/anime/8/20360.webp",
+   "members": 235468,
+   "tv": true
+  },
+  {
+   "id": 104,
+   "title": "Ayashi no Ceres",
+   "img": "https://cdn.myanimelist.net/images/anime/1287/134408.webp",
+   "members": 67309,
+   "tv": true
+  },
+  {
+   "id": 129,
+   "title": "Gensoumaden Saiyuuki",
+   "img": "https://cdn.myanimelist.net/images/anime/11/75282.webp",
+   "members": 59916,
+   "tv": true
+  }
+ ]
+}

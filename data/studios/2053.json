@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 40074,
+   "title": "Gibiate",
+   "img": "https://cdn.myanimelist.net/images/anime/1035/113446.webp",
+   "members": 72300,
+   "tv": true
+  },
+  {
+   "id": 40850,
+   "title": "Breakers",
+   "img": "https://cdn.myanimelist.net/images/anime/1125/106426.webp",
+   "members": 11558,
+   "tv": true
+  },
+  {
+   "id": 57005,
+   "title": "Mukuwarenakatta Murabito A, Kizoku ni Hirowarete Dekiai sareru Ue ni, Jitsu wa Motteita Densetsu-kyuu no Kami Skill mo Kakusei shita",
+   "img": "https://cdn.myanimelist.net/images/anime/1895/159639.webp",
+   "members": 5340,
+   "tv": true
+  },
+  {
+   "id": 41545,
+   "title": "Ogaki Matsuri ni Ikou yo!",
+   "img": "https://cdn.myanimelist.net/images/anime/1425/106763.webp",
+   "members": 1125,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 57005,
+  "title": "Mukuwarenakatta Murabito A, Kizoku ni Hirowarete Dekiai sareru Ue ni, Jitsu wa Motteita Densetsu-kyuu no Kami Skill mo Kakusei shita",
+  "img": "https://cdn.myanimelist.net/images/anime/1895/159639.webp",
+  "members": 5340,
+  "tv": true
+ },
+ "count": 5
+}

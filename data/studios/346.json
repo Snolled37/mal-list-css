@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 31339,
+   "title": "Drifters",
+   "img": "https://cdn.myanimelist.net/images/anime/10/80271.webp",
+   "members": 627477,
+   "tv": true
+  },
+  {
+   "id": 36793,
+   "title": "3D Kanojo: Real Girl",
+   "img": "https://cdn.myanimelist.net/images/anime/1327/93616.webp",
+   "members": 379747,
+   "tv": true
+  },
+  {
+   "id": 12467,
+   "title": "Nazo no Kanojo X",
+   "img": "https://cdn.myanimelist.net/images/anime/3/75205.webp",
+   "members": 365140,
+   "tv": true
+  },
+  {
+   "id": 6500,
+   "title": "Seikon no Qwaser",
+   "img": "https://cdn.myanimelist.net/images/anime/1212/97589.webp",
+   "members": 355179,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 39799,
+  "title": "Val x Love",
+  "img": "https://cdn.myanimelist.net/images/anime/1577/111404.webp",
+  "members": 107803,
+  "tv": true
+ },
+ "count": 40
+}

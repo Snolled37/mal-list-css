@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 38000,
+   "title": "Kimetsu no Yaiba",
+   "img": "https://cdn.myanimelist.net/images/anime/1286/99889.webp",
+   "members": 3530204,
+   "tv": true
+  },
+  {
+   "id": 40456,
+   "title": "Kimetsu no Yaiba Movie: Mugen Ressha-hen",
+   "img": "https://cdn.myanimelist.net/images/anime/1704/106947.webp",
+   "members": 1822516,
+   "tv": false
+  },
+  {
+   "id": 47778,
+   "title": "Kimetsu no Yaiba: Yuukaku-hen",
+   "img": "https://cdn.myanimelist.net/images/anime/1908/120036.webp",
+   "members": 1795223,
+   "tv": true
+  },
+  {
+   "id": 10087,
+   "title": "Fate/Zero",
+   "img": "https://cdn.myanimelist.net/images/anime/1887/117644.webp",
+   "members": 1624224,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 62184,
+  "title": "Kimetsu no Yaiba Movie: Mugenjou-hen Manner Eizou",
+  "img": "https://cdn.myanimelist.net/images/anime/1858/151344.webp",
+  "members": 3591,
+  "tv": false
+ },
+ "count": 78
+}

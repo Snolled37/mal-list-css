@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 53770,
+   "title": "Sentai Daishikkaku",
+   "img": "https://cdn.myanimelist.net/images/anime/1183/141489.webp",
+   "members": 207614,
+   "tv": true
+  },
+  {
+   "id": 50205,
+   "title": "Arknights: Prelude to Dawn",
+   "img": "https://cdn.myanimelist.net/images/anime/1644/128406.webp",
+   "members": 131643,
+   "tv": true
+  },
+  {
+   "id": 59189,
+   "title": "Sentai Daishikkaku 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1405/147694.webp",
+   "members": 88548,
+   "tv": true
+  },
+  {
+   "id": 54309,
+   "title": "Blue Archive the Animation",
+   "img": "https://cdn.myanimelist.net/images/anime/1739/140995.webp",
+   "members": 78756,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 62913,
+  "title": "Needy Girl Overdose",
+  "img": "https://cdn.myanimelist.net/images/anime/1755/154935.webp",
+  "members": 70985,
+  "tv": true
+ },
+ "count": 26
+}

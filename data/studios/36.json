@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 45,
+   "title": "Rurouni Kenshin: Meiji Kenkaku Romantan",
+   "img": "https://cdn.myanimelist.net/images/anime/1346/119505.webp",
+   "members": 530403,
+   "tv": true
+  },
+  {
+   "id": 185,
+   "title": "Initial D First Stage",
+   "img": "https://cdn.myanimelist.net/images/anime/1384/127972.webp",
+   "members": 451458,
+   "tv": true
+  },
+  {
+   "id": 481,
+   "title": "Yu☆Gi☆Oh! Duel Monsters",
+   "img": "https://cdn.myanimelist.net/images/anime/3/77055.webp",
+   "members": 436204,
+   "tv": true
+  },
+  {
+   "id": 482,
+   "title": "Yu☆Gi☆Oh! Duel Monsters GX",
+   "img": "https://cdn.myanimelist.net/images/anime/6/20873.webp",
+   "members": 237811,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 63134,
+  "title": "Shin Kochira Katsushikaku Kameari Kouenmae Hashutsujo",
+  "img": "https://cdn.myanimelist.net/images/anime/1407/159884.webp",
+  "members": 964,
+  "tv": true
+ },
+ "count": 90
+}

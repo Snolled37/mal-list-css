@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 42249,
+   "title": "Tokyo Revengers",
+   "img": null,
+   "members": 1437671,
+   "tv": true
+  },
+  {
+   "id": 41587,
+   "title": "Boku no Hero Academia 5th Season",
+   "img": null,
+   "members": 1395554,
+   "tv": true
+  },
+  {
+   "id": 41025,
+   "title": "Fumetsu no Anata e",
+   "img": null,
+   "members": 1022016,
+   "tv": true
+  },
+  {
+   "id": 41457,
+   "title": "86",
+   "img": null,
+   "members": 1017308,
+   "tv": true
+  },
+  {
+   "id": 42361,
+   "title": "Ijiranaide, Nagatoro-san",
+   "img": null,
+   "members": 905386,
+   "tv": true
+  }
+ ]
+}

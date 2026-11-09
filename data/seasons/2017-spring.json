@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 25777,
+   "title": "Shingeki no Kyojin Season 2",
+   "img": null,
+   "members": 3083896,
+   "tv": true
+  },
+  {
+   "id": 33486,
+   "title": "Boku no Hero Academia 2nd Season",
+   "img": null,
+   "members": 2777560,
+   "tv": true
+  },
+  {
+   "id": 34566,
+   "title": "Boruto: Naruto Next Generations",
+   "img": null,
+   "members": 943955,
+   "tv": true
+  },
+  {
+   "id": 32951,
+   "title": "Rokudenashi Majutsu Koushi to Akashic Records",
+   "img": null,
+   "members": 828591,
+   "tv": true
+  },
+  {
+   "id": 32901,
+   "title": "Eromanga-sensei",
+   "img": null,
+   "members": 776545,
+   "tv": true
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 4224,
+   "title": "Toradora!",
+   "img": null,
+   "members": 2401978,
+   "tv": true
+  },
+  {
+   "id": 4181,
+   "title": "Clannad: After Story",
+   "img": "https://cdn.myanimelist.net/images/anime/1299/110774.webp",
+   "members": 1305983,
+   "tv": true
+  },
+  {
+   "id": 4898,
+   "title": "Kuroshitsuji",
+   "img": null,
+   "members": 1290920,
+   "tv": true
+  },
+  {
+   "id": 4654,
+   "title": "Toaru Majutsu no Index",
+   "img": null,
+   "members": 877781,
+   "tv": true
+  },
+  {
+   "id": 4214,
+   "title": "Rosario to Vampire Capu2",
+   "img": "https://cdn.myanimelist.net/images/anime/6/25093.webp",
+   "members": 445423,
+   "tv": true
+  }
+ ]
+}

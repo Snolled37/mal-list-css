@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 356,
+   "title": "Fate/stay night",
+   "img": null,
+   "members": 1017380,
+   "tv": true
+  },
+  {
+   "id": 790,
+   "title": "Ergo Proxy",
+   "img": "https://cdn.myanimelist.net/images/anime/1183/136187.webp",
+   "members": 732197,
+   "tv": true
+  },
+  {
+   "id": 710,
+   "title": "Rec",
+   "img": "https://cdn.myanimelist.net/images/anime/1940/124243.webp",
+   "members": 118976,
+   "tv": true
+  },
+  {
+   "id": 587,
+   "title": "Hanbun no Tsuki ga Noboru Sora",
+   "img": "https://cdn.myanimelist.net/images/anime/10/75201.webp",
+   "members": 106224,
+   "tv": true
+  },
+  {
+   "id": 586,
+   "title": "Ayakashi: Japanese Classic Horror",
+   "img": "https://cdn.myanimelist.net/images/anime/2/11746.webp",
+   "members": 87925,
+   "tv": true
+  }
+ ]
+}

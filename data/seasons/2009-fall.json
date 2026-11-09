@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 6702,
+   "title": "Fairy Tail",
+   "img": null,
+   "members": 1867402,
+   "tv": true
+  },
+  {
+   "id": 6045,
+   "title": "Kimi ni Todoke",
+   "img": null,
+   "members": 1096820,
+   "tv": true
+  },
+  {
+   "id": 6213,
+   "title": "Toaru Kagaku no Railgun",
+   "img": null,
+   "members": 656499,
+   "tv": true
+  },
+  {
+   "id": 5958,
+   "title": "Sora no Otoshimono",
+   "img": null,
+   "members": 513141,
+   "tv": true
+  },
+  {
+   "id": 6573,
+   "title": "Darker than Black: Ryuusei no Gemini",
+   "img": "https://cdn.myanimelist.net/images/anime/1189/134110.webp",
+   "members": 432616,
+   "tv": true
+  }
+ ]
+}

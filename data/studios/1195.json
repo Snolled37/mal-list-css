@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 35484,
+   "title": "Osake wa Fuufu ni Natte kara",
+   "img": "https://cdn.myanimelist.net/images/anime/1684/108627.webp",
+   "members": 241088,
+   "tv": true
+  },
+  {
+   "id": 34383,
+   "title": "Netsuzou TRap",
+   "img": "https://cdn.myanimelist.net/images/anime/10/86667.webp",
+   "members": 176989,
+   "tv": true
+  },
+  {
+   "id": 30127,
+   "title": "Danchigai",
+   "img": "https://cdn.myanimelist.net/images/anime/7/74879.webp",
+   "members": 123880,
+   "tv": true
+  },
+  {
+   "id": 33985,
+   "title": "Bloodivores",
+   "img": "https://cdn.myanimelist.net/images/anime/11/82233.webp",
+   "members": 116598,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 41293,
+  "title": "Kumo no Mori no Marcus",
+  "img": "https://cdn.myanimelist.net/images/anime/1937/106072.webp",
+  "members": 445,
+  "tv": false
+ },
+ "count": 27
+}

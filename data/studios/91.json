@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 23847,
+   "title": "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Zoku",
+   "img": "https://cdn.myanimelist.net/images/anime/11/75376.webp",
+   "members": 1184405,
+   "tv": true
+  },
+  {
+   "id": 39547,
+   "title": "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Kan",
+   "img": "https://cdn.myanimelist.net/images/anime/1958/107912.webp",
+   "members": 840964,
+   "tv": true
+  },
+  {
+   "id": 7593,
+   "title": "Kiss x Sis (TV)",
+   "img": "https://cdn.myanimelist.net/images/anime/1660/121553.webp",
+   "members": 608427,
+   "tv": true
+  },
+  {
+   "id": 34822,
+   "title": "Tsuki ga Kirei",
+   "img": "https://cdn.myanimelist.net/images/anime/2/85592.webp",
+   "members": 607153,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65111,
+  "title": "Chitose-kun wa Ramune Bin no Naka Recap",
+  "img": "https://cdn.myanimelist.net/images/anime/1012/160389.webp",
+  "members": 800,
+  "tv": false
+ },
+ "count": 81
+}

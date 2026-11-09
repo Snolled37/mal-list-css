@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 33089,
+   "title": "Kemono Friends",
+   "img": "https://cdn.myanimelist.net/images/anime/2/83518.webp",
+   "members": 87866,
+   "tv": true
+  },
+  {
+   "id": 37302,
+   "title": "Kemurikusa (TV)",
+   "img": "https://cdn.myanimelist.net/images/anime/1254/100472.webp",
+   "members": 34881,
+   "tv": true
+  },
+  {
+   "id": 19919,
+   "title": "Tesagure! Bukatsumono",
+   "img": "https://cdn.myanimelist.net/images/anime/8/56211.webp",
+   "members": 14853,
+   "tv": true
+  },
+  {
+   "id": 40995,
+   "title": "Hentatsu (TV)",
+   "img": "https://cdn.myanimelist.net/images/anime/1399/112948.webp",
+   "members": 6640,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 41564,
+  "title": "Hentatsu (TV) Recap",
+  "img": "https://cdn.myanimelist.net/images/anime/1554/107933.webp",
+  "members": 1131,
+  "tv": false
+ },
+ "count": 14
+}

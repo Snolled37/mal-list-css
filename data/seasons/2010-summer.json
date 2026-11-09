@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 8074,
+   "title": "Highschool of the Dead",
+   "img": null,
+   "members": 1630810,
+   "tv": true
+  },
+  {
+   "id": 7724,
+   "title": "Shiki",
+   "img": "https://cdn.myanimelist.net/images/anime/1531/119165.webp",
+   "members": 659040,
+   "tv": true
+  },
+  {
+   "id": 6707,
+   "title": "Kuroshitsuji II",
+   "img": null,
+   "members": 608889,
+   "tv": true
+  },
+  {
+   "id": 8675,
+   "title": "Seitokai Yakuindomo",
+   "img": "https://cdn.myanimelist.net/images/anime/4/75550.webp",
+   "members": 526405,
+   "tv": true
+  },
+  {
+   "id": 8676,
+   "title": "Amagami SS",
+   "img": "https://cdn.myanimelist.net/images/anime/10/78699.webp",
+   "members": 415477,
+   "tv": true
+  }
+ ]
+}

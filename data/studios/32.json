@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 205,
+   "title": "Samurai Champloo",
+   "img": "https://cdn.myanimelist.net/images/anime/1370/135212.webp",
+   "members": 1374799,
+   "tv": true
+  },
+  {
+   "id": 6880,
+   "title": "Deadman Wonderland",
+   "img": "https://cdn.myanimelist.net/images/anime/9/75299.webp",
+   "members": 1332453,
+   "tv": true
+  },
+  {
+   "id": 790,
+   "title": "Ergo Proxy",
+   "img": "https://cdn.myanimelist.net/images/anime/1183/136187.webp",
+   "members": 732197,
+   "tv": true
+  },
+  {
+   "id": 8525,
+   "title": "Kami nomi zo Shiru Sekai",
+   "img": "https://cdn.myanimelist.net/images/anime/2/43361.webp",
+   "members": 671421,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 51133,
+  "title": "Kami nomi zo Shiru Sekai PV",
+  "img": "https://cdn.myanimelist.net/images/anime/1705/121126.webp",
+  "members": 1306,
+  "tv": false
+ },
+ "count": 35
+}

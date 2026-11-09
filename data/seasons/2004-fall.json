@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 269,
+   "title": "Bleach",
+   "img": null,
+   "members": 2265996,
+   "tv": true
+  },
+  {
+   "id": 57,
+   "title": "Beck",
+   "img": "https://cdn.myanimelist.net/images/anime/11/11636.webp",
+   "members": 384341,
+   "tv": true
+  },
+  {
+   "id": 24,
+   "title": "School Rumble",
+   "img": "https://cdn.myanimelist.net/images/anime/1465/142014.webp",
+   "members": 348743,
+   "tv": true
+  },
+  {
+   "id": 239,
+   "title": "Gankutsuou",
+   "img": null,
+   "members": 275457,
+   "tv": true
+  },
+  {
+   "id": 482,
+   "title": "Yu☆Gi☆Oh! Duel Monsters GX",
+   "img": null,
+   "members": 237811,
+   "tv": true
+  }
+ ]
+}

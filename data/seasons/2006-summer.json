@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 1195,
+   "title": "Zero no Tsukaima",
+   "img": null,
+   "members": 881679,
+   "tv": true
+  },
+  {
+   "id": 1210,
+   "title": "NHK ni Youkoso!",
+   "img": null,
+   "members": 860033,
+   "tv": true
+  },
+  {
+   "id": 1222,
+   "title": "Bokura ga Ita",
+   "img": "https://cdn.myanimelist.net/images/anime/12/25754.webp",
+   "members": 243903,
+   "tv": true
+  },
+  {
+   "id": 1142,
+   "title": "Hachimitsu to Clover II",
+   "img": "https://cdn.myanimelist.net/images/anime/6/11040.webp",
+   "members": 125437,
+   "tv": true
+  },
+  {
+   "id": 1454,
+   "title": "Kemonozume",
+   "img": "https://cdn.myanimelist.net/images/anime/3/86766.webp",
+   "members": 84409,
+   "tv": true
+  }
+ ]
+}

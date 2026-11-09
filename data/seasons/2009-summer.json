@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 5081,
+   "title": "Bakemonogatari",
+   "img": null,
+   "members": 1512615,
+   "tv": true
+  },
+  {
+   "id": 5341,
+   "title": "Ookami to Koushinryou II",
+   "img": null,
+   "members": 526184,
+   "tv": true
+  },
+  {
+   "id": 6211,
+   "title": "Tokyo Magnitude 8.0",
+   "img": null,
+   "members": 317381,
+   "tv": true
+  },
+  {
+   "id": 5356,
+   "title": "Canaan",
+   "img": "https://cdn.myanimelist.net/images/anime/4/75789.webp",
+   "members": 250177,
+   "tv": true
+  },
+  {
+   "id": 6201,
+   "title": "Princess Lover!",
+   "img": "https://cdn.myanimelist.net/images/anime/7/75519.webp",
+   "members": 246845,
+   "tv": true
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 5682,
+   "title": "Phantom: Requiem for the Phantom",
+   "img": "https://cdn.myanimelist.net/images/anime/8/22470.webp",
+   "members": 361438,
+   "tv": true
+  },
+  {
+   "id": 177,
+   "title": "Tsubasa Chronicle",
+   "img": "https://cdn.myanimelist.net/images/anime/9/6555.webp",
+   "members": 243939,
+   "tv": true
+  },
+  {
+   "id": 48,
+   "title": ".hack//Sign",
+   "img": "https://cdn.myanimelist.net/images/anime/1443/94665.webp",
+   "members": 197358,
+   "tv": true
+  },
+  {
+   "id": 7662,
+   "title": "Shinrei Tantei Yakumo",
+   "img": "https://cdn.myanimelist.net/images/anime/13/35829.webp",
+   "members": 140402,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 9996,
+  "title": "Hyouge Mono",
+  "img": "https://cdn.myanimelist.net/images/anime/3/77282.webp",
+  "members": 32732,
+  "tv": true
+ },
+ "count": 32
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 3455,
+   "title": "To LOVE-Ru",
+   "img": "https://cdn.myanimelist.net/images/anime/1292/147431.webp",
+   "members": 692267,
+   "tv": true
+  },
+  {
+   "id": 5530,
+   "title": "Pandora Hearts",
+   "img": "https://cdn.myanimelist.net/images/anime/4/75535.webp",
+   "members": 458119,
+   "tv": true
+  },
+  {
+   "id": 32686,
+   "title": "Keijo!!!!!!!!",
+   "img": "https://cdn.myanimelist.net/images/anime/10/81906.webp",
+   "members": 432259,
+   "tv": true
+  },
+  {
+   "id": 13663,
+   "title": "To LOVE-Ru Darkness",
+   "img": "https://cdn.myanimelist.net/images/anime/8/42217.webp",
+   "members": 398525,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 51584,
+  "title": "Butsu Zone",
+  "img": "https://cdn.myanimelist.net/images/anime/1352/142605.webp",
+  "members": 303,
+  "tv": false
+ },
+ "count": 152
+}

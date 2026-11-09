@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 40682,
+   "title": "Kingdom 3rd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1443/111830.webp",
+   "members": 139122,
+   "tv": true
+  },
+  {
+   "id": 50160,
+   "title": "Kingdom 4th Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1566/122794.webp",
+   "members": 95000,
+   "tv": true
+  },
+  {
+   "id": 53621,
+   "title": "Jijou wo Shiranai Tenkousei ga Guigui Kuru.",
+   "img": "https://cdn.myanimelist.net/images/anime/1350/133642.webp",
+   "members": 83381,
+   "tv": true
+  },
+  {
+   "id": 54726,
+   "title": "Tsuma, Shougakusei ni Naru.",
+   "img": "https://cdn.myanimelist.net/images/anime/1752/145548.webp",
+   "members": 72808,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 61517,
+  "title": "Kingdom 6th Season",
+  "img": "https://cdn.myanimelist.net/images/anime/1282/151476.webp",
+  "members": 44114,
+  "tv": true
+ },
+ "count": 7
+}

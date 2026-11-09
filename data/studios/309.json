@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 14467,
+   "title": "K",
+   "img": "https://cdn.myanimelist.net/images/anime/3/47607.webp",
+   "members": 812201,
+   "tv": true
+  },
+  {
+   "id": 8675,
+   "title": "Seitokai Yakuindomo",
+   "img": "https://cdn.myanimelist.net/images/anime/4/75550.webp",
+   "members": 526405,
+   "tv": true
+  },
+  {
+   "id": 27991,
+   "title": "K: Return of Kings",
+   "img": "https://cdn.myanimelist.net/images/anime/6/76198.webp",
+   "members": 352778,
+   "tv": true
+  },
+  {
+   "id": 20847,
+   "title": "Seitokai Yakuindomo*",
+   "img": "https://cdn.myanimelist.net/images/anime/9/56941.webp",
+   "members": 274954,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 61334,
+  "title": "Momentary Lily: Tsuzuiteiku Kappou, Kappou!",
+  "img": "https://cdn.myanimelist.net/images/anime/1715/148881.webp",
+  "members": 3355,
+  "tv": false
+ },
+ "count": 39
+}

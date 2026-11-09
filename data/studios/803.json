@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 18679,
+   "title": "Kill la Kill",
+   "img": "https://cdn.myanimelist.net/images/anime/1464/111943.webp",
+   "members": 1874837,
+   "tv": true
+  },
+  {
+   "id": 35849,
+   "title": "Darling in the FranXX",
+   "img": "https://cdn.myanimelist.net/images/anime/1614/90408.webp",
+   "members": 1852483,
+   "tv": true
+  },
+  {
+   "id": 42310,
+   "title": "Cyberpunk: Edgerunners",
+   "img": "https://cdn.myanimelist.net/images/anime/1818/126435.webp",
+   "members": 1144526,
+   "tv": false
+  },
+  {
+   "id": 31798,
+   "title": "Kiznaiver",
+   "img": "https://cdn.myanimelist.net/images/anime/1085/147246.webp",
+   "members": 810965,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 61990,
+  "title": "Cyberpunk: Edgerunners 2",
+  "img": "https://cdn.myanimelist.net/images/anime/1431/160542.webp",
+  "members": 212169,
+  "tv": false
+ },
+ "count": 43
+}

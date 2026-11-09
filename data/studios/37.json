@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 30831,
+   "title": "Kono Subarashii Sekai ni Shukufuku wo!",
+   "img": "https://cdn.myanimelist.net/images/anime/1895/142748.webp",
+   "members": 2192212,
+   "tv": true
+  },
+  {
+   "id": 32937,
+   "title": "Kono Subarashii Sekai ni Shukufuku wo! 2",
+   "img": "https://cdn.myanimelist.net/images/anime/2/83188.webp",
+   "members": 1683411,
+   "tv": true
+  },
+  {
+   "id": 356,
+   "title": "Fate/stay night",
+   "img": "https://cdn.myanimelist.net/images/anime/4/30327.webp",
+   "members": 1017380,
+   "tv": true
+  },
+  {
+   "id": 934,
+   "title": "Higurashi no Naku Koro ni",
+   "img": "https://cdn.myanimelist.net/images/anime/12/19634.webp",
+   "members": 870493,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64861,
+  "title": "Hetalia World★Stars (2026)",
+  "img": "https://cdn.myanimelist.net/images/anime/1835/159770.webp",
+  "members": 1180,
+  "tv": false
+ },
+ "count": 337
+}

@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 226,
+   "title": "Elfen Lied",
+   "img": null,
+   "members": 1639035,
+   "tv": true
+  },
+  {
+   "id": 395,
+   "title": "Gantz 2nd Stage",
+   "img": "https://cdn.myanimelist.net/images/anime/10/23247.webp",
+   "members": 175108,
+   "tv": true
+  },
+  {
+   "id": 241,
+   "title": "Girls Bravo: First Season",
+   "img": null,
+   "members": 162734,
+   "tv": true
+  },
+  {
+   "id": 63,
+   "title": "DearS",
+   "img": "https://cdn.myanimelist.net/images/anime/1207/98872.webp",
+   "members": 158610,
+   "tv": true
+  },
+  {
+   "id": 166,
+   "title": "Samurai 7",
+   "img": null,
+   "members": 139880,
+   "tv": true
+  }
+ ]
+}

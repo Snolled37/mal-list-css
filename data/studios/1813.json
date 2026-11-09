@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 60168,
+   "title": "Watashi wo Tabetai, Hitodenashi",
+   "img": "https://cdn.myanimelist.net/images/anime/1191/152368.webp",
+   "members": 88834,
+   "tv": true
+  },
+  {
+   "id": 36943,
+   "title": "Tachibanakan Triangle",
+   "img": "https://cdn.myanimelist.net/images/anime/1594/108629.webp",
+   "members": 77487,
+   "tv": true
+  },
+  {
+   "id": 51817,
+   "title": "Watashi no Yuri wa Oshigoto desu!",
+   "img": "https://cdn.myanimelist.net/images/anime/1708/133360.webp",
+   "members": 66737,
+   "tv": true
+  },
+  {
+   "id": 56175,
+   "title": "Oomuro-ke: Dear Sisters",
+   "img": "https://cdn.myanimelist.net/images/anime/1401/140053.webp",
+   "members": 19879,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 63476,
+  "title": "Odebu Akujo ni Tensei shitara, Nazeka Last Boss Oujisama ni Shuuchaku sareteimasu",
+  "img": "https://cdn.myanimelist.net/images/anime/1469/160325.webp",
+  "members": 7084,
+  "tv": true
+ },
+ "count": 6
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 2966,
+   "title": "Ookami to Koushinryou",
+   "img": "https://cdn.myanimelist.net/images/anime/5/59401.webp",
+   "members": 882042,
+   "tv": true
+  },
+  {
+   "id": 197,
+   "title": "Rizelmine",
+   "img": "https://cdn.myanimelist.net/images/anime/1575/153253.webp",
+   "members": 27687,
+   "tv": true
+  },
+  {
+   "id": 275,
+   "title": "Love♥Love?",
+   "img": "https://cdn.myanimelist.net/images/anime/1064/149848.webp",
+   "members": 23791,
+   "tv": true
+  },
+  {
+   "id": 1408,
+   "title": "Kao no nai Tsuki",
+   "img": "https://cdn.myanimelist.net/images/anime/2/7582.webp",
+   "members": 11628,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 5647,
+  "title": "Doukyuusei 2 Special: Sotsugyousei",
+  "img": "https://cdn.myanimelist.net/images/anime/8/11674.webp",
+  "members": 2329,
+  "tv": false
+ },
+ "count": 11
+}

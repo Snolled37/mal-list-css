@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 48926,
+   "title": "Komi-san wa, Comyushou desu.",
+   "img": "https://cdn.myanimelist.net/images/anime/1899/117237.webp",
+   "members": 1038719,
+   "tv": true
+  },
+  {
+   "id": 54492,
+   "title": "Kusuriya no Hitorigoto",
+   "img": "https://cdn.myanimelist.net/images/anime/1708/138033.webp",
+   "members": 925189,
+   "tv": true
+  },
+  {
+   "id": 33,
+   "title": "Kenpuu Denki Berserk",
+   "img": "https://cdn.myanimelist.net/images/anime/1384/119988.webp",
+   "members": 788828,
+   "tv": true
+  },
+  {
+   "id": 47194,
+   "title": "Summertime Render",
+   "img": "https://cdn.myanimelist.net/images/anime/1120/120796.webp",
+   "members": 704738,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64505,
+  "title": "Diamond no Ace: Act II Second Season Part 2",
+  "img": "https://cdn.myanimelist.net/images/anime/1296/159929.webp",
+  "members": 10633,
+  "tv": true
+ },
+ "count": 316
+}

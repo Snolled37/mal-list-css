@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 40748,
+   "title": "Jujutsu Kaisen",
+   "img": "https://cdn.myanimelist.net/images/anime/1171/109222.webp",
+   "members": 3136425,
+   "tv": true
+  },
+  {
+   "id": 40028,
+   "title": "Shingeki no Kyojin: The Final Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1000/110531.webp",
+   "members": 2351127,
+   "tv": true
+  },
+  {
+   "id": 44511,
+   "title": "Chainsaw Man",
+   "img": "https://cdn.myanimelist.net/images/anime/1806/126216.webp",
+   "members": 2051451,
+   "tv": true
+  },
+  {
+   "id": 34933,
+   "title": "Kakegurui",
+   "img": "https://cdn.myanimelist.net/images/anime/3/86578.webp",
+   "members": 1653660,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64478,
+  "title": "Karasu (PV)",
+  "img": "https://cdn.myanimelist.net/images/anime/1247/158729.webp",
+  "members": 131,
+  "tv": false
+ },
+ "count": 123
+}

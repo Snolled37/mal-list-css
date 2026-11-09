@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 777,
+   "title": "Hellsing Ultimate",
+   "img": "https://cdn.myanimelist.net/images/anime/1012/143965.webp",
+   "members": 1038682,
+   "tv": false
+  },
+  {
+   "id": 44942,
+   "title": "Shuumatsu no Walküre",
+   "img": "https://cdn.myanimelist.net/images/anime/1456/115123.webp",
+   "members": 407315,
+   "tv": false
+  },
+  {
+   "id": 35076,
+   "title": "Juuni Taisen",
+   "img": "https://cdn.myanimelist.net/images/anime/5/87684.webp",
+   "members": 313735,
+   "tv": true
+  },
+  {
+   "id": 38816,
+   "title": "Hello World",
+   "img": "https://cdn.myanimelist.net/images/anime/1147/112650.webp",
+   "members": 299677,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 60348,
+  "title": "Disney Twisted-Wonderland The Animation: Episode of Savanaclaw",
+  "img": "https://cdn.myanimelist.net/images/anime/1700/160746.webp",
+  "members": 6692,
+  "tv": false
+ },
+ "count": 29
+}

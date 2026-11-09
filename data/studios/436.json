@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 10719,
+   "title": "Boku wa Tomodachi ga Sukunai",
+   "img": "https://cdn.myanimelist.net/images/anime/8/32873.webp",
+   "members": 863145,
+   "tv": true
+  },
+  {
+   "id": 8769,
+   "title": "Ore no Imouto ga Konnani Kawaii Wake ga Nai",
+   "img": "https://cdn.myanimelist.net/images/anime/1508/129576.webp",
+   "members": 726796,
+   "tv": true
+  },
+  {
+   "id": 14967,
+   "title": "Boku wa Tomodachi ga Sukunai Next",
+   "img": "https://cdn.myanimelist.net/images/anime/3/44724.webp",
+   "members": 564942,
+   "tv": true
+  },
+  {
+   "id": 12175,
+   "title": "Koi to Senkyo to Chocolate",
+   "img": "https://cdn.myanimelist.net/images/anime/4/42015.webp",
+   "members": 269256,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 18053,
+  "title": "Koi to Senkyo to Chocolate: Ikenai Hazuki-sensei",
+  "img": "https://cdn.myanimelist.net/images/anime/11/82999.webp",
+  "members": 11702,
+  "tv": false
+ },
+ "count": 9
+}

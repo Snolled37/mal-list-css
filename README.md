@@ -12,7 +12,8 @@ The old setup imported malscraper's `covers/auto`. That mode no longer works, be
 | `dist/theme.min.css` | **Own theme** (anime = Koisuru Asteroid, manga = Elaina). Built from `src/*.css` with `python scripts/build_theme.py`. |
 | `paste/anime.css`, `paste/manga.css` | **What to paste into MAL now** (theme + covers + name, avatar/banner slots) |
 | Rating tags | `Should Watch : 7/10` → ★★★½ (value ÷ 2) · `Review Score : 8.5/10` → number + meter · `?/10` = not rated yet (glows for the owner). 0–10 in 0.25 steps, plus -10 and 100. |
-| Favourite marker | tag `Trophy` / `Favorite` / `Favourite` → asteroid (anime) or witch brooch (manga) left of the row |
+| Favourite marker | tag `Trophy` / `Favorite` / `Favourite` → asteroid (anime) or witch brooch (manga) left of the row (from extras, refreshed daily) |
+| `dist/extras-*.css` | Data-driven extras from `scripts/build_extras.py`: progress bars, ✦ badge on covers with Review ≥ 9, favourite markers, and the hover cards on **Premiered** (that season's 5 most-watched TV shows) and **Studio** (top 4 + newest title). Season/studio data is scraped politely from MAL pages (2 s apart) and cached in `data/`. |
 | `dist/phase1.css` | Temporary fixes on top of the Clarity theme: hover without layout work, plus the score descriptors and hearts |
 | `paste/phase1-*.css` | What to paste into MAL → List Style → Custom CSS (anime list → `phase1-anime.css`, manga list → `phase1-manga.css`). |
 | `scripts/build_covers.py` | Rebuilds the cover files: `python scripts/build_covers.py --user Snolled` |

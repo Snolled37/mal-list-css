@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 6547,
+   "title": "Angel Beats!",
+   "img": null,
+   "members": 2229470,
+   "tv": true
+  },
+  {
+   "id": 7054,
+   "title": "Kaichou wa Maid-sama!",
+   "img": null,
+   "members": 1359269,
+   "tv": true
+  },
+  {
+   "id": 7791,
+   "title": "K-On!!",
+   "img": null,
+   "members": 767341,
+   "tv": true
+  },
+  {
+   "id": 7593,
+   "title": "Kiss x Sis (TV)",
+   "img": "https://cdn.myanimelist.net/images/anime/1660/121553.webp",
+   "members": 608427,
+   "tv": true
+  },
+  {
+   "id": 7088,
+   "title": "Ichiban Ushiro no Daimaou",
+   "img": null,
+   "members": 568523,
+   "tv": true
+  }
+ ]
+}

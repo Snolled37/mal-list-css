@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 820,
+   "title": "Ginga Eiyuu Densetsu",
+   "img": "https://cdn.myanimelist.net/images/anime/1976/142016.webp",
+   "members": 372256,
+   "tv": false
+  },
+  {
+   "id": 3014,
+   "title": "Ginga Eiyuu Densetsu: Waga Yuku wa Hoshi no Taikai",
+   "img": "https://cdn.myanimelist.net/images/anime/3/51345.webp",
+   "members": 46751,
+   "tv": false
+  },
+  {
+   "id": 3016,
+   "title": "Ginga Eiyuu Densetsu: Arata naru Tatakai no Overture",
+   "img": "https://cdn.myanimelist.net/images/anime/8/22498.webp",
+   "members": 41281,
+   "tv": false
+  },
+  {
+   "id": 1007,
+   "title": "Ranma ½ OVA",
+   "img": "https://cdn.myanimelist.net/images/anime/12/63459.webp",
+   "members": 39433,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 12037,
+  "title": "What's Michael? 2",
+  "img": "https://cdn.myanimelist.net/images/anime/1517/126481.webp",
+  "members": 1154,
+  "tv": false
+ },
+ "count": 17
+}

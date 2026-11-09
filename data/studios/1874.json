@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 38186,
+   "title": "Bokutachi wa Benkyou ga Dekinai",
+   "img": "https://cdn.myanimelist.net/images/anime/1602/100510.webp",
+   "members": 487455,
+   "tv": true
+  },
+  {
+   "id": 40004,
+   "title": "Bokutachi wa Benkyou ga Dekinai!",
+   "img": "https://cdn.myanimelist.net/images/anime/1974/102960.webp",
+   "members": 330408,
+   "tv": true
+  },
+  {
+   "id": 40708,
+   "title": "Monster Musume no Oishasan",
+   "img": "https://cdn.myanimelist.net/images/anime/1762/106598.webp",
+   "members": 256726,
+   "tv": true
+  },
+  {
+   "id": 54852,
+   "title": "Kikansha no Mahou wa Tokubetsu desu",
+   "img": "https://cdn.myanimelist.net/images/anime/1222/145668.webp",
+   "members": 192546,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 62696,
+  "title": "Choujun! Choujou-senpai",
+  "img": "https://cdn.myanimelist.net/images/anime/1874/160335.webp",
+  "members": 11726,
+  "tv": true
+ },
+ "count": 12
+}

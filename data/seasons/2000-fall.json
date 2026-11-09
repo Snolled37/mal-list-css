@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 249,
+   "title": "InuYasha",
+   "img": null,
+   "members": 874229,
+   "tv": true
+  },
+  {
+   "id": 263,
+   "title": "Hajime no Ippo",
+   "img": null,
+   "members": 714784,
+   "tv": true
+  },
+  {
+   "id": 1281,
+   "title": "Gakkou no Kaidan",
+   "img": null,
+   "members": 259798,
+   "tv": true
+  },
+  {
+   "id": 243,
+   "title": "Gravitation",
+   "img": "https://cdn.myanimelist.net/images/anime/4/21856.webp",
+   "members": 127427,
+   "tv": true
+  },
+  {
+   "id": 180,
+   "title": "Vandread",
+   "img": null,
+   "members": 91634,
+   "tv": true
+  }
+ ]
+}

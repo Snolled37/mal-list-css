@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 11757,
+   "title": "Sword Art Online",
+   "img": null,
+   "members": 3346955,
+   "tv": true
+  },
+  {
+   "id": 11887,
+   "title": "Kokoro Connect",
+   "img": "https://cdn.myanimelist.net/images/anime/2/39665.webp",
+   "members": 900076,
+   "tv": true
+  },
+  {
+   "id": 13161,
+   "title": "Hagure Yuusha no Aesthetica",
+   "img": null,
+   "members": 463041,
+   "tv": true
+  },
+  {
+   "id": 12549,
+   "title": "Dakara Boku wa, H ga Dekinai.",
+   "img": "https://cdn.myanimelist.net/images/anime/4/75102.webp",
+   "members": 450339,
+   "tv": true
+  },
+  {
+   "id": 12293,
+   "title": "Campione! Matsurowanu Kamigami to Kamigoroshi no Maou",
+   "img": "https://cdn.myanimelist.net/images/anime/13/75662.webp",
+   "members": 417003,
+   "tv": true
+  }
+ ]
+}

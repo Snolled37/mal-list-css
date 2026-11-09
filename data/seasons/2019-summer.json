@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 38691,
+   "title": "Dr. Stone",
+   "img": null,
+   "members": 2002088,
+   "tv": true
+  },
+  {
+   "id": 37521,
+   "title": "Vinland Saga",
+   "img": null,
+   "members": 1885583,
+   "tv": true
+  },
+  {
+   "id": 38671,
+   "title": "Enen no Shouboutai",
+   "img": null,
+   "members": 1580736,
+   "tv": true
+  },
+  {
+   "id": 37347,
+   "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II",
+   "img": null,
+   "members": 920977,
+   "tv": true
+  },
+  {
+   "id": 36882,
+   "title": "Arifureta Shokugyou de Sekai Saikyou",
+   "img": null,
+   "members": 836718,
+   "tv": true
+  }
+ ]
+}

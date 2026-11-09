@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 14719,
+   "title": "JoJo no Kimyou na Bouken (TV)",
+   "img": null,
+   "members": 1907965,
+   "tv": true
+  },
+  {
+   "id": 13601,
+   "title": "Psycho-Pass",
+   "img": null,
+   "members": 1772557,
+   "tv": true
+  },
+  {
+   "id": 14741,
+   "title": "Chuunibyou demo Koi ga Shitai!",
+   "img": null,
+   "members": 1489383,
+   "tv": true
+  },
+  {
+   "id": 13759,
+   "title": "Sakura-sou no Pet na Kanojo",
+   "img": "https://cdn.myanimelist.net/images/anime/4/43643.webp",
+   "members": 1340478,
+   "tv": true
+  },
+  {
+   "id": 14227,
+   "title": "Tonari no Kaibutsu-kun",
+   "img": null,
+   "members": 1189918,
+   "tv": true
+  }
+ ]
+}

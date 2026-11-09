@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 2001,
+   "title": "Tengen Toppa Gurren Lagann",
+   "img": null,
+   "members": 1803617,
+   "tv": true
+  },
+  {
+   "id": 2025,
+   "title": "Darker than Black: Kuro no Keiyakusha",
+   "img": null,
+   "members": 1018862,
+   "tv": true
+  },
+  {
+   "id": 1818,
+   "title": "Claymore",
+   "img": null,
+   "members": 734686,
+   "tv": true
+  },
+  {
+   "id": 1887,
+   "title": "Lucky☆Star",
+   "img": null,
+   "members": 708723,
+   "tv": true
+  },
+  {
+   "id": 2034,
+   "title": "Lovely★Complex",
+   "img": null,
+   "members": 672094,
+   "tv": true
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 41389,
+   "title": "Tonikaku Kawaii",
+   "img": "https://cdn.myanimelist.net/images/anime/1613/108722.webp",
+   "members": 860080,
+   "tv": true
+  },
+  {
+   "id": 46352,
+   "title": "Blue Period",
+   "img": "https://cdn.myanimelist.net/images/anime/1757/116931.webp",
+   "members": 541639,
+   "tv": true
+  },
+  {
+   "id": 4063,
+   "title": "Sekirei",
+   "img": "https://cdn.myanimelist.net/images/anime/10/15182.webp",
+   "members": 438916,
+   "tv": true
+  },
+  {
+   "id": 50307,
+   "title": "Tonikaku Kawaii 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1996/133361.webp",
+   "members": 305515,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64106,
+  "title": "5-toubun no Princess: Gensou to Shinen to Mahou Gakuin",
+  "img": "https://cdn.myanimelist.net/images/anime/1559/157224.webp",
+  "members": 1546,
+  "tv": false
+ },
+ "count": 40
+}

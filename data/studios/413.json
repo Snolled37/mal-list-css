@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 186,
+   "title": "Initial D Second Stage",
+   "img": "https://cdn.myanimelist.net/images/anime/8/12750.webp",
+   "members": 269439,
+   "tv": true
+  },
+  {
+   "id": 822,
+   "title": "Initial D Extra Stage",
+   "img": "https://cdn.myanimelist.net/images/anime/8/13169.webp",
+   "members": 64674,
+   "tv": false
+  },
+  {
+   "id": 821,
+   "title": "Initial D Battle Stage",
+   "img": "https://cdn.myanimelist.net/images/anime/2/13168.webp",
+   "members": 43686,
+   "tv": false
+  },
+  {
+   "id": 842,
+   "title": "Ushio to Tora",
+   "img": "https://cdn.myanimelist.net/images/anime/1582/127097.webp",
+   "members": 16329,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 59093,
+  "title": "Kenyuu Densetsu Yaiba Pilot",
+  "img": "https://cdn.myanimelist.net/images/anime/1672/145343.webp",
+  "members": 363,
+  "tv": false
+ },
+ "count": 13
+}

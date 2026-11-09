@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 63376,
+   "title": "Megami \"Isekai Tensei Nani ni Naritai desu ka\" Ore \"Yuusha no Rokkotsu de\"",
+   "img": "https://cdn.myanimelist.net/images/anime/1228/156696.webp",
+   "members": 42283,
+   "tv": true
+  },
+  {
+   "id": 60509,
+   "title": "Champignon no Majo",
+   "img": "https://cdn.myanimelist.net/images/anime/1499/152613.webp",
+   "members": 40341,
+   "tv": true
+  },
+  {
+   "id": 62312,
+   "title": "Sekiro: No Defeat",
+   "img": "https://cdn.myanimelist.net/images/anime/1944/157379.webp",
+   "members": 32271,
+   "tv": false
+  },
+  {
+   "id": 53641,
+   "title": "Dainouteki na Rendezvous",
+   "img": "https://cdn.myanimelist.net/images/anime/1311/131330.webp",
+   "members": 3651,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 65157,
+  "title": "Yumegokochi",
+  "img": "https://cdn.myanimelist.net/images/anime/1547/160484.webp",
+  "members": 195,
+  "tv": false
+ },
+ "count": 17
+}

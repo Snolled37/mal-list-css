@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 6746,
+   "title": "Durarara!!",
+   "img": null,
+   "members": 1509002,
+   "tv": true
+  },
+  {
+   "id": 6347,
+   "title": "Baka to Test to Shoukanjuu",
+   "img": "https://cdn.myanimelist.net/images/anime/3/50389.webp",
+   "members": 674463,
+   "tv": true
+  },
+  {
+   "id": 6594,
+   "title": "Katanagatari",
+   "img": "https://cdn.myanimelist.net/images/anime/1112/119225.webp",
+   "members": 600501,
+   "tv": true
+  },
+  {
+   "id": 6500,
+   "title": "Seikon no Qwaser",
+   "img": null,
+   "members": 355179,
+   "tv": true
+  },
+  {
+   "id": 6324,
+   "title": "Omamori Himari",
+   "img": null,
+   "members": 256614,
+   "tv": true
+  }
+ ]
+}

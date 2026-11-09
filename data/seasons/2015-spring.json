@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 28171,
+   "title": "Shokugeki no Souma",
+   "img": null,
+   "members": 1768119,
+   "tv": true
+  },
+  {
+   "id": 28121,
+   "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+   "img": null,
+   "members": 1677224,
+   "tv": true
+  },
+  {
+   "id": 26243,
+   "title": "Owari no Seraph",
+   "img": null,
+   "members": 1477757,
+   "tv": true
+  },
+  {
+   "id": 23847,
+   "title": "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Zoku",
+   "img": null,
+   "members": 1184405,
+   "tv": true
+  },
+  {
+   "id": 27775,
+   "title": "Plastic Memories",
+   "img": null,
+   "members": 1049201,
+   "tv": true
+  }
+ ]
+}

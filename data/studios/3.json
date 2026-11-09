@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 1210,
+   "title": "NHK ni Youkoso!",
+   "img": "https://cdn.myanimelist.net/images/anime/3/52675.webp",
+   "members": 860033,
+   "tv": true
+  },
+  {
+   "id": 270,
+   "title": "Hellsing",
+   "img": "https://cdn.myanimelist.net/images/anime/10/19956.webp",
+   "members": 806709,
+   "tv": true
+  },
+  {
+   "id": 2993,
+   "title": "Rosario to Vampire",
+   "img": "https://cdn.myanimelist.net/images/anime/12/75242.webp",
+   "members": 738108,
+   "tv": true
+  },
+  {
+   "id": 71,
+   "title": "Full Metal Panic!",
+   "img": "https://cdn.myanimelist.net/images/anime/2/75259.webp",
+   "members": 540918,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 58772,
+  "title": "Kakuriyo no Yadomeshi Ni",
+  "img": "https://cdn.myanimelist.net/images/anime/1619/151364.webp",
+  "members": 33723,
+  "tv": true
+ },
+ "count": 145
+}

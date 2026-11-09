@@ -1,0 +1,34 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 58919,
+   "title": "Hyakuemu.",
+   "img": "https://cdn.myanimelist.net/images/anime/1259/151080.webp",
+   "members": 92514,
+   "tv": false
+  },
+  {
+   "id": 40331,
+   "title": "Ongaku",
+   "img": "https://cdn.myanimelist.net/images/anime/1822/112652.webp",
+   "members": 17816,
+   "tv": false
+  },
+  {
+   "id": 64580,
+   "title": "Rusuban (2026)",
+   "img": "https://cdn.myanimelist.net/images/anime/1372/158942.webp",
+   "members": 402,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 64580,
+  "title": "Rusuban (2026)",
+  "img": "https://cdn.myanimelist.net/images/anime/1372/158942.webp",
+  "members": 402,
+  "tv": false
+ },
+ "count": 3
+}

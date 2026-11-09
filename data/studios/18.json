@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 21,
+   "title": "One Piece",
+   "img": "https://cdn.myanimelist.net/images/anime/1244/138851.webp",
+   "members": 2744437,
+   "tv": true
+  },
+  {
+   "id": 813,
+   "title": "Dragon Ball Z",
+   "img": "https://cdn.myanimelist.net/images/anime/1277/142022.webp",
+   "members": 1347633,
+   "tv": true
+  },
+  {
+   "id": 223,
+   "title": "Dragon Ball",
+   "img": "https://cdn.myanimelist.net/images/anime/1887/92364.webp",
+   "members": 1160645,
+   "tv": true
+  },
+  {
+   "id": 30694,
+   "title": "Dragon Ball Super",
+   "img": "https://cdn.myanimelist.net/images/anime/7/74606.webp",
+   "members": 933753,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65305,
+  "title": "Fortnite Treasure Hunters",
+  "img": "https://cdn.myanimelist.net/images/anime/1401/160838.webp",
+  "members": 196,
+  "tv": false
+ },
+ "count": 946
+}

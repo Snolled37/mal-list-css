@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 35120,
+   "title": "Devilman: Crybaby",
+   "img": "https://cdn.myanimelist.net/images/anime/2/89973.webp",
+   "members": 1302606,
+   "tv": false
+  },
+  {
+   "id": 57334,
+   "title": "Dandadan",
+   "img": "https://cdn.myanimelist.net/images/anime/1584/143719.webp",
+   "members": 1046257,
+   "tv": true
+  },
+  {
+   "id": 60543,
+   "title": "Dandadan 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1721/149001.webp",
+   "members": 607874,
+   "tv": true
+  },
+  {
+   "id": 39792,
+   "title": "Eizouken ni wa Te wo Dasu na!",
+   "img": "https://cdn.myanimelist.net/images/anime/1680/110451.webp",
+   "members": 376409,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65252,
+  "title": "Koukaku Kidoutai (Shinsaku Animation)",
+  "img": "https://cdn.myanimelist.net/images/anime/1136/160680.webp",
+  "members": 10062,
+  "tv": false
+ },
+ "count": 27
+}

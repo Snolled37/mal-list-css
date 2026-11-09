@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 5081,
+   "title": "Bakemonogatari",
+   "img": "https://cdn.myanimelist.net/images/anime/11/75274.webp",
+   "members": 1512615,
+   "tv": true
+  },
+  {
+   "id": 9756,
+   "title": "Mahou Shoujo Madoka☆Magica",
+   "img": "https://cdn.myanimelist.net/images/anime/11/55225.webp",
+   "members": 1442813,
+   "tv": true
+  },
+  {
+   "id": 18897,
+   "title": "Nisekoi",
+   "img": "https://cdn.myanimelist.net/images/anime/13/75587.webp",
+   "members": 1262688,
+   "tv": true
+  },
+  {
+   "id": 11597,
+   "title": "Nisemonogatari",
+   "img": "https://cdn.myanimelist.net/images/anime/1044/103654.webp",
+   "members": 784159,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64892,
+  "title": "8-gatsu 31-nichi no Long Summer",
+  "img": "https://cdn.myanimelist.net/images/anime/1872/159797.webp",
+  "members": 2147,
+  "tv": true
+ },
+ "count": 156
+}

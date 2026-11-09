@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 35737,
+   "title": "Pluto",
+   "img": "https://cdn.myanimelist.net/images/anime/1021/138568.webp",
+   "members": 268804,
+   "tv": false
+  },
+  {
+   "id": 33983,
+   "title": "Onihei",
+   "img": "https://cdn.myanimelist.net/images/anime/1330/133826.webp",
+   "members": 43660,
+   "tv": true
+  },
+  {
+   "id": 61973,
+   "title": "Gate Season 2: Jieitai Kanoumi nite, Kaku Tatakaeri",
+   "img": "https://cdn.myanimelist.net/images/anime/1601/157813.webp",
+   "members": 38968,
+   "tv": true
+  },
+  {
+   "id": 36858,
+   "title": "Usuzumizakura: Garo",
+   "img": "https://cdn.myanimelist.net/images/anime/1428/93934.webp",
+   "members": 6206,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 61973,
+  "title": "Gate Season 2: Jieitai Kanoumi nite, Kaku Tatakaeri",
+  "img": "https://cdn.myanimelist.net/images/anime/1601/157813.webp",
+  "members": 38968,
+  "tv": true
+ },
+ "count": 5
+}

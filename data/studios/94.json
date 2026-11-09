@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 40221,
+   "title": "Kami no Tou",
+   "img": "https://cdn.myanimelist.net/images/anime/1702/106229.webp",
+   "members": 1088370,
+   "tv": true
+  },
+  {
+   "id": 32729,
+   "title": "Orange",
+   "img": "https://cdn.myanimelist.net/images/anime/1415/102477.webp",
+   "members": 915460,
+   "tv": true
+  },
+  {
+   "id": 42361,
+   "title": "Ijiranaide, Nagatoro-san",
+   "img": "https://cdn.myanimelist.net/images/anime/1900/110097.webp",
+   "members": 905386,
+   "tv": true
+  },
+  {
+   "id": 57181,
+   "title": "Ao no Hako",
+   "img": "https://cdn.myanimelist.net/images/anime/1341/145349.webp",
+   "members": 368381,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 61616,
+  "title": "Lupin the IIIrd: Zenigata to Futari no Lupin",
+  "img": "https://cdn.myanimelist.net/images/anime/1283/150650.webp",
+  "members": 4555,
+  "tv": false
+ },
+ "count": 49
+}

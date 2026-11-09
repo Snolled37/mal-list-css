@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 9513,
+   "title": "Beelzebub",
+   "img": "https://cdn.myanimelist.net/images/anime/3/28013.webp",
+   "members": 638673,
+   "tv": true
+  },
+  {
+   "id": 37806,
+   "title": "Gunjou no Magmell",
+   "img": "https://cdn.myanimelist.net/images/anime/1063/98597.webp",
+   "members": 176668,
+   "tv": true
+  },
+  {
+   "id": 20709,
+   "title": "Sabage-bu!",
+   "img": "https://cdn.myanimelist.net/images/anime/1278/98837.webp",
+   "members": 166004,
+   "tv": true
+  },
+  {
+   "id": 32696,
+   "title": "Fukigen na Mononokean",
+   "img": "https://cdn.myanimelist.net/images/anime/11/80009.webp",
+   "members": 144575,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 38001,
+  "title": "Shinya! Tensai Bakabon Specials",
+  "img": "https://cdn.myanimelist.net/images/anime/1079/93341.webp",
+  "members": 549,
+  "tv": false
+ },
+ "count": 20
+}

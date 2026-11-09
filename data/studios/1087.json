@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 52305,
+   "title": "Tomo-chan wa Onnanoko!",
+   "img": "https://cdn.myanimelist.net/images/anime/1444/131828.webp",
+   "members": 536096,
+   "tv": true
+  },
+  {
+   "id": 31741,
+   "title": "Magi: Sinbad no Bouken (TV)",
+   "img": "https://cdn.myanimelist.net/images/anime/10/78783.webp",
+   "members": 525025,
+   "tv": true
+  },
+  {
+   "id": 38753,
+   "title": "Araburu Kisetsu no Otome-domo yo.",
+   "img": "https://cdn.myanimelist.net/images/anime/1622/111483.webp",
+   "members": 382505,
+   "tv": true
+  },
+  {
+   "id": 36220,
+   "title": "Itsudatte Bokura no Koi wa 10 cm Datta.",
+   "img": "https://cdn.myanimelist.net/images/anime/1015/123541.webp",
+   "members": 256321,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 63061,
+  "title": "Uchi no Otouto-domo ga Sumimasen",
+  "img": "https://cdn.myanimelist.net/images/anime/1474/160261.webp",
+  "members": 24678,
+  "tv": true
+ },
+ "count": 24
+}

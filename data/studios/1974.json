@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 41226,
+   "title": "Uzaki-chan wa Asobitai!",
+   "img": "https://cdn.myanimelist.net/images/anime/1540/108292.webp",
+   "members": 541347,
+   "tv": true
+  },
+  {
+   "id": 46471,
+   "title": "Tantei wa Mou, Shindeiru.",
+   "img": "https://cdn.myanimelist.net/images/anime/1843/115815.webp",
+   "members": 424992,
+   "tv": true
+  },
+  {
+   "id": 50461,
+   "title": "Otome Game Sekai wa Mob ni Kibishii Sekai desu",
+   "img": "https://cdn.myanimelist.net/images/anime/1161/121462.webp",
+   "members": 411632,
+   "tv": true
+  },
+  {
+   "id": 44276,
+   "title": "Kyuukyoku Shinka shita Full Dive RPG ga Genjitsu yori mo Kusoge Dattara",
+   "img": "https://cdn.myanimelist.net/images/anime/1357/113277.webp",
+   "members": 282393,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 63326,
+  "title": "Medalist Movie",
+  "img": "https://cdn.myanimelist.net/images/anime/1992/159780.webp",
+  "members": 12969,
+  "tv": false
+ },
+ "count": 28
+}

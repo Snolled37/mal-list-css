@@ -209,6 +209,7 @@ body.ownlist .list-table-data .data.status.completed ~ .data [class^="progress-"
 body.ownlist .list-table-data .data.status.completed ~ .data [class^="chapter-"]::after{background:var(--st-completed)}
 body.ownlist .list-table-data .data.volume{font-size:10.5px;color:var(--muted);padding-top:3px!important}
 body.ownlist .list-table-data .data.volume::before{content:"vol "}
+body.ownlist .list-table-data .data.volume [class^="volume-"],body.ownlist .list-table-data .data.volume [class^="volume-"] span{display:inline}
 
 /* dates: Start | date / End | date / Days | n */
 body.ownlist .list-table-data .data.started,body.ownlist .list-table-data .data.finished,body.ownlist .list-table-data .data.days{

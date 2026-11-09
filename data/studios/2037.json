@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 50273,
+   "title": "Tomodachi Game",
+   "img": "https://cdn.myanimelist.net/images/anime/1247/121345.webp",
+   "members": 512054,
+   "tv": true
+  },
+  {
+   "id": 41623,
+   "title": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu Ω",
+   "img": "https://cdn.myanimelist.net/images/anime/1011/113703.webp",
+   "members": 476164,
+   "tv": true
+  },
+  {
+   "id": 41899,
+   "title": "Ore dake Haireru Kakushi Dungeon",
+   "img": "https://cdn.myanimelist.net/images/anime/1988/115708.webp",
+   "members": 449767,
+   "tv": true
+  },
+  {
+   "id": 53730,
+   "title": "Sokushi Cheat ga Saikyou sugite, Isekai no Yatsura ga Marude Aite ni Naranai n desu ga.",
+   "img": "https://cdn.myanimelist.net/images/anime/1734/139673.webp",
+   "members": 203926,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 61782,
+  "title": "Kirei ni Shitemoraemasu ka.",
+  "img": "https://cdn.myanimelist.net/images/anime/1940/154234.webp",
+  "members": 49596,
+  "tv": true
+ },
+ "count": 13
+}

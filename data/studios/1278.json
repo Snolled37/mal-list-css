@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 36038,
+   "title": "Net-juu no Susume",
+   "img": "https://cdn.myanimelist.net/images/anime/3/87463.webp",
+   "members": 519971,
+   "tv": true
+  },
+  {
+   "id": 44961,
+   "title": "Platinum End",
+   "img": "https://cdn.myanimelist.net/images/anime/1992/116576.webp",
+   "members": 425154,
+   "tv": true
+  },
+  {
+   "id": 39175,
+   "title": "Cider no You ni Kotoba ga Wakiagaru",
+   "img": "https://cdn.myanimelist.net/images/anime/1952/116031.webp",
+   "members": 274604,
+   "tv": false
+  },
+  {
+   "id": 33010,
+   "title": "FLCL Progressive",
+   "img": "https://cdn.myanimelist.net/images/anime/1499/93700.webp",
+   "members": 142981,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 63780,
+  "title": "Hanazakari no Kimitachi e 2nd Season",
+  "img": "https://cdn.myanimelist.net/images/anime/1899/158523.webp",
+  "members": 18709,
+  "tv": true
+ },
+ "count": 39
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 45649,
+   "title": "The First Slam Dunk",
+   "img": "https://cdn.myanimelist.net/images/anime/1745/129284.webp",
+   "members": 81696,
+   "tv": false
+  },
+  {
+   "id": 36259,
+   "title": "Pingu in the City",
+   "img": "https://cdn.myanimelist.net/images/anime/1140/95174.webp",
+   "members": 43061,
+   "tv": true
+  },
+  {
+   "id": 37561,
+   "title": "Akanesasu Shoujo",
+   "img": "https://cdn.myanimelist.net/images/anime/1210/95781.webp",
+   "members": 40524,
+   "tv": true
+  },
+  {
+   "id": 34903,
+   "title": "RoboMasters the Animated Series",
+   "img": "https://cdn.myanimelist.net/images/anime/11/86297.webp",
+   "members": 13179,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 61944,
+  "title": "Eleceed",
+  "img": "https://cdn.myanimelist.net/images/anime/1273/158725.webp",
+  "members": 8741,
+  "tv": true
+ },
+ "count": 14
+}

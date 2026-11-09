@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 35860,
+   "title": "Karakai Jouzu no Takagi-san",
+   "img": "https://cdn.myanimelist.net/images/anime/1591/95091.webp",
+   "members": 649212,
+   "tv": true
+  },
+  {
+   "id": 52578,
+   "title": "Boku no Kokoro no Yabai Yatsu",
+   "img": "https://cdn.myanimelist.net/images/anime/1545/133887.webp",
+   "members": 467835,
+   "tv": true
+  },
+  {
+   "id": 38993,
+   "title": "Karakai Jouzu no Takagi-san 2",
+   "img": "https://cdn.myanimelist.net/images/anime/1393/107033.webp",
+   "members": 367071,
+   "tv": true
+  },
+  {
+   "id": 48675,
+   "title": "Kakkou no Iinazuke",
+   "img": "https://cdn.myanimelist.net/images/anime/1285/120529.webp",
+   "members": 352179,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65221,
+  "title": "Doraemon: Doraemon no Nandemo Quiz Pocket",
+  "img": "https://cdn.myanimelist.net/images/anime/1013/160635.webp",
+  "members": 34,
+  "tv": false
+ },
+ "count": 288
+}

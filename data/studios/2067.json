@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 48171,
+   "title": "Summer Ghost",
+   "img": "https://cdn.myanimelist.net/images/anime/1651/117943.webp",
+   "members": 158930,
+   "tv": false
+  },
+  {
+   "id": 53933,
+   "title": "Futari-bun no Shoumei",
+   "img": "https://cdn.myanimelist.net/images/anime/1794/132547.webp",
+   "members": 8992,
+   "tv": false
+  },
+  {
+   "id": 35932,
+   "title": "Yume ga Sameru made",
+   "img": "https://cdn.myanimelist.net/images/anime/6/88152.webp",
+   "members": 7677,
+   "tv": false
+  },
+  {
+   "id": 48177,
+   "title": "Ichiban Chikakute Tooi Hoshi",
+   "img": "https://cdn.myanimelist.net/images/anime/1867/122710.webp",
+   "members": 4433,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 60782,
+  "title": "Itsuka no Watashi Yori",
+  "img": "https://cdn.myanimelist.net/images/anime/1357/147584.webp",
+  "members": 692,
+  "tv": false
+ },
+ "count": 21
+}

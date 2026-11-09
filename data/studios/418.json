@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 34902,
+   "title": "Tsurezure Children",
+   "img": "https://cdn.myanimelist.net/images/anime/12/86676.webp",
+   "members": 795843,
+   "tv": true
+  },
+  {
+   "id": 11933,
+   "title": "Oda Nobuna no Yabou",
+   "img": "https://cdn.myanimelist.net/images/anime/11/39249.webp",
+   "members": 314344,
+   "tv": true
+  },
+  {
+   "id": 41946,
+   "title": "Shuumatsu no Harem",
+   "img": "https://cdn.myanimelist.net/images/anime/1491/117296.webp",
+   "members": 285472,
+   "tv": true
+  },
+  {
+   "id": 33836,
+   "title": "Seiren",
+   "img": "https://cdn.myanimelist.net/images/anime/1465/121561.webp",
+   "members": 260016,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64569,
+  "title": "7-nin no Nemurihime",
+  "img": "https://cdn.myanimelist.net/images/anime/1736/158926.webp",
+  "members": 2242,
+  "tv": true
+ },
+ "count": 56
+}

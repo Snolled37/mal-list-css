@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 34798,
+   "title": "Yuru Camp△",
+   "img": "https://cdn.myanimelist.net/images/anime/4/89877.webp",
+   "members": 552307,
+   "tv": true
+  },
+  {
+   "id": 38474,
+   "title": "Yuru Camp△ Season 2",
+   "img": "https://cdn.myanimelist.net/images/anime/1255/110636.webp",
+   "members": 258729,
+   "tv": true
+  },
+  {
+   "id": 21033,
+   "title": "Seikoku no Dragonar",
+   "img": "https://cdn.myanimelist.net/images/anime/13/56419.webp",
+   "members": 244065,
+   "tv": true
+  },
+  {
+   "id": 38476,
+   "title": "Heya Camp△",
+   "img": "https://cdn.myanimelist.net/images/anime/1228/104364.webp",
+   "members": 107984,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 62683,
+  "title": "Let's Go Kaiki-gumi",
+  "img": "https://cdn.myanimelist.net/images/anime/1024/158581.webp",
+  "members": 12563,
+  "tv": true
+ },
+ "count": 21
+}

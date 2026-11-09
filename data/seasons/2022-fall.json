@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 44511,
+   "title": "Chainsaw Man",
+   "img": null,
+   "members": 2051451,
+   "tv": true
+  },
+  {
+   "id": 50602,
+   "title": "Spy x Family Part 2",
+   "img": null,
+   "members": 1170103,
+   "tv": true
+  },
+  {
+   "id": 49596,
+   "title": "Blue Lock",
+   "img": null,
+   "members": 939274,
+   "tv": true
+  },
+  {
+   "id": 48316,
+   "title": "Kage no Jitsuryokusha ni Naritakute!",
+   "img": null,
+   "members": 906617,
+   "tv": true
+  },
+  {
+   "id": 50172,
+   "title": "Mob Psycho 100 III",
+   "img": null,
+   "members": 897556,
+   "tv": true
+  }
+ ]
+}

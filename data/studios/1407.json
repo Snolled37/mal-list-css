@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 48761,
+   "title": "Saihate no Paladin",
+   "img": "https://cdn.myanimelist.net/images/anime/1176/118382.webp",
+   "members": 364930,
+   "tv": true
+  },
+  {
+   "id": 55129,
+   "title": "Oroka na Tenshi wa Akuma to Odoru",
+   "img": "https://cdn.myanimelist.net/images/anime/1902/139271.webp",
+   "members": 157268,
+   "tv": true
+  },
+  {
+   "id": 35252,
+   "title": "Hatena☆Illusion",
+   "img": "https://cdn.myanimelist.net/images/anime/1299/106117.webp",
+   "members": 49175,
+   "tv": true
+  },
+  {
+   "id": 50474,
+   "title": "Saihate no Paladin: Michiyuki",
+   "img": "https://cdn.myanimelist.net/images/anime/1162/119719.webp",
+   "members": 14367,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 55129,
+  "title": "Oroka na Tenshi wa Akuma to Odoru",
+  "img": "https://cdn.myanimelist.net/images/anime/1902/139271.webp",
+  "members": 157268,
+  "tv": true
+ },
+ "count": 7
+}

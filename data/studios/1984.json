@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 49834,
+   "title": "Boku ga Aishita Subete no Kimi e",
+   "img": "https://cdn.myanimelist.net/images/anime/1145/127594.webp",
+   "members": 135874,
+   "tv": false
+  },
+  {
+   "id": 47250,
+   "title": "Jouran: The Princess of Snow and Blood",
+   "img": "https://cdn.myanimelist.net/images/anime/1289/115673.webp",
+   "members": 102830,
+   "tv": true
+  },
+  {
+   "id": 49376,
+   "title": "Mou Ippon!",
+   "img": "https://cdn.myanimelist.net/images/anime/1039/131684.webp",
+   "members": 27077,
+   "tv": true
+  },
+  {
+   "id": 54028,
+   "title": "Turkey!",
+   "img": "https://cdn.myanimelist.net/images/anime/1977/150952.webp",
+   "members": 22514,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 54028,
+  "title": "Turkey!",
+  "img": "https://cdn.myanimelist.net/images/anime/1977/150952.webp",
+  "members": 22514,
+  "tv": true
+ },
+ "count": 6
+}

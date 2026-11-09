@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 5114,
+   "title": "Fullmetal Alchemist: Brotherhood",
+   "img": "https://cdn.myanimelist.net/images/anime/1208/94745.webp",
+   "members": 3754611,
+   "tv": true
+  },
+  {
+   "id": 31964,
+   "title": "Boku no Hero Academia",
+   "img": "https://cdn.myanimelist.net/images/anime/10/78745.webp",
+   "members": 3367370,
+   "tv": true
+  },
+  {
+   "id": 33486,
+   "title": "Boku no Hero Academia 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/12/85221.webp",
+   "members": 2777560,
+   "tv": true
+  },
+  {
+   "id": 36456,
+   "title": "Boku no Hero Academia 3rd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1319/92084.webp",
+   "members": 2423648,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 62883,
+  "title": "Bungou Stray Dogs Wan! 2",
+  "img": "https://cdn.myanimelist.net/images/anime/1591/157071.webp",
+  "members": 13201,
+  "tv": true
+ },
+ "count": 162
+}

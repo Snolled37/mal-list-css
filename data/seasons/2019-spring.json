@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 38000,
+   "title": "Kimetsu no Yaiba",
+   "img": null,
+   "members": 3530204,
+   "tv": true
+  },
+  {
+   "id": 38524,
+   "title": "Shingeki no Kyojin Season 3 Part 2",
+   "img": null,
+   "members": 2656649,
+   "tv": true
+  },
+  {
+   "id": 34134,
+   "title": "One Punch Man 2nd Season",
+   "img": null,
+   "members": 1916155,
+   "tv": true
+  },
+  {
+   "id": 38680,
+   "title": "Fruits Basket 1st Season",
+   "img": null,
+   "members": 969534,
+   "tv": true
+  },
+  {
+   "id": 38003,
+   "title": "Bungou Stray Dogs 3rd Season",
+   "img": null,
+   "members": 723150,
+   "tv": true
+  }
+ ]
+}

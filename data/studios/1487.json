@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 36945,
+   "title": "Himote House",
+   "img": "https://cdn.myanimelist.net/images/anime/1790/94342.webp",
+   "members": 19300,
+   "tv": true
+  },
+  {
+   "id": 33394,
+   "title": "Mahou Shoujo? Naria☆Girls",
+   "img": "https://cdn.myanimelist.net/images/anime/9/80373.webp",
+   "members": 10352,
+   "tv": true
+  },
+  {
+   "id": 39722,
+   "title": "Himote House: Dai Panic! Minna de Gokiburi Taiji",
+   "img": "https://cdn.myanimelist.net/images/anime/1467/100601.webp",
+   "members": 1818,
+   "tv": false
+  },
+  {
+   "id": 33723,
+   "title": "Mahou Shoujo? Naria☆Girls Nama de Anime wo Tsukuru Sama",
+   "img": "https://cdn.myanimelist.net/images/anime/8/81105.webp",
+   "members": 915,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 39722,
+  "title": "Himote House: Dai Panic! Minna de Gokiburi Taiji",
+  "img": "https://cdn.myanimelist.net/images/anime/1467/100601.webp",
+  "members": 1818,
+  "tv": false
+ },
+ "count": 4
+}

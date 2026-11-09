@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 43814,
+   "title": "Deatte 5-byou de Battle",
+   "img": "https://cdn.myanimelist.net/images/anime/1145/115565.webp",
+   "members": 245860,
+   "tv": true
+  },
+  {
+   "id": 58445,
+   "title": "Sayounara Ryuusei, Konnichiwa Jinsei",
+   "img": "https://cdn.myanimelist.net/images/anime/1225/144606.webp",
+   "members": 100574,
+   "tv": true
+  },
+  {
+   "id": 819,
+   "title": "Boku wa Imouto ni Koi wo Suru",
+   "img": "https://cdn.myanimelist.net/images/anime/1178/121937.webp",
+   "members": 45465,
+   "tv": false
+  },
+  {
+   "id": 1706,
+   "title": "Gun Frontier",
+   "img": "https://cdn.myanimelist.net/images/anime/5/15442.webp",
+   "members": 12850,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65053,
+  "title": "Shin Oishinbo",
+  "img": "https://cdn.myanimelist.net/images/anime/1926/160224.webp",
+  "members": 657,
+  "tv": true
+ },
+ "count": 14
+}

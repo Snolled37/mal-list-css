@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 37105,
+   "title": "Grand Blue",
+   "img": "https://cdn.myanimelist.net/images/anime/1302/94882.webp",
+   "members": 935343,
+   "tv": true
+  },
+  {
+   "id": 38992,
+   "title": "Rikei ga Koi ni Ochita no de Shoumei shitemita.",
+   "img": "https://cdn.myanimelist.net/images/anime/1432/103533.webp",
+   "members": 404621,
+   "tv": true
+  },
+  {
+   "id": 43690,
+   "title": "Tenkuu Shinpan",
+   "img": "https://cdn.myanimelist.net/images/anime/1547/117947.webp",
+   "members": 391636,
+   "tv": false
+  },
+  {
+   "id": 51462,
+   "title": "Isekai Nonbiri Nouka",
+   "img": "https://cdn.myanimelist.net/images/anime/1983/132329.webp",
+   "members": 314412,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65118,
+  "title": "Vampire Juujikai",
+  "img": "https://cdn.myanimelist.net/images/anime/1130/160407.webp",
+  "members": 1464,
+  "tv": true
+ },
+ "count": 47
+}

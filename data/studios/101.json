@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 40615,
+   "title": "Umibe no Étranger",
+   "img": "https://cdn.myanimelist.net/images/anime/1668/108792.webp",
+   "members": 226466,
+   "tv": false
+  },
+  {
+   "id": 34825,
+   "title": "Keppeki Danshi! Aoyama-kun",
+   "img": "https://cdn.myanimelist.net/images/anime/9/86644.webp",
+   "members": 215130,
+   "tv": true
+  },
+  {
+   "id": 58811,
+   "title": "Tougen Anki",
+   "img": "https://cdn.myanimelist.net/images/anime/1474/150666.webp",
+   "members": 172771,
+   "tv": true
+  },
+  {
+   "id": 49154,
+   "title": "High Card",
+   "img": "https://cdn.myanimelist.net/images/anime/1803/131345.webp",
+   "members": 145495,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65180,
+  "title": "Nue no Onmyouji",
+  "img": "https://cdn.myanimelist.net/images/anime/1606/160517.webp",
+  "members": 2090,
+  "tv": true
+ },
+ "count": 65
+}

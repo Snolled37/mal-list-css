@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 34280,
+   "title": "Gamers!",
+   "img": "https://cdn.myanimelist.net/images/anime/4/86828.webp",
+   "members": 711527,
+   "tv": true
+  },
+  {
+   "id": 39463,
+   "title": "Gleipnir",
+   "img": "https://cdn.myanimelist.net/images/anime/1808/111697.webp",
+   "members": 551854,
+   "tv": true
+  },
+  {
+   "id": 35639,
+   "title": "Just Because!",
+   "img": "https://cdn.myanimelist.net/images/anime/10/88234.webp",
+   "members": 346797,
+   "tv": true
+  },
+  {
+   "id": 51815,
+   "title": "Kubo-san wa Mob wo Yurusanai",
+   "img": "https://cdn.myanimelist.net/images/anime/1818/132330.webp",
+   "members": 266504,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 60186,
+  "title": "VSPO!",
+  "img": "https://cdn.myanimelist.net/images/anime/1888/146246.webp",
+  "members": 309,
+  "tv": false
+ },
+ "count": 17
+}

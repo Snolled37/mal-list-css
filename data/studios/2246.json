@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 40507,
+   "title": "Arifureta Shokugyou de Sekai Saikyou 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1877/119668.webp",
+   "members": 475109,
+   "tv": true
+  },
+  {
+   "id": 50425,
+   "title": "Fuufu Ijou, Koibito Miman.",
+   "img": "https://cdn.myanimelist.net/images/anime/1713/126442.webp",
+   "members": 461380,
+   "tv": true
+  },
+  {
+   "id": 55265,
+   "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
+   "img": "https://cdn.myanimelist.net/images/anime/1763/139538.webp",
+   "members": 212928,
+   "tv": true
+  },
+  {
+   "id": 59131,
+   "title": "Tensei Kizoku, Kantei Skill de Nariagaru 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1280/143705.webp",
+   "members": 141312,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 62543,
+  "title": "Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri! (※Muri ja Nakatta!?) (TV Special)",
+  "img": "https://cdn.myanimelist.net/images/anime/1129/152182.webp",
+  "members": 40327,
+  "tv": false
+ },
+ "count": 11
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 36475,
+   "title": "Sword Art Online Alternative: Gun Gale Online",
+   "img": "https://cdn.myanimelist.net/images/anime/1141/93288.webp",
+   "members": 683677,
+   "tv": true
+  },
+  {
+   "id": 48413,
+   "title": "Hataraku Maou-sama!!",
+   "img": "https://cdn.myanimelist.net/images/anime/1502/124354.webp",
+   "members": 535679,
+   "tv": true
+  },
+  {
+   "id": 31163,
+   "title": "Dimension W",
+   "img": "https://cdn.myanimelist.net/images/anime/8/86304.webp",
+   "members": 315096,
+   "tv": true
+  },
+  {
+   "id": 35240,
+   "title": "Princess Principal",
+   "img": "https://cdn.myanimelist.net/images/anime/7/86768.webp",
+   "members": 228294,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 55878,
+  "title": "Hataraku Maou-sama!! Recap",
+  "img": "https://cdn.myanimelist.net/images/anime/1819/153034.webp",
+  "members": 11588,
+  "tv": false
+ },
+ "count": 22
+}

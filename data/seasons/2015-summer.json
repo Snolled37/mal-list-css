@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 28999,
+   "title": "Charlotte",
+   "img": null,
+   "members": 1797140,
+   "tv": true
+  },
+  {
+   "id": 29803,
+   "title": "Overlord",
+   "img": null,
+   "members": 1788783,
+   "tv": true
+  },
+  {
+   "id": 30240,
+   "title": "Prison School",
+   "img": null,
+   "members": 1119227,
+   "tv": true
+  },
+  {
+   "id": 30694,
+   "title": "Dragon Ball Super",
+   "img": null,
+   "members": 933753,
+   "tv": true
+  },
+  {
+   "id": 28907,
+   "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
+   "img": null,
+   "members": 902058,
+   "tv": true
+  }
+ ]
+}

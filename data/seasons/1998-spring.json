@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 1,
+   "title": "Cowboy Bebop",
+   "img": null,
+   "members": 2096773,
+   "tv": true
+  },
+  {
+   "id": 6,
+   "title": "Trigun",
+   "img": null,
+   "members": 848918,
+   "tv": true
+  },
+  {
+   "id": 232,
+   "title": "Cardcaptor Sakura",
+   "img": null,
+   "members": 494135,
+   "tv": true
+  },
+  {
+   "id": 185,
+   "title": "Initial D First Stage",
+   "img": null,
+   "members": 451458,
+   "tv": true
+  },
+  {
+   "id": 550,
+   "title": "Yu☆Gi☆Oh!",
+   "img": "https://cdn.myanimelist.net/images/anime/4/47487.webp",
+   "members": 273562,
+   "tv": true
+  }
+ ]
+}

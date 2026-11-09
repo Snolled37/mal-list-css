@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 28851,
+   "title": "Koe no Katachi",
+   "img": "https://cdn.myanimelist.net/images/anime/1122/96435.webp",
+   "members": 2678047,
+   "tv": false
+  },
+  {
+   "id": 33352,
+   "title": "Violet Evergarden",
+   "img": "https://cdn.myanimelist.net/images/anime/1795/95088.webp",
+   "members": 2042219,
+   "tv": true
+  },
+  {
+   "id": 2167,
+   "title": "Clannad",
+   "img": "https://cdn.myanimelist.net/images/anime/1804/95033.webp",
+   "members": 1535236,
+   "tv": true
+  },
+  {
+   "id": 12189,
+   "title": "Hyouka",
+   "img": "https://cdn.myanimelist.net/images/anime/13/50521.webp",
+   "members": 1500826,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65033,
+  "title": "Moon Fighters! CM",
+  "img": "https://cdn.myanimelist.net/images/anime/1536/160168.webp",
+  "members": 127,
+  "tv": false
+ },
+ "count": 142
+}

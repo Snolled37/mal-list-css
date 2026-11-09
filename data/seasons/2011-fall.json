@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 11061,
+   "title": "Hunter x Hunter (2011)",
+   "img": null,
+   "members": 3261011,
+   "tv": true
+  },
+  {
+   "id": 10620,
+   "title": "Mirai Nikki (TV)",
+   "img": null,
+   "members": 2165147,
+   "tv": true
+  },
+  {
+   "id": 10087,
+   "title": "Fate/Zero",
+   "img": null,
+   "members": 1624224,
+   "tv": true
+  },
+  {
+   "id": 10793,
+   "title": "Guilty Crown",
+   "img": null,
+   "members": 1291479,
+   "tv": true
+  },
+  {
+   "id": 10719,
+   "title": "Boku wa Tomodachi ga Sukunai",
+   "img": null,
+   "members": 863145,
+   "tv": true
+  }
+ ]
+}

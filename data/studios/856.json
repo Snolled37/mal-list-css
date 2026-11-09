@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 16405,
+   "title": "Boku no Imouto wa \"Osaka Okan\"",
+   "img": "https://cdn.myanimelist.net/images/anime/12/45352.webp",
+   "members": 20762,
+   "tv": true
+  },
+  {
+   "id": 16936,
+   "title": "Boku no Imouto wa \"Osaka Okan\": Haishin Gentei Osaka Okan.",
+   "img": "https://cdn.myanimelist.net/images/anime/11/45386.webp",
+   "members": 4528,
+   "tv": false
+  },
+  {
+   "id": 18419,
+   "title": "Boku no Imouto wa \"Osaka Okan\": Uchi no Oniichan wa Tokyo Rule",
+   "img": "https://cdn.myanimelist.net/images/anime/9/49317.webp",
+   "members": 4231,
+   "tv": false
+  },
+  {
+   "id": 42946,
+   "title": "Kusoge tte Iuna! Animation",
+   "img": "https://cdn.myanimelist.net/images/anime/1046/111081.webp",
+   "members": 3016,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 49445,
+  "title": "Tora to Mike",
+  "img": "https://cdn.myanimelist.net/images/anime/1718/117571.webp",
+  "members": 419,
+  "tv": false
+ },
+ "count": 7
+}

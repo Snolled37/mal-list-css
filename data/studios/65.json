@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 47,
+   "title": "Akira",
+   "img": "https://cdn.myanimelist.net/images/anime/1408/114012.webp",
+   "members": 976607,
+   "tv": false
+  },
+  {
+   "id": 1430,
+   "title": "Lupin III: Cagliostro no Shiro",
+   "img": "https://cdn.myanimelist.net/images/anime/5/26182.webp",
+   "members": 140420,
+   "tv": false
+  },
+  {
+   "id": 338,
+   "title": "Versailles no Bara",
+   "img": "https://cdn.myanimelist.net/images/anime/9/57043.webp",
+   "members": 118278,
+   "tv": true
+  },
+  {
+   "id": 1412,
+   "title": "Lupin III",
+   "img": "https://cdn.myanimelist.net/images/anime/10/15625.webp",
+   "members": 113651,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 56473,
+  "title": "Denjin Arrow Pilot",
+  "img": "https://cdn.myanimelist.net/images/anime/1592/138119.webp",
+  "members": 67,
+  "tv": false
+ },
+ "count": 91
+}

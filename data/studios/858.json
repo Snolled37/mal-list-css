@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 16498,
+   "title": "Shingeki no Kyojin",
+   "img": "https://cdn.myanimelist.net/images/anime/10/47347.webp",
+   "members": 4451674,
+   "tv": true
+  },
+  {
+   "id": 25777,
+   "title": "Shingeki no Kyojin Season 2",
+   "img": "https://cdn.myanimelist.net/images/anime/4/84177.webp",
+   "members": 3083896,
+   "tv": true
+  },
+  {
+   "id": 35760,
+   "title": "Shingeki no Kyojin Season 3",
+   "img": "https://cdn.myanimelist.net/images/anime/1173/92110.webp",
+   "members": 2729277,
+   "tv": true
+  },
+  {
+   "id": 38524,
+   "title": "Shingeki no Kyojin Season 3 Part 2",
+   "img": "https://cdn.myanimelist.net/images/anime/1517/100633.webp",
+   "members": 2656649,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65350,
+  "title": "Spy x Family Season 4",
+  "img": "https://cdn.myanimelist.net/images/anime/1806/160941.webp",
+  "members": 18891,
+  "tv": true
+ },
+ "count": 115
+}

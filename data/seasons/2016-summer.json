@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 32182,
+   "title": "Mob Psycho 100",
+   "img": null,
+   "members": 2372802,
+   "tv": true
+  },
+  {
+   "id": 33255,
+   "title": "Saiki Kusuo no Ψ-nan",
+   "img": "https://cdn.myanimelist.net/images/anime/1973/142750.webp",
+   "members": 1287519,
+   "tv": true
+  },
+  {
+   "id": 32282,
+   "title": "Shokugeki no Souma: Ni no Sara",
+   "img": null,
+   "members": 1220059,
+   "tv": true
+  },
+  {
+   "id": 30015,
+   "title": "ReLIFE",
+   "img": null,
+   "members": 1161798,
+   "tv": true
+  },
+  {
+   "id": 32729,
+   "title": "Orange",
+   "img": null,
+   "members": 915460,
+   "tv": true
+  }
+ ]
+}

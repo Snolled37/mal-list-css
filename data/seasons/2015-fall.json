@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 30276,
+   "title": "One Punch Man",
+   "img": null,
+   "members": 3573889,
+   "tv": true
+  },
+  {
+   "id": 28891,
+   "title": "Haikyuu!! Second Season",
+   "img": null,
+   "members": 1593614,
+   "tv": true
+  },
+  {
+   "id": 30503,
+   "title": "Noragami Aragoto",
+   "img": "https://cdn.myanimelist.net/images/anime/1689/94850.webp",
+   "members": 1573784,
+   "tv": true
+  },
+  {
+   "id": 30296,
+   "title": "Rakudai Kishi no Cavalry",
+   "img": null,
+   "members": 1053842,
+   "tv": true
+  },
+  {
+   "id": 28927,
+   "title": "Owari no Seraph: Nagoya Kessen-hen",
+   "img": "https://cdn.myanimelist.net/images/anime/9/76632.webp",
+   "members": 866876,
+   "tv": true
+  }
+ ]
+}

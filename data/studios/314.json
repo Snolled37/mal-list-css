@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 9253,
+   "title": "Steins;Gate",
+   "img": "https://cdn.myanimelist.net/images/anime/1935/127974.webp",
+   "members": 2865954,
+   "tv": true
+  },
+  {
+   "id": 31240,
+   "title": "Re:Zero kara Hajimeru Isekai Seikatsu",
+   "img": "https://cdn.myanimelist.net/images/anime/1522/128039.webp",
+   "members": 2526919,
+   "tv": true
+  },
+  {
+   "id": 22199,
+   "title": "Akame ga Kill!",
+   "img": "https://cdn.myanimelist.net/images/anime/1429/95946.webp",
+   "members": 2308096,
+   "tv": true
+  },
+  {
+   "id": 15809,
+   "title": "Hataraku Maou-sama!",
+   "img": "https://cdn.myanimelist.net/images/anime/3/50177.webp",
+   "members": 1674697,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65147,
+  "title": "Monster no Niku wo Kutteitara Oui ni Tsuita Ken",
+  "img": "https://cdn.myanimelist.net/images/anime/1974/160470.webp",
+  "members": 1053,
+  "tv": true
+ },
+ "count": 55
+}

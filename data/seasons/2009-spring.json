@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 5114,
+   "title": "Fullmetal Alchemist: Brotherhood",
+   "img": null,
+   "members": 3754611,
+   "tv": true
+  },
+  {
+   "id": 5680,
+   "title": "K-On!",
+   "img": null,
+   "members": 1149641,
+   "tv": true
+  },
+  {
+   "id": 5630,
+   "title": "Higashi no Eden",
+   "img": null,
+   "members": 604151,
+   "tv": true
+  },
+  {
+   "id": 4382,
+   "title": "Suzumiya Haruhi no Yuuutsu (2009)",
+   "img": "https://cdn.myanimelist.net/images/anime/8/75377.webp",
+   "members": 577680,
+   "tv": true
+  },
+  {
+   "id": 5530,
+   "title": "Pandora Hearts",
+   "img": null,
+   "members": 458119,
+   "tv": true
+  }
+ ]
+}

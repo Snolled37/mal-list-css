@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 49220,
+   "title": "Isekai Ojisan",
+   "img": "https://cdn.myanimelist.net/images/anime/1743/125204.webp",
+   "members": 443642,
+   "tv": true
+  },
+  {
+   "id": 52367,
+   "title": "Isekai Shikkaku",
+   "img": "https://cdn.myanimelist.net/images/anime/1252/143457.webp",
+   "members": 250758,
+   "tv": true
+  },
+  {
+   "id": 49605,
+   "title": "Ganbare Douki-chan",
+   "img": "https://cdn.myanimelist.net/images/anime/1185/117548.webp",
+   "members": 124602,
+   "tv": false
+  },
+  {
+   "id": 60508,
+   "title": "Food Court de, Mata Ashita.",
+   "img": "https://cdn.myanimelist.net/images/anime/1039/150572.webp",
+   "members": 44894,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 60508,
+  "title": "Food Court de, Mata Ashita.",
+  "img": "https://cdn.myanimelist.net/images/anime/1039/150572.webp",
+  "members": 44894,
+  "tv": true
+ },
+ "count": 5
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 38186,
+   "title": "Bokutachi wa Benkyou ga Dekinai",
+   "img": "https://cdn.myanimelist.net/images/anime/1602/100510.webp",
+   "members": 487462,
+   "tv": true
+  },
+  {
+   "id": 40004,
+   "title": "Bokutachi wa Benkyou ga Dekinai!",
+   "img": "https://cdn.myanimelist.net/images/anime/1974/102960.webp",
+   "members": 330408,
+   "tv": true
+  },
+  {
+   "id": 39819,
+   "title": "Bokutachi wa Benkyou ga Dekinai: Nagisa ni Usemono Arite Senjin wa Enzen to [X] Suru",
+   "img": "https://cdn.myanimelist.net/images/anime/1530/102782.webp",
+   "members": 72751,
+   "tv": false
+  },
+  {
+   "id": 54041,
+   "title": "16bit Sensation: Another Layer",
+   "img": "https://cdn.myanimelist.net/images/anime/1588/138395.webp",
+   "members": 64313,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 55351,
+  "title": "Azur Lane CMs",
+  "img": "https://cdn.myanimelist.net/images/anime/1421/135967.webp",
+  "members": 979,
+  "tv": false
+ },
+ "count": 10
+}

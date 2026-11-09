@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 15583,
+   "title": "Date A Live",
+   "img": "https://cdn.myanimelist.net/images/anime/13/44844.webp",
+   "members": 1134240,
+   "tv": true
+  },
+  {
+   "id": 17641,
+   "title": "Date A Live: Date to Date",
+   "img": "https://cdn.myanimelist.net/images/anime/1629/112503.webp",
+   "members": 224716,
+   "tv": false
+  },
+  {
+   "id": 6166,
+   "title": "Asobi ni Iku yo!",
+   "img": "https://cdn.myanimelist.net/images/anime/7/75583.webp",
+   "members": 215978,
+   "tv": true
+  },
+  {
+   "id": 9618,
+   "title": "Asobi ni Iku yo!: Asobi ni Oide",
+   "img": "https://cdn.myanimelist.net/images/anime/7/26653.webp",
+   "members": 51505,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 29998,
+  "title": "Asobi ni Iku yo!: Asobi ni Oide - Owari",
+  "img": "https://cdn.myanimelist.net/images/anime/6/71912.webp",
+  "members": 12376,
+  "tv": false
+ },
+ "count": 18
+}

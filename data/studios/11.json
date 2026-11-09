@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 1535,
+   "title": "Death Note",
+   "img": "https://cdn.myanimelist.net/images/anime/1079/138100.webp",
+   "members": 4388893,
+   "tv": true
+  },
+  {
+   "id": 30276,
+   "title": "One Punch Man",
+   "img": "https://cdn.myanimelist.net/images/anime/12/76049.webp",
+   "members": 3573889,
+   "tv": true
+  },
+  {
+   "id": 11061,
+   "title": "Hunter x Hunter (2011)",
+   "img": "https://cdn.myanimelist.net/images/anime/1337/99013.webp",
+   "members": 3261011,
+   "tv": true
+  },
+  {
+   "id": 19815,
+   "title": "No Game No Life",
+   "img": "https://cdn.myanimelist.net/images/anime/1074/111944.webp",
+   "members": 2589628,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 63816,
+  "title": "Sousou no Frieren: Ougonkyou-hen",
+  "img": "https://cdn.myanimelist.net/images/anime/1619/156313.webp",
+  "members": 119889,
+  "tv": true
+ },
+ "count": 381
+}

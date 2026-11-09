@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 20507,
+   "title": "Noragami",
+   "img": null,
+   "members": 2347149,
+   "tv": true
+  },
+  {
+   "id": 18897,
+   "title": "Nisekoi",
+   "img": null,
+   "members": 1262688,
+   "tv": true
+  },
+  {
+   "id": 18671,
+   "title": "Chuunibyou demo Koi ga Shitai! Ren",
+   "img": null,
+   "members": 810853,
+   "tv": true
+  },
+  {
+   "id": 20541,
+   "title": "Mikakunin de Shinkoukei",
+   "img": null,
+   "members": 422897,
+   "tv": true
+  },
+  {
+   "id": 20031,
+   "title": "D-Frag!",
+   "img": null,
+   "members": 419564,
+   "tv": true
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 11111,
+   "title": "Another",
+   "img": null,
+   "members": 1812149,
+   "tv": true
+  },
+  {
+   "id": 11617,
+   "title": "High School DxD",
+   "img": null,
+   "members": 1561192,
+   "tv": true
+  },
+  {
+   "id": 11843,
+   "title": "Danshi Koukousei no Nichijou",
+   "img": null,
+   "members": 899101,
+   "tv": true
+  },
+  {
+   "id": 11597,
+   "title": "Nisemonogatari",
+   "img": "https://cdn.myanimelist.net/images/anime/1044/103654.webp",
+   "members": 784159,
+   "tv": true
+  },
+  {
+   "id": 11013,
+   "title": "Inu x Boku SS",
+   "img": "https://cdn.myanimelist.net/images/anime/1760/98794.webp",
+   "members": 532640,
+   "tv": true
+  }
+ ]
+}

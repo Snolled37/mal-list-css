@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 90,
+   "title": "Shin Kidou Senki Gundam Wing",
+   "img": null,
+   "members": 173908,
+   "tv": true
+  },
+  {
+   "id": 534,
+   "title": "Slayers",
+   "img": null,
+   "members": 157246,
+   "tv": true
+  },
+  {
+   "id": 1239,
+   "title": "Bishoujo Senshi Sailor Moon SuperS",
+   "img": "https://cdn.myanimelist.net/images/anime/1600/92253.webp",
+   "members": 131644,
+   "tv": true
+  },
+  {
+   "id": 123,
+   "title": "Fushigi Yuugi",
+   "img": null,
+   "members": 131260,
+   "tv": true
+  },
+  {
+   "id": 696,
+   "title": "Tenchi Muyou!",
+   "img": "https://cdn.myanimelist.net/images/anime/3/61663.webp",
+   "members": 90247,
+   "tv": true
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 486,
+   "title": "Kino no Tabi: The Beautiful World",
+   "img": "https://cdn.myanimelist.net/images/anime/1763/95397.webp",
+   "members": 364312,
+   "tv": true
+  },
+  {
+   "id": 9367,
+   "title": "Freezing",
+   "img": "https://cdn.myanimelist.net/images/anime/10/28535.webp",
+   "members": 346397,
+   "tv": true
+  },
+  {
+   "id": 53439,
+   "title": "Boushoku no Berserk",
+   "img": "https://cdn.myanimelist.net/images/anime/1951/138462.webp",
+   "members": 273340,
+   "tv": true
+  },
+  {
+   "id": 18,
+   "title": "Initial D Fourth Stage",
+   "img": "https://cdn.myanimelist.net/images/anime/9/10521.webp",
+   "members": 219889,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64059,
+  "title": "Boushoku no Berserk 2nd Season",
+  "img": "https://cdn.myanimelist.net/images/anime/1578/157088.webp",
+  "members": 21069,
+  "tv": true
+ },
+ "count": 38
+}

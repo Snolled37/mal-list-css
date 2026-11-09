@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 41168,
+   "title": "Nakitai Watashi wa Neko wo Kaburu",
+   "img": "https://cdn.myanimelist.net/images/anime/1045/106389.webp",
+   "members": 511410,
+   "tv": false
+  },
+  {
+   "id": 41468,
+   "title": "Burn the Witch",
+   "img": "https://cdn.myanimelist.net/images/anime/1993/108967.webp",
+   "members": 294147,
+   "tv": false
+  },
+  {
+   "id": 62896,
+   "title": "Chou Kaguya-hime!",
+   "img": "https://cdn.myanimelist.net/images/anime/1951/160671.webp",
+   "members": 117537,
+   "tv": false
+  },
+  {
+   "id": 37407,
+   "title": "Penguin Highway",
+   "img": "https://cdn.myanimelist.net/images/anime/1320/93443.webp",
+   "members": 108621,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 63398,
+  "title": "Ray (Chou Kaguya-hime! Version)",
+  "img": "https://cdn.myanimelist.net/images/anime/1729/155224.webp",
+  "members": 1135,
+  "tv": false
+ },
+ "count": 39
+}

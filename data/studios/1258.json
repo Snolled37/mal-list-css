@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 28977,
+   "title": "Gintama°",
+   "img": "https://cdn.myanimelist.net/images/anime/3/72078.webp",
+   "members": 702125,
+   "tv": true
+  },
+  {
+   "id": 39196,
+   "title": "Mairimashita! Iruma-kun",
+   "img": "https://cdn.myanimelist.net/images/anime/1009/103187.webp",
+   "members": 586125,
+   "tv": true
+  },
+  {
+   "id": 58059,
+   "title": "Tsue to Tsurugi no Wistoria",
+   "img": "https://cdn.myanimelist.net/images/anime/1281/144104.webp",
+   "members": 432237,
+   "tv": true
+  },
+  {
+   "id": 41402,
+   "title": "Mairimashita! Iruma-kun 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1527/113656.webp",
+   "members": 387232,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64541,
+  "title": "Aikatsu Stars!: Hoshiboshi no Progress",
+  "img": "https://cdn.myanimelist.net/images/anime/1278/160594.webp",
+  "members": 538,
+  "tv": false
+ },
+ "count": 89
+}

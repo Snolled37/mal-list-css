@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 28497,
+   "title": "Rokka no Yuusha",
+   "img": "https://cdn.myanimelist.net/images/anime/9/74374.webp",
+   "members": 681571,
+   "tv": true
+  },
+  {
+   "id": 48483,
+   "title": "Mieruko-chan",
+   "img": "https://cdn.myanimelist.net/images/anime/1277/117155.webp",
+   "members": 568702,
+   "tv": true
+  },
+  {
+   "id": 34281,
+   "title": "High School DxD Hero",
+   "img": "https://cdn.myanimelist.net/images/anime/1189/93528.webp",
+   "members": 567512,
+   "tv": true
+  },
+  {
+   "id": 34382,
+   "title": "Citrus",
+   "img": "https://cdn.myanimelist.net/images/anime/11/89985.webp",
+   "members": 567081,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64737,
+  "title": "Dokagui Daisuki! Mochizuki-san",
+  "img": "https://cdn.myanimelist.net/images/anime/1596/159321.webp",
+  "members": 768,
+  "tv": true
+ },
+ "count": 44
+}

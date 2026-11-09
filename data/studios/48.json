@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 8676,
+   "title": "Amagami SS",
+   "img": "https://cdn.myanimelist.net/images/anime/10/78699.webp",
+   "members": 415477,
+   "tv": true
+  },
+  {
+   "id": 3470,
+   "title": "Special A",
+   "img": "https://cdn.myanimelist.net/images/anime/8/77363.webp",
+   "members": 388982,
+   "tv": true
+  },
+  {
+   "id": 2104,
+   "title": "Seto no Hanayome",
+   "img": "https://cdn.myanimelist.net/images/anime/1573/146854.webp",
+   "members": 350844,
+   "tv": true
+  },
+  {
+   "id": 12291,
+   "title": "Acchi Kocchi",
+   "img": "https://cdn.myanimelist.net/images/anime/5/46489.webp",
+   "members": 344255,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 54013,
+  "title": "Tenchi Muyou! GXP: Paradise Shidou-hen",
+  "img": "https://cdn.myanimelist.net/images/anime/1169/134697.webp",
+  "members": 3577,
+  "tv": false
+ },
+ "count": 198
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 6702,
+   "title": "Fairy Tail",
+   "img": "https://cdn.myanimelist.net/images/anime/5/18179.webp",
+   "members": 1867402,
+   "tv": true
+  },
+  {
+   "id": 17265,
+   "title": "Log Horizon",
+   "img": "https://cdn.myanimelist.net/images/anime/5/84004.webp",
+   "members": 1196622,
+   "tv": true
+  },
+  {
+   "id": 777,
+   "title": "Hellsing Ultimate",
+   "img": "https://cdn.myanimelist.net/images/anime/1012/143965.webp",
+   "members": 1038682,
+   "tv": false
+  },
+  {
+   "id": 33502,
+   "title": "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?",
+   "img": "https://cdn.myanimelist.net/images/anime/4/85260.webp",
+   "members": 456429,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64555,
+  "title": "Murciélago",
+  "img": "https://cdn.myanimelist.net/images/anime/1938/160631.webp",
+  "members": 8044,
+  "tv": true
+ },
+ "count": 119
+}

@@ -1,0 +1,34 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 820,
+   "title": "Ginga Eiyuu Densetsu",
+   "img": "https://cdn.myanimelist.net/images/anime/1976/142016.webp",
+   "members": 372256,
+   "tv": false
+  },
+  {
+   "id": 3371,
+   "title": "Ginga Eiyuu Densetsu Gaiden",
+   "img": "https://cdn.myanimelist.net/images/anime/9/28463.webp",
+   "members": 27678,
+   "tv": false
+  },
+  {
+   "id": 3665,
+   "title": "Ginga Eiyuu Densetsu Gaiden (1999)",
+   "img": "https://cdn.myanimelist.net/images/anime/1682/134157.webp",
+   "members": 23306,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 3665,
+  "title": "Ginga Eiyuu Densetsu Gaiden (1999)",
+  "img": "https://cdn.myanimelist.net/images/anime/1682/134157.webp",
+  "members": 23306,
+  "tv": false
+ },
+ "count": 3
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 22,
+   "title": "Tennis no Oujisama",
+   "img": "https://cdn.myanimelist.net/images/anime/6/21624.webp",
+   "members": 199996,
+   "tv": true
+  },
+  {
+   "id": 5420,
+   "title": "Kemono no Souja Erin",
+   "img": "https://cdn.myanimelist.net/images/anime/1929/121700.webp",
+   "members": 95888,
+   "tv": true
+  },
+  {
+   "id": 1316,
+   "title": "Idaten Jump",
+   "img": "https://cdn.myanimelist.net/images/anime/1691/133569.webp",
+   "members": 24196,
+   "tv": true
+  },
+  {
+   "id": 4052,
+   "title": "Medarot Damashii",
+   "img": "https://cdn.myanimelist.net/images/anime/2/19960.webp",
+   "members": 23332,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 27845,
+  "title": "10-piki no Kaeru",
+  "img": "https://cdn.myanimelist.net/images/anime/8/67461.webp",
+  "members": 357,
+  "tv": false
+ },
+ "count": 29
+}

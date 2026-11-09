@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 32937,
+   "title": "Kono Subarashii Sekai ni Shukufuku wo! 2",
+   "img": null,
+   "members": 1683411,
+   "tv": true
+  },
+  {
+   "id": 33206,
+   "title": "Kobayashi-san Chi no Maid Dragon",
+   "img": null,
+   "members": 1349181,
+   "tv": true
+  },
+  {
+   "id": 32615,
+   "title": "Youjo Senki",
+   "img": null,
+   "members": 1082772,
+   "tv": true
+  },
+  {
+   "id": 33487,
+   "title": "Masamune-kun no Revenge",
+   "img": null,
+   "members": 994183,
+   "tv": true
+  },
+  {
+   "id": 33506,
+   "title": "Ao no Exorcist: Kyoto Fujouou-hen",
+   "img": "https://cdn.myanimelist.net/images/anime/5/85201.webp",
+   "members": 831667,
+   "tv": true
+  }
+ ]
+}

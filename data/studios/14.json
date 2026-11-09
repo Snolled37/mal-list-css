@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 1575,
+   "title": "Code Geass: Hangyaku no Lelouch",
+   "img": "https://cdn.myanimelist.net/images/anime/1032/135088.webp",
+   "members": 2524223,
+   "tv": true
+  },
+  {
+   "id": 1,
+   "title": "Cowboy Bebop",
+   "img": "https://cdn.myanimelist.net/images/anime/4/19644.webp",
+   "members": 2096773,
+   "tv": true
+  },
+  {
+   "id": 2904,
+   "title": "Code Geass: Hangyaku no Lelouch R2",
+   "img": "https://cdn.myanimelist.net/images/anime/1088/135089.webp",
+   "members": 1994025,
+   "tv": true
+  },
+  {
+   "id": 918,
+   "title": "Gintama",
+   "img": "https://cdn.myanimelist.net/images/anime/10/73274.webp",
+   "members": 1174739,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65247,
+  "title": "Shinseiki GPX Cyber Formula Asurada",
+  "img": "https://cdn.myanimelist.net/images/anime/1557/160666.webp",
+  "members": 249,
+  "tv": false
+ },
+ "count": 596
+}

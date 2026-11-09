@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 30296,
+   "title": "Rakudai Kishi no Cavalry",
+   "img": "https://cdn.myanimelist.net/images/anime/9/76493.webp",
+   "members": 1053842,
+   "tv": true
+  },
+  {
+   "id": 48316,
+   "title": "Kage no Jitsuryokusha ni Naritakute!",
+   "img": "https://cdn.myanimelist.net/images/anime/1091/128729.webp",
+   "members": 906617,
+   "tv": true
+  },
+  {
+   "id": 38656,
+   "title": "Darwin's Game",
+   "img": "https://cdn.myanimelist.net/images/anime/1016/107222.webp",
+   "members": 624868,
+   "tv": true
+  },
+  {
+   "id": 54595,
+   "title": "Kage no Jitsuryokusha ni Naritakute! 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1938/138295.webp",
+   "members": 564446,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 61072,
+  "title": "Shuumatsu Touring",
+  "img": "https://cdn.myanimelist.net/images/anime/1681/151599.webp",
+  "members": 25300,
+  "tv": true
+ },
+ "count": 12
+}

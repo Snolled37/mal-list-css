@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 52865,
+   "title": "Romantic Killer",
+   "img": "https://cdn.myanimelist.net/images/anime/1764/142001.webp",
+   "members": 308301,
+   "tv": false
+  },
+  {
+   "id": 42307,
+   "title": "Subarashiki Kono Sekai The Animation",
+   "img": "https://cdn.myanimelist.net/images/anime/1016/111566.webp",
+   "members": 78486,
+   "tv": true
+  },
+  {
+   "id": 47391,
+   "title": "Seven Knights Revolution: Eiyuu no Keishousha",
+   "img": "https://cdn.myanimelist.net/images/anime/1079/114017.webp",
+   "members": 64094,
+   "tv": true
+  },
+  {
+   "id": 60427,
+   "title": "Gnosia",
+   "img": "https://cdn.myanimelist.net/images/anime/1257/152352.webp",
+   "members": 61701,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 60697,
+  "title": "Fermat no Ryouri",
+  "img": "https://cdn.myanimelist.net/images/anime/1104/150590.webp",
+  "members": 24608,
+  "tv": true
+ },
+ "count": 12
+}

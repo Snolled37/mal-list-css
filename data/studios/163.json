@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 10620,
+   "title": "Mirai Nikki (TV)",
+   "img": "https://cdn.myanimelist.net/images/anime/13/33465.webp",
+   "members": 2165147,
+   "tv": true
+  },
+  {
+   "id": 36882,
+   "title": "Arifureta Shokugyou de Sekai Saikyou",
+   "img": "https://cdn.myanimelist.net/images/anime/1776/97682.webp",
+   "members": 836718,
+   "tv": true
+  },
+  {
+   "id": 40507,
+   "title": "Arifureta Shokugyou de Sekai Saikyou 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1877/119668.webp",
+   "members": 475109,
+   "tv": true
+  },
+  {
+   "id": 15037,
+   "title": "Corpse Party: Tortured Souls - Bougyakusareta Tamashii no Jukyou",
+   "img": "https://cdn.myanimelist.net/images/anime/10/78811.webp",
+   "members": 413128,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 62432,
+  "title": "Jingai Kyoushitsu no Ningengirai Kyoushi",
+  "img": "https://cdn.myanimelist.net/images/anime/1387/154934.webp",
+  "members": 34401,
+  "tv": true
+ },
+ "count": 34
+}

@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 30,
+   "title": "Shinseiki Evangelion",
+   "img": null,
+   "members": 2077280,
+   "tv": true
+  },
+  {
+   "id": 852,
+   "title": "Gokinjo Monogatari",
+   "img": "https://cdn.myanimelist.net/images/anime/11/18195.webp",
+   "members": 33053,
+   "tv": true
+  },
+  {
+   "id": 495,
+   "title": "Bakuretsu Hunters",
+   "img": "https://cdn.myanimelist.net/images/anime/1607/96463.webp",
+   "members": 26173,
+   "tv": true
+  },
+  {
+   "id": 1567,
+   "title": "Kaitou Saint Tail",
+   "img": null,
+   "members": 24404,
+   "tv": true
+  },
+  {
+   "id": 116,
+   "title": "Shinpi no Sekai El-Hazard (TV)",
+   "img": "https://cdn.myanimelist.net/images/anime/13/24439.webp",
+   "members": 20513,
+   "tv": true
+  }
+ ]
+}

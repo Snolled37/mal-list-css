@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 50265,
+   "title": "Spy x Family",
+   "img": null,
+   "members": 1950109,
+   "tv": true
+  },
+  {
+   "id": 43608,
+   "title": "Kaguya-sama wa Kokurasetai: Ultra Romantic",
+   "img": null,
+   "members": 1147011,
+   "tv": true
+  },
+  {
+   "id": 40356,
+   "title": "Tate no Yuusha no Nariagari Season 2",
+   "img": null,
+   "members": 886194,
+   "tv": true
+  },
+  {
+   "id": 47194,
+   "title": "Summertime Render",
+   "img": null,
+   "members": 704738,
+   "tv": true
+  },
+  {
+   "id": 45613,
+   "title": "Kawaii dake ja Nai Shikimori-san",
+   "img": null,
+   "members": 650552,
+   "tv": true
+  }
+ ]
+}

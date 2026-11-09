@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 54913,
+   "title": "Shinmai Ossan Boukensha, Saikyou Party ni Shinu hodo Kitaerarete Muteki ni Naru.",
+   "img": "https://cdn.myanimelist.net/images/anime/1212/144711.webp",
+   "members": 222818,
+   "tv": true
+  },
+  {
+   "id": 36864,
+   "title": "Akkun to Kanojo",
+   "img": "https://cdn.myanimelist.net/images/anime/1404/90601.webp",
+   "members": 201045,
+   "tv": true
+  },
+  {
+   "id": 49618,
+   "title": "Shuumatsu no Walküre II",
+   "img": "https://cdn.myanimelist.net/images/anime/1213/124646.webp",
+   "members": 178462,
+   "tv": false
+  },
+  {
+   "id": 55454,
+   "title": "Shuumatsu no Walküre II Part 2",
+   "img": "https://cdn.myanimelist.net/images/anime/1958/136099.webp",
+   "members": 117850,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 62830,
+  "title": "Harukanaru Toki no Naka de 3: Owarinaki Unmei Specials",
+  "img": "https://cdn.myanimelist.net/images/anime/1505/152755.webp",
+  "members": 302,
+  "tv": false
+ },
+ "count": 49
+}

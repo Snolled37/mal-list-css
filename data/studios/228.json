@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 20945,
+   "title": "Iron Kid",
+   "img": "https://cdn.myanimelist.net/images/anime/9/88933.webp",
+   "members": 5875,
+   "tv": true
+  },
+  {
+   "id": 7867,
+   "title": "Gon",
+   "img": "https://cdn.myanimelist.net/images/anime/1454/150485.webp",
+   "members": 2711,
+   "tv": true
+  },
+  {
+   "id": 17092,
+   "title": "Dallyeola Hani",
+   "img": "https://cdn.myanimelist.net/images/anime/4/45712.webp",
+   "members": 1262,
+   "tv": true
+  },
+  {
+   "id": 30410,
+   "title": "Gon 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1528/150488.webp",
+   "members": 967,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 58762,
+  "title": "Salaryman Mudaeri Yonghada Yonghae",
+  "img": "https://cdn.myanimelist.net/images/anime/1433/142799.webp",
+  "members": 130,
+  "tv": false
+ },
+ "count": 10
+}

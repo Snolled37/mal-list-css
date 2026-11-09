@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 14289,
+   "title": "Suki tte Ii na yo.",
+   "img": "https://cdn.myanimelist.net/images/anime/11/39777.webp",
+   "members": 703984,
+   "tv": true
+  },
+  {
+   "id": 17513,
+   "title": "Diabolik Lovers",
+   "img": "https://cdn.myanimelist.net/images/anime/9/51989.webp",
+   "members": 378805,
+   "tv": true
+  },
+  {
+   "id": 8086,
+   "title": "Densetsu no Yuusha no Densetsu",
+   "img": "https://cdn.myanimelist.net/images/anime/8/73651.webp",
+   "members": 326127,
+   "tv": true
+  },
+  {
+   "id": 21863,
+   "title": "Mangaka-san to Assistant-san to The Animation",
+   "img": "https://cdn.myanimelist.net/images/anime/11/62219.webp",
+   "members": 294479,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64439,
+  "title": "Akane-banashi 2nd Season",
+  "img": "https://cdn.myanimelist.net/images/anime/1618/160692.webp",
+  "members": 14517,
+  "tv": true
+ },
+ "count": 82
+}

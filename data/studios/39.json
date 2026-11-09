@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 7724,
+   "title": "Shiki",
+   "img": "https://cdn.myanimelist.net/images/anime/1531/119165.webp",
+   "members": 659040,
+   "tv": true
+  },
+  {
+   "id": 195,
+   "title": "Onegai☆Teacher",
+   "img": "https://cdn.myanimelist.net/images/anime/1371/138517.webp",
+   "members": 191084,
+   "tv": true
+  },
+  {
+   "id": 2963,
+   "title": "Minami-ke",
+   "img": "https://cdn.myanimelist.net/images/anime/2/75279.webp",
+   "members": 186215,
+   "tv": true
+  },
+  {
+   "id": 63,
+   "title": "DearS",
+   "img": "https://cdn.myanimelist.net/images/anime/1207/98872.webp",
+   "members": 158610,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 14685,
+  "title": "Onegai☆Teacher: Reminiscence Disc",
+  "img": "https://cdn.myanimelist.net/images/anime/2/39945.webp",
+  "members": 5605,
+  "tv": false
+ },
+ "count": 31
+}

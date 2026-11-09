@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 59062,
+   "title": "Gachiakuta",
+   "img": "https://cdn.myanimelist.net/images/anime/1682/150432.webp",
+   "members": 567024,
+   "tv": true
+  },
+  {
+   "id": 60098,
+   "title": "Boku no Hero Academia: Final Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1959/151055.webp",
+   "members": 358720,
+   "tv": true
+  },
+  {
+   "id": 62001,
+   "title": "Yomi no Tsugai",
+   "img": "https://cdn.myanimelist.net/images/anime/1171/156397.webp",
+   "members": 266415,
+   "tv": true
+  },
+  {
+   "id": 60593,
+   "title": "Vigilante: Boku no Hero Academia Illegals",
+   "img": "https://cdn.myanimelist.net/images/anime/1538/148604.webp",
+   "members": 188073,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64597,
+  "title": "Mob Psycho 100: 10-shuunen Kinen Tokubetsu Eizou",
+  "img": "https://cdn.myanimelist.net/images/anime/1554/158973.webp",
+  "members": 3781,
+  "tv": false
+ },
+ "count": 12
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 32281,
+   "title": "Kimi no Na wa.",
+   "img": "https://cdn.myanimelist.net/images/anime/5/87048.webp",
+   "members": 3084954,
+   "tv": false
+  },
+  {
+   "id": 38826,
+   "title": "Tenki no Ko",
+   "img": "https://cdn.myanimelist.net/images/anime/1880/101146.webp",
+   "members": 1157526,
+   "tv": false
+  },
+  {
+   "id": 1689,
+   "title": "Byousoku 5 Centimeter",
+   "img": "https://cdn.myanimelist.net/images/anime/1410/112994.webp",
+   "members": 1028686,
+   "tv": false
+  },
+  {
+   "id": 16782,
+   "title": "Kotonoha no Niwa",
+   "img": "https://cdn.myanimelist.net/images/anime/1597/112995.webp",
+   "members": 946131,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 63973,
+  "title": "Shiranuhi",
+  "img": "https://cdn.myanimelist.net/images/anime/1618/159892.webp",
+  "members": 2126,
+  "tv": false
+ },
+ "count": 87
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 11617,
+   "title": "High School DxD",
+   "img": "https://cdn.myanimelist.net/images/anime/1331/111940.webp",
+   "members": 1561192,
+   "tv": true
+  },
+  {
+   "id": 15451,
+   "title": "High School DxD New",
+   "img": "https://cdn.myanimelist.net/images/anime/12/47729.webp",
+   "members": 981539,
+   "tv": true
+  },
+  {
+   "id": 24703,
+   "title": "High School DxD BorN",
+   "img": "https://cdn.myanimelist.net/images/anime/12/73642.webp",
+   "members": 861847,
+   "tv": true
+  },
+  {
+   "id": 2476,
+   "title": "School Days",
+   "img": "https://cdn.myanimelist.net/images/anime/1593/122440.webp",
+   "members": 723187,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 61301,
+  "title": "Ma no Mono-tachi wa Kuwadateru",
+  "img": "https://cdn.myanimelist.net/images/anime/1994/158925.webp",
+  "members": 3150,
+  "tv": true
+ },
+ "count": 58
+}

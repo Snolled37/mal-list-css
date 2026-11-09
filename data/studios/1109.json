@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 20787,
+   "title": "Black Bullet",
+   "img": "https://cdn.myanimelist.net/images/anime/1292/94693.webp",
+   "members": 977739,
+   "tv": true
+  },
+  {
+   "id": 39195,
+   "title": "Beastars",
+   "img": "https://cdn.myanimelist.net/images/anime/1713/145599.webp",
+   "members": 973831,
+   "tv": true
+  },
+  {
+   "id": 35557,
+   "title": "Houseki no Kuni",
+   "img": "https://cdn.myanimelist.net/images/anime/3/88293.webp",
+   "members": 531488,
+   "tv": true
+  },
+  {
+   "id": 40935,
+   "title": "Beastars 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1097/109646.webp",
+   "members": 503609,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 63034,
+  "title": "Godzilla (Shinsaku Anime)",
+  "img": "https://cdn.myanimelist.net/images/anime/1691/153910.webp",
+  "members": 712,
+  "tv": false
+ },
+ "count": 30
+}

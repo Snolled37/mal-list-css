@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 1251,
+   "title": "Fushigi no Umi no Nadia",
+   "img": "https://cdn.myanimelist.net/images/anime/1750/118570.webp",
+   "members": 82053,
+   "tv": true
+  },
+  {
+   "id": 23135,
+   "title": "PriPara",
+   "img": "https://cdn.myanimelist.net/images/anime/2/75258.webp",
+   "members": 25385,
+   "tv": true
+  },
+  {
+   "id": 17249,
+   "title": "Pretty Rhythm: Rainbow Live",
+   "img": "https://cdn.myanimelist.net/images/anime/8/73957.webp",
+   "members": 15399,
+   "tv": true
+  },
+  {
+   "id": 12863,
+   "title": "Pretty Rhythm: Dear My Future",
+   "img": "https://cdn.myanimelist.net/images/anime/8/36633.webp",
+   "members": 10958,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 63352,
+  "title": "Onegai AiPri",
+  "img": "https://cdn.myanimelist.net/images/anime/1705/155680.webp",
+  "members": 1564,
+  "tv": true
+ },
+ "count": 22
+}

@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 101,
+   "title": "Air",
+   "img": "https://cdn.myanimelist.net/images/anime/1825/146531.webp",
+   "members": 316855,
+   "tv": true
+  },
+  {
+   "id": 50,
+   "title": "Aa! Megami-sama! (TV)",
+   "img": "https://cdn.myanimelist.net/images/anime/1976/99376.webp",
+   "members": 171223,
+   "tv": true
+  },
+  {
+   "id": 157,
+   "title": "Mahou Sensei Negima!",
+   "img": null,
+   "members": 149900,
+   "tv": true
+  },
+  {
+   "id": 325,
+   "title": "Peach Girl",
+   "img": "https://cdn.myanimelist.net/images/anime/13/75579.webp",
+   "members": 117707,
+   "tv": true
+  },
+  {
+   "id": 487,
+   "title": "Girls Bravo: Second Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1538/133872.webp",
+   "members": 97904,
+   "tv": true
+  }
+ ]
+}

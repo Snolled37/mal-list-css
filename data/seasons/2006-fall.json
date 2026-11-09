@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 1535,
+   "title": "Death Note",
+   "img": null,
+   "members": 4388893,
+   "tv": true
+  },
+  {
+   "id": 1575,
+   "title": "Code Geass: Hangyaku no Lelouch",
+   "img": null,
+   "members": 2524223,
+   "tv": true
+  },
+  {
+   "id": 1482,
+   "title": "D.Gray-man",
+   "img": null,
+   "members": 739509,
+   "tv": true
+  },
+  {
+   "id": 1604,
+   "title": "Katekyou Hitman Reborn!",
+   "img": null,
+   "members": 592939,
+   "tv": true
+  },
+  {
+   "id": 1519,
+   "title": "Black Lagoon: The Second Barrage",
+   "img": "https://cdn.myanimelist.net/images/anime/1701/152849.webp",
+   "members": 584160,
+   "tv": true
+  }
+ ]
+}

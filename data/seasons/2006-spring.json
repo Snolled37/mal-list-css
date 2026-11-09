@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 853,
+   "title": "Ouran Koukou Host Club",
+   "img": null,
+   "members": 1252783,
+   "tv": true
+  },
+  {
+   "id": 918,
+   "title": "Gintama",
+   "img": null,
+   "members": 1174739,
+   "tv": true
+  },
+  {
+   "id": 889,
+   "title": "Black Lagoon",
+   "img": "https://cdn.myanimelist.net/images/anime/1906/121592.webp",
+   "members": 1132851,
+   "tv": true
+  },
+  {
+   "id": 849,
+   "title": "Suzumiya Haruhi no Yuuutsu",
+   "img": null,
+   "members": 996002,
+   "tv": true
+  },
+  {
+   "id": 934,
+   "title": "Higurashi no Naku Koro ni",
+   "img": null,
+   "members": 870493,
+   "tv": true
+  }
+ ]
+}

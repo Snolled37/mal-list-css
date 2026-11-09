@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 16498,
+   "title": "Shingeki no Kyojin",
+   "img": null,
+   "members": 4451674,
+   "tv": true
+  },
+  {
+   "id": 15809,
+   "title": "Hataraku Maou-sama!",
+   "img": null,
+   "members": 1674697,
+   "tv": true
+  },
+  {
+   "id": 14813,
+   "title": "Yahari Ore no Seishun Love Comedy wa Machigatteiru.",
+   "img": null,
+   "members": 1598292,
+   "tv": true
+  },
+  {
+   "id": 15583,
+   "title": "Date A Live",
+   "img": null,
+   "members": 1134240,
+   "tv": true
+  },
+  {
+   "id": 15225,
+   "title": "Hentai Ouji to Warawanai Neko.",
+   "img": "https://cdn.myanimelist.net/images/anime/3/75788.webp",
+   "members": 475040,
+   "tv": true
+  }
+ ]
+}

@@ -1,4 +1,4 @@
-name: Refresh cover CSS
+name: Refresh cover + extras CSS
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  covers:
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,22 +18,25 @@ jobs:
           python-version: "3.12"
       - name: Build covers
         run: python scripts/build_covers.py --user Snolled
+      - name: Build extras (progress, season/studio cards, badges)
+        # cached data/ means only new or stale seasons/studios are fetched; cap requests per run
+        run: python scripts/build_extras.py --user Snolled --max-fetch 60
       - name: Commit if changed
         id: commit
         run: |
-          if git diff --quiet -- dist/; then
+          if git diff --quiet -- dist/ data/ && [ -z "$(git ls-files --others --exclude-standard data/)" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add dist/covers-*.css
-            git commit -m "Refresh cover CSS"
+            git add dist/covers-*.css dist/extras-*.css data/
+            git commit -m "Refresh cover + extras CSS"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
       - name: Purge jsDelivr cache
         if: steps.commit.outputs.changed == 'true'
         run: |
-          for f in covers-anime.css covers-manga.css; do
+          for f in covers-anime.css covers-manga.css extras-anime.css extras-manga.css; do
             curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/dist/$f" > /dev/null
           done

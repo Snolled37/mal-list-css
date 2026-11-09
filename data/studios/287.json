@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 14719,
+   "title": "JoJo no Kimyou na Bouken (TV)",
+   "img": "https://cdn.myanimelist.net/images/anime/3/40409.webp",
+   "members": 1907965,
+   "tv": true
+  },
+  {
+   "id": 38671,
+   "title": "Enen no Shouboutai",
+   "img": "https://cdn.myanimelist.net/images/anime/1664/103275.webp",
+   "members": 1580736,
+   "tv": true
+  },
+  {
+   "id": 20899,
+   "title": "JoJo no Kimyou na Bouken Part 3: Stardust Crusaders",
+   "img": "https://cdn.myanimelist.net/images/anime/11/55267.webp",
+   "members": 1408338,
+   "tv": true
+  },
+  {
+   "id": 31933,
+   "title": "JoJo no Kimyou na Bouken Part 4: Diamond wa Kudakenai",
+   "img": "https://cdn.myanimelist.net/images/anime/3/79156.webp",
+   "members": 1306866,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65184,
+  "title": "Hotaru no Yomeiri: Choitashi",
+  "img": "https://cdn.myanimelist.net/images/anime/1277/160535.webp",
+  "members": 327,
+  "tv": false
+ },
+ "count": 54
+}

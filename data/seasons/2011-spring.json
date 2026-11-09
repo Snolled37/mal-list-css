@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 9253,
+   "title": "Steins;Gate",
+   "img": null,
+   "members": 2865954,
+   "tv": true
+  },
+  {
+   "id": 9919,
+   "title": "Ao no Exorcist",
+   "img": null,
+   "members": 2076738,
+   "tv": true
+  },
+  {
+   "id": 9989,
+   "title": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.",
+   "img": null,
+   "members": 1731103,
+   "tv": true
+  },
+  {
+   "id": 6880,
+   "title": "Deadman Wonderland",
+   "img": null,
+   "members": 1332453,
+   "tv": true
+  },
+  {
+   "id": 10165,
+   "title": "Nichijou",
+   "img": null,
+   "members": 1000205,
+   "tv": true
+  }
+ ]
+}

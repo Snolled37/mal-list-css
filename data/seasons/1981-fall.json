@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 1293,
+   "title": "Urusei Yatsura",
+   "img": null,
+   "members": 101096,
+   "tv": true
+  },
+  {
+   "id": 4936,
+   "title": "Ninja Hattori-kun",
+   "img": "https://cdn.myanimelist.net/images/anime/5/82502.webp",
+   "members": 13298,
+   "tv": true
+  },
+  {
+   "id": 2257,
+   "title": "Taiyou no Kiba Dougram",
+   "img": "https://cdn.myanimelist.net/images/anime/9/14395.webp",
+   "members": 7966,
+   "tv": true
+  },
+  {
+   "id": 2331,
+   "title": "Uchuu Densetsu Ulysses 31",
+   "img": "https://cdn.myanimelist.net/images/anime/1844/131936.webp",
+   "members": 7340,
+   "tv": true
+  },
+  {
+   "id": 2748,
+   "title": "Dash! Kappei",
+   "img": "https://cdn.myanimelist.net/images/anime/1319/90363.webp",
+   "members": 6213,
+   "tv": true
+  }
+ ]
+}

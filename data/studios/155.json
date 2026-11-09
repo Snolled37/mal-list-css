@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 617,
+   "title": "Juubee Ninpuuchou",
+   "img": "https://cdn.myanimelist.net/images/anime/1520/145971.webp",
+   "members": 164027,
+   "tv": false
+  },
+  {
+   "id": 1016,
+   "title": "Gunnm",
+   "img": "https://cdn.myanimelist.net/images/anime/11/41257.webp",
+   "members": 70206,
+   "tv": false
+  },
+  {
+   "id": 1762,
+   "title": "Arslan Senki",
+   "img": "https://cdn.myanimelist.net/images/anime/10/22254.webp",
+   "members": 24108,
+   "tv": false
+  },
+  {
+   "id": 1270,
+   "title": "Black Magic M-66",
+   "img": "https://cdn.myanimelist.net/images/anime/1645/94523.webp",
+   "members": 22334,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 38769,
+  "title": "Compiler: Music Clips in Trackdown",
+  "img": "https://cdn.myanimelist.net/images/anime/1218/96902.webp",
+  "members": 572,
+  "tv": false
+ },
+ "count": 72
+}

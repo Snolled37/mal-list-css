@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 50663,
+   "title": "Poputepipikku 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1237/128067.webp",
+   "members": 51063,
+   "tv": true
+  },
+  {
+   "id": 40358,
+   "title": "Gal to Kyouryuu",
+   "img": "https://cdn.myanimelist.net/images/anime/1603/111352.webp",
+   "members": 36456,
+   "tv": true
+  },
+  {
+   "id": 48252,
+   "title": "Ore, Tsushima",
+   "img": "https://cdn.myanimelist.net/images/anime/1916/112514.webp",
+   "members": 20868,
+   "tv": true
+  },
+  {
+   "id": 38068,
+   "title": "Poputepipikku Kinen",
+   "img": "https://cdn.myanimelist.net/images/anime/1826/129554.webp",
+   "members": 6779,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 63288,
+  "title": "Baby (Music)",
+  "img": "https://cdn.myanimelist.net/images/anime/1193/154950.webp",
+  "members": 407,
+  "tv": false
+ },
+ "count": 10
+}

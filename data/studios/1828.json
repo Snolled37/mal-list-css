@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 60371,
+   "title": "Seihantai na Kimi to Boku",
+   "img": "https://cdn.myanimelist.net/images/anime/1140/154457.webp",
+   "members": 271124,
+   "tv": true
+  },
+  {
+   "id": 38349,
+   "title": "Wotaku ni Koi wa Muzukashii OVA",
+   "img": "https://cdn.myanimelist.net/images/anime/1892/111383.webp",
+   "members": 239279,
+   "tv": false
+  },
+  {
+   "id": 54790,
+   "title": "Undead Girl Murder Farce",
+   "img": "https://cdn.myanimelist.net/images/anime/1946/136661.webp",
+   "members": 190753,
+   "tv": true
+  },
+  {
+   "id": 57810,
+   "title": "Shoushimin Series",
+   "img": "https://cdn.myanimelist.net/images/anime/1164/143459.webp",
+   "members": 150038,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 63832,
+  "title": "Seihantai na Kimi to Boku 2nd Season",
+  "img": "https://cdn.myanimelist.net/images/anime/1143/158409.webp",
+  "members": 143595,
+  "tv": true
+ },
+ "count": 13
+}

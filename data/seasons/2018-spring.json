@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 36456,
+   "title": "Boku no Hero Academia 3rd Season",
+   "img": null,
+   "members": 2423679,
+   "tv": true
+  },
+  {
+   "id": 36511,
+   "title": "Tokyo Ghoul:re",
+   "img": null,
+   "members": 1329280,
+   "tv": true
+  },
+  {
+   "id": 35968,
+   "title": "Wotaku ni Koi wa Muzukashii",
+   "img": null,
+   "members": 1125206,
+   "tv": true
+  },
+  {
+   "id": 30484,
+   "title": "Steins;Gate 0",
+   "img": null,
+   "members": 974672,
+   "tv": true
+  },
+  {
+   "id": 36949,
+   "title": "Shokugeki no Souma: San no Sara - Tootsuki Ressha-hen",
+   "img": "https://cdn.myanimelist.net/images/anime/1604/93531.webp",
+   "members": 784214,
+   "tv": true
+  }
+ ]
+}

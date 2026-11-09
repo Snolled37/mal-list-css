@@ -1,0 +1,34 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 16436,
+   "title": "Tenshi no Drop",
+   "img": "https://cdn.myanimelist.net/images/anime/1007/116726.webp",
+   "members": 18805,
+   "tv": false
+  },
+  {
+   "id": 14563,
+   "title": "Maji de Otaku na English! Ribbon-chan: Eigo de Tatakau Mahou Shoujo",
+   "img": "https://cdn.myanimelist.net/images/anime/4/39693.webp",
+   "members": 6966,
+   "tv": true
+  },
+  {
+   "id": 19207,
+   "title": "Maji de Otaku na English! Ribbon-chan: Eigo de Tatakau Mahou Shoujo - The TV",
+   "img": "https://cdn.myanimelist.net/images/anime/7/51505.webp",
+   "members": 4071,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 19207,
+  "title": "Maji de Otaku na English! Ribbon-chan: Eigo de Tatakau Mahou Shoujo - The TV",
+  "img": "https://cdn.myanimelist.net/images/anime/7/51505.webp",
+  "members": 4071,
+  "tv": true
+ },
+ "count": 3
+}

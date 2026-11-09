@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 39783,
+   "title": "5-toubun no Hanayome ∬",
+   "img": "https://cdn.myanimelist.net/images/anime/1775/109514.webp",
+   "members": 842463,
+   "tv": true
+  },
+  {
+   "id": 54714,
+   "title": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo",
+   "img": "https://cdn.myanimelist.net/images/anime/1812/136764.webp",
+   "members": 356250,
+   "tv": true
+  },
+  {
+   "id": 48548,
+   "title": "5-toubun no Hanayome Movie",
+   "img": "https://cdn.myanimelist.net/images/anime/1037/122516.webp",
+   "members": 340157,
+   "tv": false
+  },
+  {
+   "id": 59597,
+   "title": "Witch Watch",
+   "img": "https://cdn.myanimelist.net/images/anime/1526/150689.webp",
+   "members": 228899,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 63403,
+  "title": "Yani Neko",
+  "img": "https://cdn.myanimelist.net/images/anime/1281/156496.webp",
+  "members": 163352,
+  "tv": true
+ },
+ "count": 18
+}

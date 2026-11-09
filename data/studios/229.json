@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 52635,
+   "title": "Kami no Tou: Ouji no Kikan",
+   "img": "https://cdn.myanimelist.net/images/anime/1218/143537.webp",
+   "members": 302675,
+   "tv": true
+  },
+  {
+   "id": 59989,
+   "title": "Kami no Tou: Koubou-sen",
+   "img": "https://cdn.myanimelist.net/images/anime/1877/145819.webp",
+   "members": 148799,
+   "tv": true
+  },
+  {
+   "id": 60334,
+   "title": "Anne Shirley",
+   "img": "https://cdn.myanimelist.net/images/anime/1564/150049.webp",
+   "members": 57515,
+   "tv": true
+  },
+  {
+   "id": 4039,
+   "title": "Golgo 13 (TV)",
+   "img": "https://cdn.myanimelist.net/images/anime/9/25423.webp",
+   "members": 47944,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65202,
+  "title": "Shimajirou to Uchuu Ongakukai",
+  "img": "https://cdn.myanimelist.net/images/anime/1365/160578.webp",
+  "members": 30,
+  "tv": false
+ },
+ "count": 30
+}

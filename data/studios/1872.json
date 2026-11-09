@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 46102,
+   "title": "Odd Taxi",
+   "img": "https://cdn.myanimelist.net/images/anime/1981/113348.webp",
+   "members": 527189,
+   "tv": true
+  },
+  {
+   "id": 50653,
+   "title": "Odd Taxi Movie: In the Woods",
+   "img": "https://cdn.myanimelist.net/images/anime/1390/120708.webp",
+   "members": 48727,
+   "tv": false
+  },
+  {
+   "id": 51308,
+   "title": "Yoku",
+   "img": "https://cdn.myanimelist.net/images/anime/1807/121603.webp",
+   "members": 2349,
+   "tv": false
+  },
+  {
+   "id": 37787,
+   "title": "Space Bug",
+   "img": "https://cdn.myanimelist.net/images/anime/1063/94832.webp",
+   "members": 1062,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 63599,
+  "title": "Chidori",
+  "img": "https://cdn.myanimelist.net/images/anime/1967/155755.webp",
+  "members": 181,
+  "tv": false
+ },
+ "count": 20
+}

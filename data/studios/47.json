@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 2759,
+   "title": "Evangelion Movie 1: Jo",
+   "img": "https://cdn.myanimelist.net/images/anime/7/74975.webp",
+   "members": 630077,
+   "tv": false
+  },
+  {
+   "id": 3784,
+   "title": "Evangelion Movie 2: Ha",
+   "img": "https://cdn.myanimelist.net/images/anime/5/74983.webp",
+   "members": 604753,
+   "tv": false
+  },
+  {
+   "id": 3785,
+   "title": "Evangelion Movie 3: Q",
+   "img": "https://cdn.myanimelist.net/images/anime/9/43201.webp",
+   "members": 501930,
+   "tv": false
+  },
+  {
+   "id": 3786,
+   "title": "Shin Evangelion Movie:||",
+   "img": "https://cdn.myanimelist.net/images/anime/1422/113533.webp",
+   "members": 435364,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 65124,
+  "title": "Uchuu Senkan Yamato √2199",
+  "img": "https://cdn.myanimelist.net/images/anime/1054/160417.webp",
+  "members": 2102,
+  "tv": false
+ },
+ "count": 29
+}

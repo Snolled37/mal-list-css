@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 40356,
+   "title": "Tate no Yuusha no Nariagari Season 2",
+   "img": "https://cdn.myanimelist.net/images/anime/1143/121873.webp",
+   "members": 886194,
+   "tv": true
+  },
+  {
+   "id": 32613,
+   "title": "Elsword: El-ui Yeoin",
+   "img": "https://cdn.myanimelist.net/images/anime/8/83284.webp",
+   "members": 24128,
+   "tv": false
+  },
+  {
+   "id": 54697,
+   "title": "Terror Man",
+   "img": "https://cdn.myanimelist.net/images/anime/1808/160141.webp",
+   "members": 8618,
+   "tv": false
+  },
+  {
+   "id": 32691,
+   "title": "Flowering Heart",
+   "img": "https://cdn.myanimelist.net/images/anime/1599/141319.webp",
+   "members": 6365,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 54697,
+  "title": "Terror Man",
+  "img": "https://cdn.myanimelist.net/images/anime/1808/160141.webp",
+  "members": 8618,
+  "tv": false
+ },
+ "count": 8
+}

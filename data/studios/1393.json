@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 36028,
+   "title": "Golden Kamuy",
+   "img": "https://cdn.myanimelist.net/images/anime/1145/90880.webp",
+   "members": 472038,
+   "tv": true
+  },
+  {
+   "id": 37989,
+   "title": "Golden Kamuy 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1180/95018.webp",
+   "members": 245782,
+   "tv": true
+  },
+  {
+   "id": 40059,
+   "title": "Golden Kamuy 3rd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1763/108108.webp",
+   "members": 207137,
+   "tv": true
+  },
+  {
+   "id": 36548,
+   "title": "Kokkoku",
+   "img": "https://cdn.myanimelist.net/images/anime/8/89987.webp",
+   "members": 202564,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 55995,
+  "title": "Your Forma",
+  "img": "https://cdn.myanimelist.net/images/anime/1577/147967.webp",
+  "members": 44860,
+  "tv": true
+ },
+ "count": 11
+}

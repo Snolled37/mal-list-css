@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 52034,
+   "title": "[Oshi no Ko]",
+   "img": "https://cdn.myanimelist.net/images/anime/1812/134736.webp",
+   "members": 1091125,
+   "tv": true
+  },
+  {
+   "id": 27775,
+   "title": "Plastic Memories",
+   "img": "https://cdn.myanimelist.net/images/anime/4/72750.webp",
+   "members": 1049201,
+   "tv": true
+  },
+  {
+   "id": 23289,
+   "title": "Gekkan Shoujo Nozaki-kun",
+   "img": "https://cdn.myanimelist.net/images/anime/5/66083.webp",
+   "members": 1008373,
+   "tv": true
+  },
+  {
+   "id": 28825,
+   "title": "Himouto! Umaru-chan",
+   "img": "https://cdn.myanimelist.net/images/anime/12/75086.webp",
+   "members": 751351,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65032,
+  "title": "Futsutsuka na Akujo dewa Gozaimasu ga: Suuguu Chouso Torikae Den Part 2",
+  "img": "https://cdn.myanimelist.net/images/anime/1955/160167.webp",
+  "members": 25900,
+  "tv": true
+ },
+ "count": 108
+}

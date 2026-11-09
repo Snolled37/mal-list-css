@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 457,
+   "title": "Mushishi",
+   "img": null,
+   "members": 922402,
+   "tv": true
+  },
+  {
+   "id": 355,
+   "title": "Shakugan no Shana",
+   "img": null,
+   "members": 564151,
+   "tv": true
+  },
+  {
+   "id": 150,
+   "title": "Blood+",
+   "img": null,
+   "members": 402693,
+   "tv": true
+  },
+  {
+   "id": 228,
+   "title": "Jigoku Shoujo",
+   "img": null,
+   "members": 390912,
+   "tv": true
+  },
+  {
+   "id": 68,
+   "title": "Black Cat",
+   "img": null,
+   "members": 285804,
+   "tv": true
+  }
+ ]
+}

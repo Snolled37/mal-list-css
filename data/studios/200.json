@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 37520,
+   "title": "Dororo",
+   "img": "https://cdn.myanimelist.net/images/anime/1879/100467.webp",
+   "members": 1406522,
+   "tv": true
+  },
+  {
+   "id": 38101,
+   "title": "5-toubun no Hanayome",
+   "img": "https://cdn.myanimelist.net/images/anime/1819/97947.webp",
+   "members": 1104902,
+   "tv": true
+  },
+  {
+   "id": 41623,
+   "title": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu Ω",
+   "img": "https://cdn.myanimelist.net/images/anime/1011/113703.webp",
+   "members": 476164,
+   "tv": true
+  },
+  {
+   "id": 43969,
+   "title": "Kanojo mo Kanojo",
+   "img": "https://cdn.myanimelist.net/images/anime/1713/117119.webp",
+   "members": 434394,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64338,
+  "title": "Hi no Tori: Earthkeepers-hen",
+  "img": "https://cdn.myanimelist.net/images/anime/1400/158331.webp",
+  "members": 65,
+  "tv": false
+ },
+ "count": 97
+}

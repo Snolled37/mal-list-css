@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 5671,
+   "title": "Saki",
+   "img": "https://cdn.myanimelist.net/images/anime/12/73933.webp",
+   "members": 100802,
+   "tv": true
+  },
+  {
+   "id": 670,
+   "title": "Lamune",
+   "img": "https://cdn.myanimelist.net/images/anime/4/15900.webp",
+   "members": 44230,
+   "tv": true
+  },
+  {
+   "id": 854,
+   "title": "Soul Link",
+   "img": "https://cdn.myanimelist.net/images/anime/1730/133955.webp",
+   "members": 24180,
+   "tv": true
+  },
+  {
+   "id": 4136,
+   "title": "Penguin Musume♥Heart",
+   "img": "https://cdn.myanimelist.net/images/anime/2/8270.webp",
+   "members": 19331,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 58139,
+  "title": "Kimi ga Nozomu Eien: Ayu Mayu Gekijou Prologue",
+  "img": "https://cdn.myanimelist.net/images/anime/1393/141451.webp",
+  "members": 581,
+  "tv": false
+ },
+ "count": 20
+}

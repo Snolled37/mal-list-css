@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 40748,
+   "title": "Jujutsu Kaisen",
+   "img": null,
+   "members": 3136425,
+   "tv": true
+  },
+  {
+   "id": 40776,
+   "title": "Haikyuu!! To the Top Part 2",
+   "img": null,
+   "members": 949124,
+   "tv": true
+  },
+  {
+   "id": 41389,
+   "title": "Tonikaku Kawaii",
+   "img": null,
+   "members": 860080,
+   "tv": true
+  },
+  {
+   "id": 40454,
+   "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka III",
+   "img": null,
+   "members": 694015,
+   "tv": true
+  },
+  {
+   "id": 40911,
+   "title": "Yuukoku no Moriarty",
+   "img": null,
+   "members": 521512,
+   "tv": true
+  }
+ ]
+}

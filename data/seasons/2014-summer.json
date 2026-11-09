@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 22319,
+   "title": "Tokyo Ghoul",
+   "img": null,
+   "members": 3106620,
+   "tv": true
+  },
+  {
+   "id": 22199,
+   "title": "Akame ga Kill!",
+   "img": null,
+   "members": 2308096,
+   "tv": true
+  },
+  {
+   "id": 21881,
+   "title": "Sword Art Online II",
+   "img": null,
+   "members": 2140230,
+   "tv": true
+  },
+  {
+   "id": 23283,
+   "title": "Zankyou no Terror",
+   "img": null,
+   "members": 1306354,
+   "tv": true
+  },
+  {
+   "id": 21995,
+   "title": "Ao Haru Ride",
+   "img": null,
+   "members": 1030792,
+   "tv": true
+  }
+ ]
+}

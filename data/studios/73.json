@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 38691,
+   "title": "Dr. Stone",
+   "img": "https://cdn.myanimelist.net/images/anime/1613/102576.webp",
+   "members": 2002088,
+   "tv": true
+  },
+  {
+   "id": 40852,
+   "title": "Dr. Stone: Stone Wars",
+   "img": "https://cdn.myanimelist.net/images/anime/1711/110614.webp",
+   "members": 1234273,
+   "tv": true
+  },
+  {
+   "id": 30015,
+   "title": "ReLIFE",
+   "img": "https://cdn.myanimelist.net/images/anime/3/82149.webp",
+   "members": 1161798,
+   "tv": true
+  },
+  {
+   "id": 40839,
+   "title": "Kanojo, Okarishimasu",
+   "img": "https://cdn.myanimelist.net/images/anime/1902/128382.webp",
+   "members": 1108601,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65300,
+  "title": "Shibatsuki Bukken",
+  "img": "https://cdn.myanimelist.net/images/anime/1235/160816.webp",
+  "members": 520,
+  "tv": true
+ },
+ "count": 430
+}

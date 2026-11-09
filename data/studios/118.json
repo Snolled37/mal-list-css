@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 48675,
+   "title": "Kakkou no Iinazuke",
+   "img": "https://cdn.myanimelist.net/images/anime/1285/120529.webp",
+   "members": 352179,
+   "tv": true
+  },
+  {
+   "id": 38830,
+   "title": "Hachi-nan tte, Sore wa Nai deshou!",
+   "img": "https://cdn.myanimelist.net/images/anime/1834/110718.webp",
+   "members": 282956,
+   "tv": true
+  },
+  {
+   "id": 43814,
+   "title": "Deatte 5-byou de Battle",
+   "img": "https://cdn.myanimelist.net/images/anime/1145/115565.webp",
+   "members": 245860,
+   "tv": true
+  },
+  {
+   "id": 2026,
+   "title": "Hayate no Gotoku!",
+   "img": "https://cdn.myanimelist.net/images/anime/7/73932.webp",
+   "members": 239316,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65053,
+  "title": "Shin Oishinbo",
+  "img": "https://cdn.myanimelist.net/images/anime/1926/160224.webp",
+  "members": 657,
+  "tv": true
+ },
+ "count": 64
+}

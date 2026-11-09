@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 4224,
+   "title": "Toradora!",
+   "img": "https://cdn.myanimelist.net/images/anime/13/22128.webp",
+   "members": 2401978,
+   "tv": true
+  },
+  {
+   "id": 34134,
+   "title": "One Punch Man 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1247/122044.webp",
+   "members": 1916155,
+   "tv": true
+  },
+  {
+   "id": 28171,
+   "title": "Shokugeki no Souma",
+   "img": "https://cdn.myanimelist.net/images/anime/1444/148976.webp",
+   "members": 1768119,
+   "tv": true
+  },
+  {
+   "id": 28121,
+   "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+   "img": "https://cdn.myanimelist.net/images/anime/1172/148981.webp",
+   "members": 1677224,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 64848,
+  "title": "Duel Masters LOST: Danzai no Shounen",
+  "img": "https://cdn.myanimelist.net/images/anime/1443/159682.webp",
+  "members": 491,
+  "tv": false
+ },
+ "count": 451
+}

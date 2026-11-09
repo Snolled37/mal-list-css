@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 39535,
+   "title": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+   "img": "https://cdn.myanimelist.net/images/anime/1530/117776.webp",
+   "members": 1641004,
+   "tv": true
+  },
+  {
+   "id": 45576,
+   "title": "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2",
+   "img": "https://cdn.myanimelist.net/images/anime/1028/117777.webp",
+   "members": 1173475,
+   "tv": true
+  },
+  {
+   "id": 51179,
+   "title": "Mushoku Tensei II: Isekai Ittara Honki Dasu",
+   "img": "https://cdn.myanimelist.net/images/anime/1898/138005.webp",
+   "members": 810259,
+   "tv": true
+  },
+  {
+   "id": 55888,
+   "title": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2",
+   "img": "https://cdn.myanimelist.net/images/anime/1876/141251.webp",
+   "members": 628802,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 59791,
+  "title": "Ruri no Houseki",
+  "img": "https://cdn.myanimelist.net/images/anime/1431/148742.webp",
+  "members": 98591,
+  "tv": true
+ },
+ "count": 12
+}

@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 2251,
+   "title": "Baccano!",
+   "img": "https://cdn.myanimelist.net/images/anime/3/14547.webp",
+   "members": 969326,
+   "tv": true
+  },
+  {
+   "id": 2476,
+   "title": "School Days",
+   "img": null,
+   "members": 723187,
+   "tv": true
+  },
+  {
+   "id": 1840,
+   "title": "Zero no Tsukaima: Futatsuki no Kishi",
+   "img": "https://cdn.myanimelist.net/images/anime/2/22740.webp",
+   "members": 535430,
+   "tv": true
+  },
+  {
+   "id": 1889,
+   "title": "Higurashi no Naku Koro ni Kai",
+   "img": "https://cdn.myanimelist.net/images/anime/12/14114.webp",
+   "members": 526798,
+   "tv": true
+  },
+  {
+   "id": 2246,
+   "title": "Mononoke",
+   "img": null,
+   "members": 376684,
+   "tv": true
+  }
+ ]
+}

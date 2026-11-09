@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 34403,
+   "title": "Hajimete no Gal",
+   "img": "https://cdn.myanimelist.net/images/anime/9/86826.webp",
+   "members": 610599,
+   "tv": true
+  },
+  {
+   "id": 40046,
+   "title": "Id:Invaded",
+   "img": "https://cdn.myanimelist.net/images/anime/1889/105337.webp",
+   "members": 436144,
+   "tv": true
+  },
+  {
+   "id": 20689,
+   "title": "Hamatora The Animation",
+   "img": "https://cdn.myanimelist.net/images/anime/13/75653.webp",
+   "members": 318801,
+   "tv": true
+  },
+  {
+   "id": 38909,
+   "title": "Infinite Dendrogram",
+   "img": "https://cdn.myanimelist.net/images/anime/1854/114772.webp",
+   "members": 203275,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 63572,
+  "title": "Dandelion",
+  "img": "https://cdn.myanimelist.net/images/anime/1222/156332.webp",
+  "members": 18014,
+  "tv": false
+ },
+ "count": 28
+}

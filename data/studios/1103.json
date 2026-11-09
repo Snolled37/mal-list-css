@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 34561,
+   "title": "Re:Creators",
+   "img": "https://cdn.myanimelist.net/images/anime/11/85469.webp",
+   "members": 550148,
+   "tv": true
+  },
+  {
+   "id": 22729,
+   "title": "Aldnoah.Zero",
+   "img": "https://cdn.myanimelist.net/images/anime/7/60263.webp",
+   "members": 542707,
+   "tv": true
+  },
+  {
+   "id": 37786,
+   "title": "Yagate Kimi ni Naru",
+   "img": "https://cdn.myanimelist.net/images/anime/1783/96153.webp",
+   "members": 392508,
+   "tv": true
+  },
+  {
+   "id": 27655,
+   "title": "Aldnoah.Zero Part 2",
+   "img": "https://cdn.myanimelist.net/images/anime/10/71297.webp",
+   "members": 326949,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65145,
+  "title": "Saikon Shounin wo Youkyuu Shimasu",
+  "img": "https://cdn.myanimelist.net/images/anime/1778/160467.webp",
+  "members": 2350,
+  "tv": true
+ },
+ "count": 32
+}

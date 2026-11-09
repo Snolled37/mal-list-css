@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 28249,
+   "title": "Arslan Senki (TV)",
+   "img": "https://cdn.myanimelist.net/images/anime/1168/148973.webp",
+   "members": 402314,
+   "tv": true
+  },
+  {
+   "id": 11285,
+   "title": "Black★Rock Shooter (TV)",
+   "img": "https://cdn.myanimelist.net/images/anime/5/53909.webp",
+   "members": 373084,
+   "tv": true
+  },
+  {
+   "id": 27829,
+   "title": "Heavy Object",
+   "img": "https://cdn.myanimelist.net/images/anime/13/75940.webp",
+   "members": 164239,
+   "tv": true
+  },
+  {
+   "id": 18893,
+   "title": "Aoki Hagane no Arpeggio: Ars Nova",
+   "img": "https://cdn.myanimelist.net/images/anime/6/56143.webp",
+   "members": 157954,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 65278,
+  "title": "Nyan Nyan Kyururun! Neko Noudo",
+  "img": "https://cdn.myanimelist.net/images/anime/1935/160726.webp",
+  "members": 63,
+  "tv": false
+ },
+ "count": 72
+}

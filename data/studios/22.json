@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 136,
+   "title": "Hunter x Hunter",
+   "img": "https://cdn.myanimelist.net/images/anime/1305/132237.webp",
+   "members": 660311,
+   "tv": true
+  },
+  {
+   "id": 138,
+   "title": "Hunter x Hunter: Greed Island",
+   "img": "https://cdn.myanimelist.net/images/anime/1902/122320.webp",
+   "members": 184926,
+   "tv": false
+  },
+  {
+   "id": 1562,
+   "title": "Yamato Nadeshiko Shichihenge♥",
+   "img": "https://cdn.myanimelist.net/images/anime/11/7701.webp",
+   "members": 173855,
+   "tv": true
+  },
+  {
+   "id": 139,
+   "title": "Hunter x Hunter: Greed Island Final",
+   "img": "https://cdn.myanimelist.net/images/anime/1/139.webp",
+   "members": 159109,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 65267,
+  "title": "Anime Kanshi: Kanbun no Sekai",
+  "img": "https://cdn.myanimelist.net/images/anime/1611/160708.webp",
+  "members": 23,
+  "tv": false
+ },
+ "count": 234
+}

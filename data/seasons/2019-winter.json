@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 37779,
+   "title": "Yakusoku no Neverland",
+   "img": null,
+   "members": 2192079,
+   "tv": true
+  },
+  {
+   "id": 37999,
+   "title": "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
+   "img": null,
+   "members": 1984238,
+   "tv": true
+  },
+  {
+   "id": 35790,
+   "title": "Tate no Yuusha no Nariagari",
+   "img": null,
+   "members": 1798791,
+   "tv": true
+  },
+  {
+   "id": 37510,
+   "title": "Mob Psycho 100 II",
+   "img": null,
+   "members": 1766242,
+   "tv": true
+  },
+  {
+   "id": 37520,
+   "title": "Dororo",
+   "img": null,
+   "members": 1406492,
+   "tv": true
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 61169,
+   "title": "Black Torch",
+   "img": "https://cdn.myanimelist.net/images/anime/1965/158363.webp",
+   "members": 116024,
+   "tv": true
+  },
+  {
+   "id": 62405,
+   "title": "Fujimoto Tatsuki 17-26",
+   "img": "https://cdn.myanimelist.net/images/anime/1864/151837.webp",
+   "members": 102802,
+   "tv": false
+  },
+  {
+   "id": 54835,
+   "title": "Kono Sekai wa Fukanzen Sugiru",
+   "img": "https://cdn.myanimelist.net/images/anime/1187/141847.webp",
+   "members": 57041,
+   "tv": true
+  },
+  {
+   "id": 61999,
+   "title": "Shuiro no Kamen",
+   "img": "https://cdn.myanimelist.net/images/anime/1299/159977.webp",
+   "members": 27465,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 62863,
+  "title": "Poketoon (2025)",
+  "img": "https://cdn.myanimelist.net/images/anime/1503/152957.webp",
+  "members": 1599,
+  "tv": false
+ },
+ "count": 8
+}

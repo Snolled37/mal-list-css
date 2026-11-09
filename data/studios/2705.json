@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 54492,
+   "title": "Kusuriya no Hitorigoto",
+   "img": "https://cdn.myanimelist.net/images/anime/1708/138033.webp",
+   "members": 925297,
+   "tv": true
+  },
+  {
+   "id": 58514,
+   "title": "Kusuriya no Hitorigoto 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/1025/147458.webp",
+   "members": 572454,
+   "tv": true
+  },
+  {
+   "id": 62844,
+   "title": "Kusuriya no Hitorigoto Movie: Bouhi no Hihou",
+   "img": "https://cdn.myanimelist.net/images/anime/1751/160650.webp",
+   "members": 69809,
+   "tv": false
+  },
+  {
+   "id": 56885,
+   "title": "Sousou no Frieren: ●● no Mahou",
+   "img": "https://cdn.myanimelist.net/images/anime/1045/150038.webp",
+   "members": 26920,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 65119,
+  "title": "Maomao no Hitorigoto 3rd Season",
+  "img": "https://cdn.myanimelist.net/images/anime/1870/160412.webp",
+  "members": 910,
+  "tv": false
+ },
+ "count": 16
+}

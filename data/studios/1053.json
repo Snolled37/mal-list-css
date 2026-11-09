@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 23233,
+   "title": "Shinmai Maou no Testament",
+   "img": "https://cdn.myanimelist.net/images/anime/1654/112033.webp",
+   "members": 741278,
+   "tv": true
+  },
+  {
+   "id": 19163,
+   "title": "Date A Live II",
+   "img": "https://cdn.myanimelist.net/images/anime/1690/141818.webp",
+   "members": 695580,
+   "tv": true
+  },
+  {
+   "id": 30363,
+   "title": "Shinmai Maou no Testament Burst",
+   "img": "https://cdn.myanimelist.net/images/anime/1151/94750.webp",
+   "members": 437230,
+   "tv": true
+  },
+  {
+   "id": 31338,
+   "title": "Hundred",
+   "img": "https://cdn.myanimelist.net/images/anime/3/78858.webp",
+   "members": 404220,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 39482,
+  "title": "Ore, Twintail ni Narimasu. Recap",
+  "img": "https://cdn.myanimelist.net/images/anime/1845/99646.webp",
+  "members": 3214,
+  "tv": false
+ },
+ "count": 25
+}

@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 36098,
+   "title": "Kimi no Suizou wo Tabetai",
+   "img": "https://cdn.myanimelist.net/images/anime/1768/93291.webp",
+   "members": 1152248,
+   "tv": false
+  },
+  {
+   "id": 29854,
+   "title": "Ushio to Tora (TV)",
+   "img": "https://cdn.myanimelist.net/images/anime/8/74945.webp",
+   "members": 242353,
+   "tv": true
+  },
+  {
+   "id": 53889,
+   "title": "Ao no Exorcist: Shimane Illuminati-hen",
+   "img": "https://cdn.myanimelist.net/images/anime/1239/140803.webp",
+   "members": 191354,
+   "tv": true
+  },
+  {
+   "id": 37447,
+   "title": "Karakuri Circus",
+   "img": "https://cdn.myanimelist.net/images/anime/1518/110450.webp",
+   "members": 144240,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 62126,
+  "title": "SI-VIS: The Sound of Heroes",
+  "img": "https://cdn.myanimelist.net/images/anime/1421/154342.webp",
+  "members": 10608,
+  "tv": true
+ },
+ "count": 12
+}

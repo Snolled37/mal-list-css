@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 50789,
+   "title": "Jantama Pong☆",
+   "img": "https://cdn.myanimelist.net/images/anime/1080/124640.webp",
+   "members": 10026,
+   "tv": true
+  },
+  {
+   "id": 51772,
+   "title": "Umayuru",
+   "img": "https://cdn.myanimelist.net/images/anime/1530/132472.webp",
+   "members": 9519,
+   "tv": false
+  },
+  {
+   "id": 49939,
+   "title": "Petit Seka",
+   "img": "https://cdn.myanimelist.net/images/anime/1517/128206.webp",
+   "members": 7239,
+   "tv": false
+  },
+  {
+   "id": 61579,
+   "title": "Umayuru: Pretty Gray",
+   "img": "https://cdn.myanimelist.net/images/anime/1622/149562.webp",
+   "members": 5945,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 61579,
+  "title": "Umayuru: Pretty Gray",
+  "img": "https://cdn.myanimelist.net/images/anime/1622/149562.webp",
+  "members": 5945,
+  "tv": false
+ },
+ "count": 13
+}

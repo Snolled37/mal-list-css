@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 457,
+   "title": "Mushishi",
+   "img": "https://cdn.myanimelist.net/images/anime/2/73862.webp",
+   "members": 922402,
+   "tv": true
+  },
+  {
+   "id": 1604,
+   "title": "Katekyou Hitman Reborn!",
+   "img": "https://cdn.myanimelist.net/images/anime/1531/142751.webp",
+   "members": 592939,
+   "tv": true
+  },
+  {
+   "id": 7088,
+   "title": "Ichiban Ushiro no Daimaou",
+   "img": "https://cdn.myanimelist.net/images/anime/11/75554.webp",
+   "members": 568523,
+   "tv": true
+  },
+  {
+   "id": 21939,
+   "title": "Mushishi Zoku Shou",
+   "img": "https://cdn.myanimelist.net/images/anime/13/58533.webp",
+   "members": 331788,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 39738,
+  "title": "Mushishi Recap",
+  "img": "https://cdn.myanimelist.net/images/anime/1127/100635.webp",
+  "members": 4237,
+  "tv": false
+ },
+ "count": 48
+}

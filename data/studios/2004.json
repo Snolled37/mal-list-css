@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 50664,
+   "title": "Saihate no Paladin: Tetsusabi no Yama no Ou",
+   "img": "https://cdn.myanimelist.net/images/anime/1031/138515.webp",
+   "members": 151747,
+   "tv": true
+  },
+  {
+   "id": 41834,
+   "title": "King's Raid: Ishi wo Tsugumono-tachi",
+   "img": "https://cdn.myanimelist.net/images/anime/1885/109122.webp",
+   "members": 79807,
+   "tv": true
+  },
+  {
+   "id": 48466,
+   "title": "Kyoukai Senki",
+   "img": "https://cdn.myanimelist.net/images/anime/1772/116668.webp",
+   "members": 37178,
+   "tv": true
+  },
+  {
+   "id": 40192,
+   "title": "Gundam Build Divers Re:Rise",
+   "img": "https://cdn.myanimelist.net/images/anime/1011/109143.webp",
+   "members": 19719,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 54902,
+  "title": "Gundam Build Metaverse",
+  "img": "https://cdn.myanimelist.net/images/anime/1907/135919.webp",
+  "members": 5126,
+  "tv": false
+ },
+ "count": 9
+}

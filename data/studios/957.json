@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 18277,
+   "title": "Strike the Blood",
+   "img": "https://cdn.myanimelist.net/images/anime/5/56163.webp",
+   "members": 677090,
+   "tv": true
+  },
+  {
+   "id": 34497,
+   "title": "Death March kara Hajimaru Isekai Kyousoukyoku",
+   "img": "https://cdn.myanimelist.net/images/anime/4/88911.webp",
+   "members": 568157,
+   "tv": true
+  },
+  {
+   "id": 38483,
+   "title": "Ore wo Suki nano wa Omae dake ka yo",
+   "img": "https://cdn.myanimelist.net/images/anime/1348/102797.webp",
+   "members": 514929,
+   "tv": true
+  },
+  {
+   "id": 33475,
+   "title": "Busou Shoujo Machiavellianism",
+   "img": "https://cdn.myanimelist.net/images/anime/3/83995.webp",
+   "members": 426851,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 60951,
+  "title": "Kizetsu Yuusha to Ansatsu Hime",
+  "img": "https://cdn.myanimelist.net/images/anime/1777/150455.webp",
+  "members": 64710,
+  "tv": true
+ },
+ "count": 27
+}

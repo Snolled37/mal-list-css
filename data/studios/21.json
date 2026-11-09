@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 199,
+   "title": "Sen to Chihiro no Kamikakushi",
+   "img": "https://cdn.myanimelist.net/images/anime/6/79597.webp",
+   "members": 2063835,
+   "tv": false
+  },
+  {
+   "id": 431,
+   "title": "Howl no Ugoku Shiro",
+   "img": "https://cdn.myanimelist.net/images/anime/1470/138723.webp",
+   "members": 1520163,
+   "tv": false
+  },
+  {
+   "id": 164,
+   "title": "Mononoke Hime",
+   "img": "https://cdn.myanimelist.net/images/anime/1355/147277.webp",
+   "members": 1406180,
+   "tv": false
+  },
+  {
+   "id": 523,
+   "title": "Tonari no Totoro",
+   "img": "https://cdn.myanimelist.net/images/anime/1110/147278.webp",
+   "members": 1184774,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 64431,
+  "title": "Majo no Tani no Yoru",
+  "img": "https://cdn.myanimelist.net/images/anime/1740/158563.webp",
+  "members": 975,
+  "tv": false
+ },
+ "count": 53
+}

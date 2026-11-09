@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 2966,
+   "title": "Ookami to Koushinryou",
+   "img": null,
+   "members": 882042,
+   "tv": true
+  },
+  {
+   "id": 2993,
+   "title": "Rosario to Vampire",
+   "img": null,
+   "members": 738108,
+   "tv": true
+  },
+  {
+   "id": 2129,
+   "title": "True Tears",
+   "img": "https://cdn.myanimelist.net/images/anime/1733/134118.webp",
+   "members": 229781,
+   "tv": true
+  },
+  {
+   "id": 3342,
+   "title": "Mnemosyne: Mnemosyne no Musume-tachi",
+   "img": "https://cdn.myanimelist.net/images/anime/1463/153332.webp",
+   "members": 204977,
+   "tv": true
+  },
+  {
+   "id": 3297,
+   "title": "Aria the Origination",
+   "img": "https://cdn.myanimelist.net/images/anime/1431/132867.webp",
+   "members": 144420,
+   "tv": true
+  }
+ ]
+}

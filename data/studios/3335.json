@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 63509,
+   "title": "Dark Summoner to Dekiteiru",
+   "img": "https://cdn.myanimelist.net/images/anime/1357/159860.webp",
+   "members": 21106,
+   "tv": false
+  },
+  {
+   "id": 64867,
+   "title": "Umayuru: Full Gate!",
+   "img": "https://cdn.myanimelist.net/images/anime/1961/160271.webp",
+   "members": 4342,
+   "tv": false
+  },
+  {
+   "id": 64718,
+   "title": "Ghost Meets Gal!",
+   "img": "https://cdn.myanimelist.net/images/anime/1800/159261.webp",
+   "members": 4022,
+   "tv": true
+  },
+  {
+   "id": 61107,
+   "title": "GANSO! BanG Dream Chan",
+   "img": "https://cdn.myanimelist.net/images/anime/1908/155077.webp",
+   "members": 3635,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 64867,
+  "title": "Umayuru: Full Gate!",
+  "img": "https://cdn.myanimelist.net/images/anime/1961/160271.webp",
+  "members": 4342,
+  "tv": false
+ },
+ "count": 5
+}

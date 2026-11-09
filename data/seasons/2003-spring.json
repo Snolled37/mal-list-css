@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 486,
+   "title": "Kino no Tabi: The Beautiful World",
+   "img": null,
+   "members": 364312,
+   "tv": true
+  },
+  {
+   "id": 26,
+   "title": "Texhnolyze",
+   "img": "https://cdn.myanimelist.net/images/anime/1027/131977.webp",
+   "members": 299384,
+   "tv": true
+  },
+  {
+   "id": 61,
+   "title": "D.N.Angel",
+   "img": "https://cdn.myanimelist.net/images/anime/1126/98904.webp",
+   "members": 193094,
+   "tv": true
+  },
+  {
+   "id": 97,
+   "title": "Last Exile",
+   "img": null,
+   "members": 191166,
+   "tv": true
+  },
+  {
+   "id": 250,
+   "title": "Konjiki no Gash Bell!!",
+   "img": null,
+   "members": 139704,
+   "tv": true
+  }
+ ]
+}

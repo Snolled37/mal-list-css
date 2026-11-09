@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 36317,
+   "title": "Gaikotsu Shotenin Honda-san",
+   "img": "https://cdn.myanimelist.net/images/anime/1555/93865.webp",
+   "members": 128669,
+   "tv": true
+  },
+  {
+   "id": 27783,
+   "title": "Sword Gai The Animation",
+   "img": "https://cdn.myanimelist.net/images/anime/7/89759.webp",
+   "members": 79964,
+   "tv": false
+  },
+  {
+   "id": 37655,
+   "title": "Sword Gai The Animation Part II",
+   "img": "https://cdn.myanimelist.net/images/anime/1805/91647.webp",
+   "members": 35580,
+   "tv": false
+  },
+  {
+   "id": 7596,
+   "title": "Haiyoru! Nyaruani",
+   "img": "https://cdn.myanimelist.net/images/anime/5/22334.webp",
+   "members": 32926,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 64725,
+  "title": "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai Season 4",
+  "img": "https://cdn.myanimelist.net/images/anime/1600/159289.webp",
+  "members": 1121,
+  "tv": false
+ },
+ "count": 240
+}

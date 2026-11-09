@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 40333,
+   "title": "Uzumaki",
+   "img": "https://cdn.myanimelist.net/images/anime/1207/146272.webp",
+   "members": 249412,
+   "tv": true
+  },
+  {
+   "id": 51306,
+   "title": "C Danchi",
+   "img": "https://cdn.myanimelist.net/images/anime/1378/121573.webp",
+   "members": 37160,
+   "tv": true
+  },
+  {
+   "id": 51305,
+   "title": "FLCL: Shoegaze",
+   "img": "https://cdn.myanimelist.net/images/anime/1540/121528.webp",
+   "members": 24843,
+   "tv": true
+  },
+  {
+   "id": 50267,
+   "title": "Irodorimidori",
+   "img": "https://cdn.myanimelist.net/images/anime/1635/120395.webp",
+   "members": 12390,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 51306,
+  "title": "C Danchi",
+  "img": "https://cdn.myanimelist.net/images/anime/1378/121573.webp",
+  "members": 37160,
+  "tv": true
+ },
+ "count": 7
+}

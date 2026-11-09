@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 58913,
+   "title": "Hikaru ga Shinda Natsu",
+   "img": "https://cdn.myanimelist.net/images/anime/1104/148614.webp",
+   "members": 336650,
+   "tv": true
+  },
+  {
+   "id": 39292,
+   "title": "Princess Connect! Re:Dive",
+   "img": "https://cdn.myanimelist.net/images/anime/1810/106070.webp",
+   "members": 323178,
+   "tv": true
+  },
+  {
+   "id": 42670,
+   "title": "Princess Connect! Re:Dive Season 2",
+   "img": "https://cdn.myanimelist.net/images/anime/1906/117145.webp",
+   "members": 144620,
+   "tv": true
+  },
+  {
+   "id": 31537,
+   "title": "Manaria Friends",
+   "img": "https://cdn.myanimelist.net/images/anime/1287/111373.webp",
+   "members": 139808,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 63279,
+  "title": "Uma Musume: Cinderella Gray x Autobacs",
+  "img": "https://cdn.myanimelist.net/images/anime/1505/154918.webp",
+  "members": 140,
+  "tv": false
+ },
+ "count": 20
+}

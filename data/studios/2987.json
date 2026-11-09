@@ -1,0 +1,34 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 64012,
+   "title": "The Ribbon Hero",
+   "img": "https://cdn.myanimelist.net/images/anime/1048/158218.webp",
+   "members": 23156,
+   "tv": false
+  },
+  {
+   "id": 53394,
+   "title": "Plantopia",
+   "img": "https://cdn.myanimelist.net/images/anime/1513/129443.webp",
+   "members": 680,
+   "tv": false
+  },
+  {
+   "id": 53096,
+   "title": "Isekai Kongou Dai Butoukai feat. Obake",
+   "img": "https://cdn.myanimelist.net/images/anime/1213/128143.webp",
+   "members": 252,
+   "tv": false
+  }
+ ],
+ "newest": {
+  "id": 64012,
+  "title": "The Ribbon Hero",
+  "img": "https://cdn.myanimelist.net/images/anime/1048/158218.webp",
+  "members": 23156,
+  "tv": false
+ },
+ "count": 3
+}

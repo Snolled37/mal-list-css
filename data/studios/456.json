@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 24833,
+   "title": "Ansatsu Kyoushitsu",
+   "img": "https://cdn.myanimelist.net/images/anime/5/75639.webp",
+   "members": 2257880,
+   "tv": true
+  },
+  {
+   "id": 30654,
+   "title": "Ansatsu Kyoushitsu 2nd Season",
+   "img": "https://cdn.myanimelist.net/images/anime/8/77966.webp",
+   "members": 1596973,
+   "tv": true
+  },
+  {
+   "id": 35507,
+   "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+   "img": "https://cdn.myanimelist.net/images/anime/5/86830.webp",
+   "members": 1508366,
+   "tv": true
+  },
+  {
+   "id": 16592,
+   "title": "Danganronpa: Kibou no Gakuen to Zetsubou no Koukousei The Animation",
+   "img": "https://cdn.myanimelist.net/images/anime/4/51463.webp",
+   "members": 1021713,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 62634,
+  "title": "Given: 10th Mix",
+  "img": "https://cdn.myanimelist.net/images/anime/1780/152389.webp",
+  "members": 4700,
+  "tv": false
+ },
+ "count": 69
+}

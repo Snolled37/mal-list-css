@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 721,
+   "title": "Princess Tutu",
+   "img": null,
+   "members": 188973,
+   "tv": true
+  },
+  {
+   "id": 7,
+   "title": "Witch Hunter Robin",
+   "img": "https://cdn.myanimelist.net/images/anime/10/19969.webp",
+   "members": 132743,
+   "tv": true
+  },
+  {
+   "id": 529,
+   "title": "Saishuu Heiki Kanojo",
+   "img": "https://cdn.myanimelist.net/images/anime/1/529.webp",
+   "members": 106918,
+   "tv": true
+  },
+  {
+   "id": 419,
+   "title": "Samurai Deeper Kyou",
+   "img": "https://cdn.myanimelist.net/images/anime/1376/147349.webp",
+   "members": 60784,
+   "tv": true
+  },
+  {
+   "id": 296,
+   "title": "Dragon Drive",
+   "img": "https://cdn.myanimelist.net/images/anime/1/2214.webp",
+   "members": 25346,
+   "tv": true
+  }
+ ]
+}

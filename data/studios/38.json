@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 226,
+   "title": "Elfen Lied",
+   "img": "https://cdn.myanimelist.net/images/anime/1780/121555.webp",
+   "members": 1639035,
+   "tv": true
+  },
+  {
+   "id": 14833,
+   "title": "Maoyuu Maou Yuusha",
+   "img": "https://cdn.myanimelist.net/images/anime/4/46041.webp",
+   "members": 536123,
+   "tv": true
+  },
+  {
+   "id": 13161,
+   "title": "Hagure Yuusha no Aesthetica",
+   "img": "https://cdn.myanimelist.net/images/anime/9/74047.webp",
+   "members": 463041,
+   "tv": true
+  },
+  {
+   "id": 21431,
+   "title": "Gokukoku no Brynhildr",
+   "img": "https://cdn.myanimelist.net/images/anime/5/61433.webp",
+   "members": 360270,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 49342,
+  "title": "Shin Ikkitousen",
+  "img": "https://cdn.myanimelist.net/images/anime/1248/122517.webp",
+  "members": 31391,
+  "tv": true
+ },
+ "count": 107
+}

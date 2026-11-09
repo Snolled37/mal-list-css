@@ -1,0 +1,41 @@
+{
+ "fetched": "2026-11-09",
+ "top": [
+  {
+   "id": 32998,
+   "title": "91 Days",
+   "img": "https://cdn.myanimelist.net/images/anime/13/80515.webp",
+   "members": 806954,
+   "tv": true
+  },
+  {
+   "id": 23199,
+   "title": "Durarara!!x2 Shou",
+   "img": "https://cdn.myanimelist.net/images/anime/12/67743.webp",
+   "members": 519003,
+   "tv": true
+  },
+  {
+   "id": 27831,
+   "title": "Durarara!!x2 Ten",
+   "img": "https://cdn.myanimelist.net/images/anime/8/74981.webp",
+   "members": 425516,
+   "tv": true
+  },
+  {
+   "id": 27833,
+   "title": "Durarara!!x2 Ketsu",
+   "img": "https://cdn.myanimelist.net/images/anime/6/77838.webp",
+   "members": 406950,
+   "tv": true
+  }
+ ],
+ "newest": {
+  "id": 60302,
+  "title": "Natsume Yuujinchou Shichi: Nobashita Te wa",
+  "img": "https://cdn.myanimelist.net/images/anime/1058/150011.webp",
+  "members": 13380,
+  "tv": false
+ },
+ "count": 24
+}

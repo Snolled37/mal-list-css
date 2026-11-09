@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 23273,
+   "title": "Shigatsu wa Kimi no Uso",
+   "img": null,
+   "members": 2471272,
+   "tv": true
+  },
+  {
+   "id": 23755,
+   "title": "Nanatsu no Taizai",
+   "img": null,
+   "members": 2241974,
+   "tv": true
+  },
+  {
+   "id": 22535,
+   "title": "Kiseijuu: Sei no Kakuritsu",
+   "img": null,
+   "members": 2074297,
+   "tv": true
+  },
+  {
+   "id": 22297,
+   "title": "Fate/stay night: Unlimited Blade Works",
+   "img": null,
+   "members": 1195272,
+   "tv": true
+  },
+  {
+   "id": 25013,
+   "title": "Akatsuki no Yona",
+   "img": null,
+   "members": 954931,
+   "tv": true
+  }
+ ]
+}

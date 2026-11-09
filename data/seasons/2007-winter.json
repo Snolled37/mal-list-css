@@ -1,0 +1,40 @@
+{
+ "fetched": "2026-11-09",
+ "items": [
+  {
+   "id": 1735,
+   "title": "Naruto: Shippuuden",
+   "img": null,
+   "members": 2803210,
+   "tv": true
+  },
+  {
+   "id": 1698,
+   "title": "Nodame Cantabile",
+   "img": null,
+   "members": 335552,
+   "tv": true
+  },
+  {
+   "id": 1860,
+   "title": "Tokyo Majin Gakuen Kenpuuchou: Tou",
+   "img": "https://cdn.myanimelist.net/images/anime/1897/160220.webp",
+   "members": 103355,
+   "tv": true
+  },
+  {
+   "id": 1852,
+   "title": "Hidamari Sketch",
+   "img": "https://cdn.myanimelist.net/images/anime/1893/133786.webp",
+   "members": 89782,
+   "tv": true
+  },
+  {
+   "id": 1956,
+   "title": "Ikkitousen: Dragon Destiny",
+   "img": "https://cdn.myanimelist.net/images/anime/6/85202.webp",
+   "members": 88269,
+   "tv": true
+  }
+ ]
+}
