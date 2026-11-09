@@ -1,7 +1,7 @@
 @\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Theme%20-%20Compressed.css";
 @\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Mod%20-%20Dark%20Mode%20Compressed.css";
-@\import "https://cdn.jsdelivr.net/gh/GITHUB_USER/mal-list-css@main/dist/phase1.css";
-@\import "https://cdn.jsdelivr.net/gh/GITHUB_USER/mal-list-css@main/dist/covers-manga.css";
+@\import "https://cdn.jsdelivr.net/gh/Snolled37/mal-list-css@main/dist/phase1.css";
+@\import "https://cdn.jsdelivr.net/gh/Snolled37/mal-list-css@main/dist/covers-manga.css";
 
 body { --name: "Snolled"; --character: none; }
 /* Put a direct image URL (ends in .jpg/.png/.webp) here: */

@@ -10,10 +10,10 @@ The old setup imported malscraper's `covers/auto`. That mode no longer works, be
 |---|---|
 | `dist/covers-anime.css`, `dist/covers-manga.css` | Hover-cover rules for each list. A daily GitHub Action rebuilds them. |
 | `dist/phase1.css` | Temporary fixes on top of the Clarity theme: hover without layout work, plus the score descriptors and hearts |
-| `paste/phase1-*.css` | What to paste into MAL → List Style → Custom CSS. Replace `GITHUB_USER` with your GitHub username. |
+| `paste/phase1-*.css` | What to paste into MAL → List Style → Custom CSS. Replace `Snolled37` with your GitHub username. |
 | `scripts/build_covers.py` | Rebuilds the cover files: `python scripts/build_covers.py --user Snolled` |
 
 ## Notes
 - MAL escapes a plain `@import`, so the paste file uses `@\import`.
 - The modern list loads 300 rows per request.
-- jsDelivr caches `@main` for up to 12 hours. The Action purges the cache after each commit. To purge by hand, open `https://purge.jsdelivr.net/gh/GITHUB_USER/mal-list-css@main/dist/<file>`.
+- jsDelivr caches `@main` for up to 12 hours. The Action purges the cache after each commit. To purge by hand, open `https://purge.jsdelivr.net/gh/Snolled37/mal-list-css@main/dist/<file>`.
