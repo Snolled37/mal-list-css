@@ -6,7 +6,7 @@
 .progress-49210{--p:0.333}
 .progress-16{--p:0.917}
 .progress-58524{--p:0.667}
-.progress-186{--p:0.385}
+.progress-186{--p:0.462}
 .progress-249{--p:0.671}
 .progress-588{--p:0.500}
 .progress-59484{--p:0.083}
@@ -521,3 +521,17 @@ body.ownlist .data.studio a[href$="/anime/producer/3230"]{--card-img:url(https:/
 body.ownlist .data.studio a[href$="/anime/producer/3275"]{--card-img:url(https://cdn.myanimelist.net/images/anime/1802/160893.webp);--card-txt:"FuRyu Pictures · 1 titles · top on MAL\A 1. Yuru Camp△ Season 4\A ✦ newest: Yuru Camp△ Season 4"}
 body.ownlist .data.studio a[href$="/anime/producer/3335"]{--card-img:url(https://cdn.myanimelist.net/images/anime/1357/159860.webp),url(https://cdn.myanimelist.net/images/anime/1961/160271.webp),url(https://cdn.myanimelist.net/images/anime/1800/159261.webp),url(https://cdn.myanimelist.net/images/anime/1908/155077.webp);--card-txt:"AtoriE · 5 titles · top on MAL\A 1. Dark Summoner to Dekiteiru\A 2. Umayuru: Full Gate!\A 3. Ghost Meets Gal!\A 4. GANSO! BanG Dream Chan\A ✦ newest: Umayuru: Full Gate!"}
 body.ownlist .data.studio a[href$="/anime/producer/3343"]{--card-img:url(https://cdn.myanimelist.net/images/anime/1736/158926.webp);--card-txt:"AXsiZ SMASH · 1 titles · top on MAL\A 1. 7-nin no Nemurihime\A ✦ newest: 7-nin no Nemurihime"}
+/* Anime list banners (1060x230; On Hold / Dropped / Plan to Watch are animated 6 s loops).
+   Only the banner of the open tab is downloaded. Kept in an imported file on purpose:
+   MAL rewrites url() written in the Custom CSS box through its image proxy.
+   Sources: see README "Banner credits". */
+body.ownlist.anime{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-comet.webp)}
+body.ownlist.anime[data-query*='"status":1']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-underwater.webp)}
+body.ownlist.anime[data-query*='"status":2']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-fruba.webp)}
+body.ownlist.anime[data-query*='"status":3']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-steins.webp)}
+body.ownlist.anime[data-query*='"status":4']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-saki.webp)}
+body.ownlist.anime[data-query*='"status":6']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-frieren.webp)}
+/* reduced motion: animated tabs fall back to the still All-Anime banner */
+@media (prefers-reduced-motion:reduce){
+  body.ownlist.anime[data-query*='"status":3'],body.ownlist.anime[data-query*='"status":4'],body.ownlist.anime[data-query*='"status":6']{--banner:url(https://snolled37.github.io/mal-list-css/assets/anime/anime-comet.webp)!important}
+}

@@ -227,6 +227,11 @@ def main() -> int:
                     f'body.ownlist .data.studio a[href$="/anime/producer/{sid}"]'
                     f'{{--card-img:{imgs(d["top"])};--card-txt:"{txt}"}}'
                 )
+        # anime: fold the banner rules in, so the list page needs no extra @import
+        # (manga stays separate until its theme pass)
+        banners = DIST / f"banners-{kind}.css"
+        if kind == "anime" and banners.exists():
+            out.append(banners.read_text(encoding="utf-8").strip())
         path = DIST / f"extras-{kind}.css"
         path.write_text("\n".join(out) + "\n", encoding="utf-8", newline="\n")
         print(f"{kind}: {len(out) - 2} rules, {path.stat().st_size:,} bytes, fetch budget left {f.budget}")
