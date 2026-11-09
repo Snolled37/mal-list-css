@@ -264,6 +264,11 @@ body.ownlist .data.image a::after{
 @keyframes mlc-tw{from{opacity:.55}to{opacity:1}}
 @media (prefers-reduced-motion:reduce){body.ownlist .data.image a,body.ownlist .data.image a::after{animation:none}}
 
+/* score 1: no frame at all, the cover just fades into the dark; full colour on row hover */
+body.ownlist .data.image a{--cover-filter:none}
+body.ownlist .list-table-data .data.image img{filter:var(--cover-filter);transition:filter .25s ease}
+@media (hover:hover){body.ownlist .list-table tbody.list-item:hover .data.image img{filter:none}}
+
 /* ---------- season / studio hover cards (data from extras) ---------- */
 body.ownlist .data.season a::after,body.ownlist .data.studio a::after{
   content:var(--card-txt,none);position:absolute;left:-12px;bottom:calc(100% + 10px);z-index:60;

@@ -194,6 +194,7 @@ def progress_rules(items: list[dict], kind: str) -> list[str]:
 def score_frames(items: list[dict], kind: str) -> list[str]:
     """Cover frame tier from the MAL score: 8 / 9 / 10 (tokens live in the theme)."""
     tiers = {
+        1: "--cover-filter:grayscale(.85) brightness(.5) contrast(.95)",
         8: "--frame-pad:1.5px;--frame-bg:var(--f8-bg);--frame-glow:var(--f8-glow);"
            '--f-spark:"";--f-line:var(--f8-line)',
         9: "--frame-pad:2px;--frame-bg:var(--f9-bg);--frame-glow:var(--f9-glow);"
