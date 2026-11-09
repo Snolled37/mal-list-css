@@ -306,8 +306,10 @@ body.ownlist .data.tags a[href$="tag=Favorite"],body.ownlist .data.tags a[href$=
 body.ownlist .data.tags a[href$="tag=Trophy"],body.ownlist .data.tags a[href$="tag=trophy"]{display:none}
 
 /* ---------- misc ---------- */
-body.ownlist .more-info{display:block}
-body.ownlist .more-info .more-content{display:block;background:var(--surface-2)!important;color:var(--text);border:0!important;border-radius:0 0 12px 12px}
+/* "More" panel: MAL toggles its display inline; only restyle it */
+body.ownlist .more-info .more-content{background:var(--surface-2)!important;color:var(--text);border:0!important;border-radius:0 0 12px 12px}
+body.ownlist .more-info .more-content:empty{display:none}
+body.ownlist .list-table-header .header-title.image{padding:0!important}
 body.ownlist footer,body.ownlist #footer-block{background:transparent!important;color:var(--muted)}
 body.ownlist ::selection{background:var(--accent);color:var(--bg)}
 body.ownlist{scrollbar-color:var(--line-strong) var(--bg)}
