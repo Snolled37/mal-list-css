@@ -48,7 +48,7 @@ body.ownlist #cover-image-container img{display:none}
 
 /* avatar (set --avatar + --avatar-size in Custom CSS to show) */
 body.ownlist .list-status-title::before{
-  content:"";position:absolute;left:24px;top:calc(-1 * var(--avatar-size,0px) / 2 - 8px);
+  content:"";display:var(--avatar-display,none);position:absolute;left:24px;top:calc(-1 * var(--avatar-size,0px) / 2 - 8px);
   width:var(--avatar-size,0px);height:var(--avatar-size,0px);border-radius:50%;
   background:var(--avatar,none) center/cover no-repeat;
   box-shadow:0 0 0 3px var(--bg),0 0 0 4px var(--accent);
@@ -66,7 +66,7 @@ body.ownlist #search-box,body.ownlist #search-box input{background:var(--surface
 body.ownlist #search-button{color:var(--muted)}
 
 /* ---------- list frame ---------- */
-body.ownlist .list-block,body.ownlist .list-unit{background:transparent!important;border:0!important}
+body.ownlist #list-container,body.ownlist .list-block,body.ownlist .list-unit{background:transparent!important;border:0!important;box-shadow:none!important}
 body.ownlist .list-unit .list-status-title{
   position:relative;background:transparent!important;color:var(--text)!important;
   border-bottom:1px solid var(--line);
