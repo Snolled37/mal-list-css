@@ -1,6 +1,6 @@
-@\import "https://cdn.jsdelivr.net/gh/Snolled37/mal-list-css@main/dist/theme.min.css";
-@\import "https://cdn.jsdelivr.net/gh/Snolled37/mal-list-css@main/dist/covers-anime.css";
-@\import "https://cdn.jsdelivr.net/gh/Snolled37/mal-list-css@main/dist/extras-anime.css";
+@\import "https://snolled37.github.io/mal-list-css/dist/theme.min.css";
+@\import "https://snolled37.github.io/mal-list-css/dist/covers-anime.css";
+@\import "https://snolled37.github.io/mal-list-css/dist/extras-anime.css";
 
 body { --name: "Snolled"; }
 
