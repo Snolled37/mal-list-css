@@ -9,6 +9,10 @@ The old setup imported malscraper's `covers/auto`. That mode no longer works, be
 | Path | What it is |
 |---|---|
 | `dist/covers-anime.css`, `dist/covers-manga.css` | Hover-cover rules for each list. A daily GitHub Action rebuilds them. |
+| `dist/theme.min.css` | **Own theme** (anime = Koisuru Asteroid, manga = Elaina). Built from `src/*.css` with `python scripts/build_theme.py`. |
+| `paste/anime.css`, `paste/manga.css` | **What to paste into MAL now** (theme + covers + name, avatar/banner slots) |
+| Rating tags | `Should Watch : 7/10` → ★★★½ (value ÷ 2) · `Review Score : 8.5/10` → number + meter · `?/10` = not rated yet (glows for the owner). 0–10 in 0.25 steps, plus -10 and 100. |
+| Favourite marker | tag `Trophy` / `Favorite` / `Favourite` → asteroid (anime) or witch brooch (manga) left of the row |
 | `dist/phase1.css` | Temporary fixes on top of the Clarity theme: hover without layout work, plus the score descriptors and hearts |
 | `paste/phase1-*.css` | What to paste into MAL → List Style → Custom CSS (anime list → `phase1-anime.css`, manga list → `phase1-manga.css`). |
 | `scripts/build_covers.py` | Rebuilds the cover files: `python scripts/build_covers.py --user Snolled` |

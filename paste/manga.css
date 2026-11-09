@@ -1,0 +1,17 @@
+@\import "https://cdn.jsdelivr.net/gh/Snolled37/mal-list-css@main/dist/theme.min.css";
+@\import "https://cdn.jsdelivr.net/gh/Snolled37/mal-list-css@main/dist/covers-manga.css";
+
+body { --name: "Snolled"; }
+
+/* Avatar: put a direct image URL, then remove the comment marks
+body { --avatar: url(https://...); --avatar-size: 96px; --avatar-display: block; }
+*/
+
+/* Banner per status (Elaina images): without these the banner is the silver night sky.
+body { --banner: url(https://...); }
+[data-query*='"status":1'] { --banner: url(https://...); }
+[data-query*='"status":2'] { --banner: url(https://...); }
+[data-query*='"status":3'] { --banner: url(https://...); }
+[data-query*='"status":4'] { --banner: url(https://...); }
+[data-query*='"status":6'] { --banner: url(https://...); }
+*/
