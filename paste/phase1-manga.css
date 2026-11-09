@@ -1,0 +1,17 @@
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Theme%20-%20Compressed.css";
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Mod%20-%20Dark%20Mode%20Compressed.css";
+@\import "https://cdn.jsdelivr.net/gh/GITHUB_USER/mal-list-css@main/dist/phase1.css";
+@\import "https://cdn.jsdelivr.net/gh/GITHUB_USER/mal-list-css@main/dist/covers-manga.css";
+
+body { --name: "Snolled"; --character: none; }
+/* Put a direct image URL (ends in .jpg/.png/.webp) here: */
+body { --avatar: none; }
+
+/* Per-category banner (same images as the anime list for now; Elaina banners come in phase 2) */
+body { --banner: url(https://zippyimage.com/images/2022/01/07/e359add49e822b39fae2238f92ff4b82.jpg); }
+[data-query*='status":7'] { --banner: url(https://zippyimage.com/images/2022/01/07/e359add49e822b39fae2238f92ff4b82.jpg); }
+[data-query*='status":1'] { --banner: url(https://zippyimage.com/images/2022/01/07/2eed0f3a27a009a98079ab259fb15ca6.jpg); }
+[data-query*='status":2'] { --banner: url(https://zippyimage.com/images/2022/01/07/ebe054bc248e6055ecfd87cc6db7a720.md.png); }
+[data-query*='status":3'] { --banner: url(https://zippyimage.com/images/2022/01/07/ff7fd26faf74498c20ab28fad130cc68.jpg); }
+[data-query*='status":4'] { --banner: url(https://zippyimage.com/images/2022/01/07/dbedeb131ea0f284c8799708dfd29ee7.md.jpg); }
+[data-query*='status":6'] { --banner: url(https://zippyimage.com/images/2022/01/07/8566afda5ba6465ae61d9787a6477735.jpg); }

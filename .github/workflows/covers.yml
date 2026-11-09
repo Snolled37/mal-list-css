@@ -1,0 +1,39 @@
+name: Refresh cover CSS
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # daily, 10:17 Bangkok time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  covers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build covers
+        run: python scripts/build_covers.py --user Snolled
+      - name: Commit if changed
+        id: commit
+        run: |
+          if git diff --quiet -- dist/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add dist/covers-*.css
+            git commit -m "Refresh cover CSS"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Purge jsDelivr cache
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          for f in covers-anime.css covers-manga.css; do
+            curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/dist/$f" > /dev/null
+          done

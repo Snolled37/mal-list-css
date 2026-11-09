@@ -1,0 +1,59 @@
+/* Phase 1 fixes for Snolled's list (temporary, until the own theme in phase 2).
+   Replaces Clarity "Mod - Hover Image" + the inline hearts / score-descriptor blocks.
+   Pair with dist/covers-anime.css or dist/covers-manga.css. */
+
+/* ---- Hover cover: fixed-size box, animate transform + opacity only (no layout) ---- */
+.data.image a{overflow:visible}
+.data.image a:after,.data.image img{border-radius:50%}
+.data.image a::before{
+  content:"";position:absolute;top:calc(50% - 100px);left:-166px;z-index:50;
+  width:150px;height:200px;
+  background:var(--bg-dark) no-repeat center/cover;
+  border-radius:8px;box-shadow:0 0 2px #000;
+  opacity:0;transform:scale(.85);transform-origin:right center;
+  pointer-events:none;
+  transition:opacity .2s ease,transform .2s ease;
+}
+@media (hover:hover){
+  .list-item:hover .data.image a::before{opacity:1;transform:none}
+}
+@media (prefers-reduced-motion:reduce){
+  .data.image a::before{transition:none}
+}
+
+/* ---- Favourite hearts (left of row) — unchanged from the original block ---- */
+.data.tags span{padding:0}
+.data.tags span a{margin:1px 0}
+.data.tags span a[href*="=Favorite"],.data.tags span a[href*="=Favourite"]{
+  position:absolute;left:-34px;top:calc(50% - 13px);width:26px;height:26px;padding:0;
+  background:var(--bg);border-radius:50%;color:#ff65ad!important;font-size:0!important;
+  line-height:23px;overflow:hidden;box-shadow:0 1px 2px rgba(100,0,0,.2)
+}
+.data.tags span a[href*="=Favorite"]::before,.data.tags span a[href*="=Favourite"]::before{content:"♥";font-size:26px}
+
+/* ---- Score descriptors on hover ---- */
+.score-na::before{content:"Haven't decided"}
+.score-1::before{content:"Appalling"}
+.score-2::before{content:"Horrible"}
+.score-3::before{content:"Very Bad"}
+.score-4::before{content:"Bad"}
+.score-5::before{content:"Average"}
+.score-6::before{content:"Fine"}
+.score-7::before{content:"Good"}
+.score-8::before{content:"Very Good"}
+.score-9::before{content:"Great"}
+.score-10::before{content:"Masterpiece"}
+
+/* z-index:0 makes the label its own stacking context so the ::before
+   (z-index:-1) sits behind the number instead of behind the whole row. */
+.score-label{position:relative;display:inline-block;z-index:0;transition:color .2s ease}
+.score-label::before{
+  position:absolute;top:-4px;left:-8px;z-index:-1;display:block;
+  padding:4px 8px 4px calc(100% + 12px);
+  background:#111;border-radius:4px;color:#eee;
+  opacity:0;transition:opacity .2s ease;white-space:pre;text-align:left;pointer-events:none
+}
+@media (hover:hover){
+  .score-label:hover{color:#fff!important}
+  .score-label:hover::before{opacity:1}
+}
