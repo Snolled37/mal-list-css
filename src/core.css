@@ -92,19 +92,20 @@ body.ownlist .list-unit .list-status-title .stats a{color:var(--muted)!important
 body.ownlist .list-unit .list-stats{background:var(--surface);color:var(--muted);border-color:var(--line)}
 
 /* ============================================================
-   ROW LAYOUT — each row becomes a grid card
-   [strip][#][cover][ title ............................ ][score][progress][dates][tags]
-                     [ type · premiered · studio ]                [days]   [→ end]
+   ROW LAYOUT — each row is a 3-line grid card
+            [ TV · Winter 2024          ]                 Start | 22-05-26
+   [#][cov] [ Title                     ] [score][prog]   End   | 10-07-26   [stars · review]
+            [ Studio          Edit·More ]                 Days  | 50
    ============================================================ */
 body.ownlist .list-table{display:block;background:transparent!important;border:0!important}
 body.ownlist .list-table > tbody{display:block;background:transparent!important}
 body.ownlist .list-table .list-table-header,
 body.ownlist .list-table .list-table-data{
   display:grid;align-items:center;column-gap:14px;
-  grid-template-columns:[strip] 4px [num] 26px [img] 54px [t1] auto [t2] auto [t3] minmax(0,1fr) [score] 48px [prog] 92px [dates] 84px [tags] 196px [end];
-  grid-template-rows:auto auto;padding-right:12px;
+  grid-template-columns:[strip] 4px [num] 26px [img] 54px [t1] auto [t2] minmax(0,1fr) [score] 48px [prog] 92px [dates] 104px [tags] 196px [end];
+  grid-template-rows:auto auto auto;padding-right:12px;
 }
-body.ownlist .list-table .list-table-header{padding-bottom:6px}
+body.ownlist .list-table .list-table-header{padding-bottom:6px;grid-template-rows:auto}
 body.ownlist .list-table .list-table-data .data,
 body.ownlist .list-table .list-table-header .header-title{
   display:block;width:auto!important;min-width:0;padding:0!important;margin:0;
@@ -112,12 +113,9 @@ body.ownlist .list-table .list-table-header .header-title{
 }
 
 /* row card */
-body.ownlist .list-table tbody.list-item{
-  margin:0 0 6px;content-visibility:auto;contain-intrinsic-size:auto 92px;
-}
+body.ownlist .list-table tbody.list-item{margin:0 0 6px;content-visibility:auto;contain-intrinsic-size:auto 92px}
 body.ownlist .list-table .list-table-data{
-  position:relative;min-height:84px;background:var(--surface);border-radius:12px;
-  box-shadow:0 0 0 1px var(--line);
+  position:relative;min-height:84px;background:var(--surface);border-radius:12px;box-shadow:0 0 0 1px var(--line);
 }
 body.ownlist .list-table tbody.list-item:nth-of-type(even) .list-table-data{background:var(--surface-2)}
 @media (hover:hover){
@@ -125,21 +123,40 @@ body.ownlist .list-table tbody.list-item:nth-of-type(even) .list-table-data{back
   body.ownlist .list-table tbody.list-item:hover .list-table-data{background:var(--surface-hover)}
 }
 
-/* placement — anime + manga */
-body.ownlist .list-table-data .data.status,body.ownlist .list-table-header .header-title.status{grid-column:strip;grid-row:1/3;align-self:stretch;border-radius:12px 0 0 12px}
-body.ownlist .list-table-data .data.number,body.ownlist .list-table-header .header-title.number{grid-column:num;grid-row:1/3;text-align:center;color:var(--muted);font-size:11px}
-body.ownlist .list-table-data .data.image,body.ownlist .list-table-header .header-title.image{grid-column:img;grid-row:1/3;padding:8px 0!important}
-body.ownlist .list-table-data .data.title,body.ownlist .list-table-header .header-title.title{grid-column:t1/score;grid-row:1;align-self:end}
-body.ownlist .list-table-data .data.type{grid-column:t1;grid-row:2;align-self:start}
-body.ownlist .list-table-data .data.season{grid-column:t2;grid-row:2;align-self:start}
-body.ownlist .list-table-data .data.studio{grid-column:t3;grid-row:2;align-self:start}
-body.ownlist .list-table-data .data.score,body.ownlist .list-table-header .header-title.score{grid-column:score;grid-row:1/3;text-align:center}
-body.ownlist .list-table-data .data.progress,body.ownlist .list-table-data .data.chapter,
-body.ownlist .list-table-header .header-title.progress,body.ownlist .list-table-header .header-title.chapters{grid-column:prog;grid-row:1;align-self:end}
-body.ownlist .list-table-data .data.days,body.ownlist .list-table-data .data.volume{grid-column:prog;grid-row:2;align-self:start}
-body.ownlist .list-table-data .data.started,body.ownlist .list-table-header .header-title.started{grid-column:dates;grid-row:1;align-self:end}
-body.ownlist .list-table-data .data.finished{grid-column:dates;grid-row:2;align-self:start}
-body.ownlist .list-table-data .data.tags,body.ownlist .list-table-header .header-title.tags{grid-column:tags;grid-row:1/3}
+/* title cell dissolves so its parts can sit on different lines */
+body.ownlist .list-table-data .data.title{display:contents!important}
+body.ownlist .list-table-data .data.title > .link{grid-column:t1/score;grid-row:2;font-size:13.5px;line-height:1.3;color:var(--text)!important;font-weight:600}
+body.ownlist .list-table-data .data.title > .link:hover{color:var(--accent)!important}
+body.ownlist .list-table-data .data.title > .add-edit-more{grid-column:t1/score;grid-row:3;justify-self:end;align-self:start;padding-top:3px;font-size:10.5px;color:var(--muted)}
+body.ownlist .list-table-data .data.title > .add-edit-more a{color:var(--muted)!important}
+body.ownlist .list-table-data .data.title > .add-edit-more a:hover{color:var(--accent)!important}
+/* "Airing"/"Publishing", the stream icon and the hidden spans: removed */
+body.ownlist .list-table-data .data.title > .content-status,
+body.ownlist .list-table-data .data.title > .airing,
+body.ownlist .list-table-data .data.title > .icon-watch2,
+body.ownlist .list-table-data .data.title > .icon-watch,
+body.ownlist .list-table-data .data.title > .rewatching,
+body.ownlist .list-table-data .data.title > .rereading{display:none!important}
+
+/* placement */
+body.ownlist .list-table-data .data.status,body.ownlist .list-table-header .header-title.status{grid-column:strip;grid-row:1/-1;align-self:stretch;border-radius:12px 0 0 12px}
+body.ownlist .list-table-data .data.number,body.ownlist .list-table-header .header-title.number{grid-column:num;grid-row:1/-1;text-align:center;color:var(--muted);font-size:11px}
+body.ownlist .list-table-data .data.image{grid-column:img;grid-row:1/-1;padding:8px 0!important}
+body.ownlist .list-table-header .header-title.image{grid-column:img}
+body.ownlist .list-table-header .header-title.title{grid-column:t1/score}
+body.ownlist .list-table-data .data.type{grid-column:t1;grid-row:1;align-self:end}
+body.ownlist .list-table-data .data.season{grid-column:t2;grid-row:1;align-self:end}
+body.ownlist .list-table-data .data.studio{grid-column:t1/score;grid-row:3;align-self:start;max-width:calc(100% - 110px)}
+body.ownlist .list-table-data .data.score,body.ownlist .list-table-header .header-title.score{grid-column:score;grid-row:1/-1;text-align:center}
+body.ownlist .list-table-data .data.progress{grid-column:prog;grid-row:1/-1}
+body.ownlist .list-table-data .data.chapter{grid-column:prog;grid-row:1/3;align-self:end}
+body.ownlist .list-table-data .data.volume{grid-column:prog;grid-row:3;align-self:start}
+body.ownlist .list-table-header .header-title.progress,body.ownlist .list-table-header .header-title.chapters{grid-column:prog}
+body.ownlist .list-table-data .data.started{grid-column:dates;grid-row:1;align-self:end}
+body.ownlist .list-table-data .data.finished{grid-column:dates;grid-row:2}
+body.ownlist .list-table-data .data.days{grid-column:dates;grid-row:3;align-self:start}
+body.ownlist .list-table-header .header-title.started{grid-column:dates}
+body.ownlist .list-table-data .data.tags,body.ownlist .list-table-header .header-title.tags{grid-column:tags;grid-row:1/-1}
 body.ownlist .list-table-header .header-title{grid-row:1!important;align-self:end!important}
 
 /* header: hide the columns that now live inside other cells */
@@ -151,12 +168,12 @@ body.ownlist .list-table-header .header-title.volumes,
 body.ownlist .list-table-header .header-title.started ~ .header-title.started{display:none!important}
 body.ownlist .list-table-header .header-title{color:var(--muted)!important;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:600}
 body.ownlist .list-table-header .header-title a{color:inherit!important}
-body.ownlist .list-table-header .header-title.started a{font-size:0}
+body.ownlist .list-table-header .header-title.started a{font-size:0!important}
 body.ownlist .list-table-header .header-title.started a::before{content:"Dates";font-size:10.5px}
 body.ownlist .list-table-header .header-title.tags{font-size:0!important;text-align:center}
 body.ownlist .list-table-header .header-title.tags::before{content:"Should · Review";font-size:10.5px}
 
-/* cell styling */
+/* status strip */
 body.ownlist .list-table-data .data.status.watching,body.ownlist .list-table-data .data.status.reading{background:var(--st-watching)!important}
 body.ownlist .list-table-data .data.status.completed{background:var(--st-completed)!important}
 body.ownlist .list-table-data .data.status.onhold{background:var(--st-onhold)!important}
@@ -164,20 +181,16 @@ body.ownlist .list-table-data .data.status.dropped{background:var(--st-dropped)!
 body.ownlist .list-table-data .data.status.plantowatch,body.ownlist .list-table-data .data.status.plantoread{background:var(--st-plan)!important}
 
 body.ownlist .list-table-data .data.image img{width:54px;height:76px;object-fit:cover;border-radius:7px;display:block}
-body.ownlist .list-table-data .data.title{font-size:13px;line-height:1.35}
-body.ownlist .list-table-data .data.title .link{color:var(--text)!important;font-weight:600}
-body.ownlist .list-table-data .data.title .link:hover{color:var(--accent)!important}
-body.ownlist .list-table-data .data.title .add-edit-more{display:inline;margin-left:8px;font-size:10.5px}
-body.ownlist .list-table-data .data.title .add-edit-more a,body.ownlist .list-table-data .data.title .content-status,
-body.ownlist .list-table-data .data.title .airing{color:var(--muted)!important;font-size:10.5px}
 
-/* meta line under the title: type · premiered · studio */
+/* line above the title: TV · Winter 2024 ;  line below: studio */
 body.ownlist .list-table-data .data.type,body.ownlist .list-table-data .data.season,body.ownlist .list-table-data .data.studio{
-  font-size:11px;color:var(--muted);white-space:nowrap;padding-top:3px!important}
+  font-size:11px;color:var(--muted);white-space:nowrap;overflow:visible}
+body.ownlist .list-table-data .data.type{padding-bottom:2px!important;letter-spacing:.04em}
+body.ownlist .list-table-data .data.season{padding-bottom:2px!important}
+body.ownlist .list-table-data .data.season::before{content:"·";margin-right:8px;opacity:.6}
+body.ownlist .list-table-data .data.studio{padding-top:3px!important}
 body.ownlist .list-table-data .data.season a,body.ownlist .list-table-data .data.studio a{color:var(--muted)!important;position:relative}
 body.ownlist .list-table-data .data.season a:hover,body.ownlist .list-table-data .data.studio a:hover{color:var(--accent)!important}
-body.ownlist .list-table-data .data.season::before,body.ownlist .list-table-data .data.studio::before{content:"·";margin-right:10px;opacity:.6}
-body.ownlist .list-table-data .data.studio{overflow:visible;text-overflow:ellipsis}
 
 body.ownlist .list-table-data .data.score{font-size:15px;font-weight:700}
 body.ownlist .list-table-data .data.score .score-label{color:var(--text)}
@@ -185,7 +198,7 @@ body.ownlist .list-table-data .data.score .score-label{color:var(--text)}
 /* progress: number + bar (bar width from extras --p; completed = full) */
 body.ownlist .list-table-data .data.progress,body.ownlist .list-table-data .data.chapter{font-size:12px;color:var(--muted)}
 body.ownlist .list-table-data .data.progress a,body.ownlist .list-table-data .data.chapter a{color:var(--text)!important;font-weight:600}
-body.ownlist .list-table-data [class^="progress-"],body.ownlist .list-table-data [class^="chapter-"]{position:relative;padding-bottom:6px}
+body.ownlist .list-table-data [class^="progress-"],body.ownlist .list-table-data [class^="chapter-"]{position:relative;padding-bottom:7px}
 body.ownlist .list-table-data [class^="progress-"]::after,body.ownlist .list-table-data [class^="chapter-"]::after{
   content:"";position:absolute;left:0;bottom:0;width:72px;height:3px;border-radius:2px;
   background:linear-gradient(var(--st-watching),var(--st-watching)) 0 0/calc(var(--p,0) * 100%) 100% no-repeat,var(--line);
@@ -194,15 +207,19 @@ body.ownlist .list-table-data .data.status.completed ~ .data [class^="progress-"
 body.ownlist .list-table-data .data.status.completed ~ .data [class^="chapter-"]{--p:1}
 body.ownlist .list-table-data .data.status.completed ~ .data [class^="progress-"]::after,
 body.ownlist .list-table-data .data.status.completed ~ .data [class^="chapter-"]::after{background:var(--st-completed)}
-body.ownlist .list-table-data .data.days{font-size:10.5px;color:var(--muted);padding-top:3px!important}
-body.ownlist .list-table-data .data.days::after{content:" days"}
 body.ownlist .list-table-data .data.volume{font-size:10.5px;color:var(--muted);padding-top:3px!important}
 body.ownlist .list-table-data .data.volume::before{content:"vol "}
 
-/* dates: start on top, "→ finish" below */
-body.ownlist .list-table-data .data.started,body.ownlist .list-table-data .data.finished{font-size:11.5px;color:var(--text);font-variant-numeric:tabular-nums;white-space:nowrap}
-body.ownlist .list-table-data .data.finished{color:var(--muted);padding-top:3px!important}
-body.ownlist .list-table-data .data.finished::before{content:"→ ";opacity:.6}
+/* dates: Start | date / End | date / Days | n */
+body.ownlist .list-table-data .data.started,body.ownlist .list-table-data .data.finished,body.ownlist .list-table-data .data.days{
+  display:grid!important;grid-template-columns:34px 1fr;align-items:center;
+  font-size:11.5px;line-height:1.55;color:var(--text);font-variant-numeric:tabular-nums;white-space:nowrap}
+body.ownlist .list-table-data .data.started::before,body.ownlist .list-table-data .data.finished::before,body.ownlist .list-table-data .data.days::before{
+  font-size:10px;color:var(--muted);border-right:1px solid var(--line-strong);margin-right:8px;padding-right:6px;text-align:right}
+body.ownlist .list-table-data .data.started::before{content:"Start"}
+body.ownlist .list-table-data .data.finished::before{content:"End"}
+body.ownlist .list-table-data .data.days::before{content:"Days"}
+body.ownlist .list-table-data .data.finished,body.ownlist .list-table-data .data.days{color:var(--muted)}
 
 /* ---------- cover hover (big cover, needs covers-*.css) ---------- */
 body.ownlist .data.image a{position:relative;display:block;overflow:visible}
