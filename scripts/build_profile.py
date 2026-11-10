@@ -334,11 +334,13 @@ def tokens(t: str) -> list[str]:
 
 
 def air_year(it: dict) -> int | None:
+    """The year a show FINISHED airing (my top-10 years go by that); start year as fallback."""
+    for key in ("anime_end_date_string", "anime_start_date_string"):
+        d = str(it.get(key) or "")
+        if re.fullmatch(r"\d\d-\d\d-\d\d", d):
+            return 2000 + int(d[-2:])
     y = (it.get("anime_season") or {}).get("year")
-    if y:
-        return int(y)
-    d = str(it.get("anime_start_date_string") or "")
-    return 2000 + int(d[-2:]) if re.fullmatch(r"\d\d-\d\d-\d\d", d) else None
+    return int(y) if y else None
 
 
 def match(query: str, year: int, anime: list[dict]) -> dict | None:
@@ -413,7 +415,7 @@ def top10(year: int, picks: dict[int, dict | None]) -> None:
     p = Pen(img)
     p.rect((0, 0, W - 1, H - 1), 10, outline=LINE)
     p.text((22, 26), f"My top 10 of {year}", font(True, 12), TEXT, anchor="ls")
-    p.text((W - 22, 26), "anime that aired that year", font(False, 9), MUTED, anchor="rs")
+    p.text((W - 22, 26), "by the year each show finished airing", font(False, 9), MUTED, anchor="rs")
     p.line([(22, 38), (W - 22, 38)], LINE)
     medal = {1: GOLDS, 2: SILVER, 3: COPPER}
 
