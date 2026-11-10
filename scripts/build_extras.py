@@ -248,6 +248,15 @@ def main() -> int:
         if favs:
             out.append(",".join(f"#tags-{i}" for i in favs) + "{--fav-on:var(--fav-glyph)}")
         out += score_frames(items, kind)
+        gems = [it for it in items
+                if any(t.strip().lower().startswith("hidden gem") for t in str(it.get("tags") or "").split(","))]
+        if gems:  # tier 8-10 already render the ::after; the rest need an empty content
+            sel = lambda its: ",".join(f'body.ownlist .data.image a[href^="/{kind}/{it[kind + "_id"]}/"]' for it in its)
+            out.append(sel(gems) + "{--gem-i:var(--gem-svg);--gem-s:var(--glint-svg);"
+                       "--gem-anim:mlc-glint 3.6s ease-in-out infinite}")
+            plain = [it for it in gems if it.get("score") not in (8, 9, 10)]
+            if plain:
+                out.append(sel(plain) + '{--f-spark:""}')
 
         for it in items:
             aid = it[kind + "_id"]
