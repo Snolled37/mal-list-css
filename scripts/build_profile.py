@@ -375,7 +375,7 @@ def read_top10() -> list[tuple[int, str, dict[int, str]]]:
             years.append(cur)
             continue
         m = re.fullmatch(r"(\d{1,2})\s*[-.)]\s*(.*)", line)
-        if m and cur and m.group(2).strip():
+        if m and cur and m.group(2).strip() and m.group(2).strip().upper() != "TBA":
             cur[2][int(m.group(1))] = m.group(2).strip()
     return years
 
@@ -401,6 +401,8 @@ def wrap(text: str, f, width: float, lines: int) -> list[str]:
 
 def name_of(a: dict) -> str:
     eng, rom = str(a.get("anime_title_eng") or ""), str(a.get("anime_title") or "")
+    if eng and not rom.isascii():  # e.g. "5-toubun no Hanayome ∬": Verdana has no such glyph
+        return eng
     return eng if eng and len(eng) <= len(rom) + 6 else rom
 
 
@@ -465,7 +467,7 @@ def top10(year: int, picks: dict[int, dict | None]) -> None:
         a = picks.get(rank)
         if a:
             f = font(False, 9)
-            for j, ln in enumerate(wrap(name_of(a), f, w, 2)):
+            for j, ln in enumerate(wrap(name_of(a), f, w, 3)):
                 p.text((x, 430 + j * 13), ln, f, TEXT, anchor="ls")
     save(img, f"top10-{year}.jpg")
 
@@ -491,6 +493,7 @@ def main() -> int:
     ap.add_argument("--only-stats", action="store_true", help="daily run: rebuild just stats.png")
     ap.add_argument("--only-top10", action="store_true", help="rebuild just the top-10 images from top10.txt")
     a = ap.parse_args()
+    sys.stdout.reconfigure(encoding="utf-8")
     if a.only_top10:
         top10_all(a.user)
         return 0

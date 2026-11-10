@@ -1,8 +1,8 @@
-# My top 10 anime of each year -> dist/profile/top10-YYYY.png (scripts/build_profile.py)
+# My top 10 anime of each year -> dist/profile/top10-YYYY.jpg (scripts/build_profile.py --only-top10)
 # Write a rank and part of the title; it is matched against my anime list, preferring
 # titles that aired that year. If it picks the wrong one, add the MAL id: "6 - re zero 2 #39587".
 # Text after a year line is shown instead of a ranking (e.g. a year with too few titles).
-# Empty ranks show as "?" slots.
+# Empty ranks (or "TBA") show as "?" slots.
 
 2020
 1 - Kaguya sama season 2
@@ -18,16 +18,51 @@
 
 2021
 1 - Fruits basket final season
-2 - 86 part 2
-3 - Uma musume season 2
+2 - Uma musume season 2
+3 - 86 part 2
+4 - kageki shoujo!!
+5 - shiroi suna no aquatope
+6 - love live! superstar
+7 - Mushoku Tensei ss1 Part 2
+8 - nomad megalo box
+9 - sonny boy
+10 - gotoubun no hanayome season 2
 
 2022
+1 - Bocchi no the Rock!
+2 - Summertime Render
+3 - Sasaki to Miyano
+4 - Paripi Koumei
+5 - Slow Loop
+6 - MiA 2 #41084
+7 - Kaguya 3
+8 - Yofukashi no uta
+9 - Yama no Susume: Next Summit
+10 - Akebi-chan no Sailor-fuku
 
 2023
 1 - Tengoku daimakyou
+2 - Danmachi ss4 part 2 #53111
+3 - Skip to Loafer
+4 - Dr. Stone: New World Part 2
+5 - Boku no Kokoro no Yabai Yatsu
+6 - Jujutsu kaisen season 2
+7 - U149
+8 - Dr. Stone: New World Part 1 #48549
+9 - Watashi no Shiawase na Kekkon
+10 - Tondemo skill de isekai hourou meshi
 
 2024
 1 - Kusuriya no hitorigoto
+2 - Girls Band Cry
+3 - Make Heroine ga Oosugiru!
+4 - Dungeon Meshi
+5 - Shangri-la frontier
+6 - Hibike! Euphonium 3
+7 - Kono Subarashii Sekai ni Shukufuku wo! 3
+8 - TBA
+9 - TBA
+10 - TBA
 
 2025 No ranking this year: I didn't watch enough of its anime.
 
