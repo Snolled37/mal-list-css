@@ -1,13 +1,13 @@
-[center][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/header.png[/img][/center]
+[center][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/header.png?v=2[/img][/center]
 
 Hi, I'm [color=#e8b4c8][b]Snolled[/b][/color]. I've been watching anime (not counting my childhood) since Fall 2019.
 My English isn't great, so feel free to share ideas or correct me, just [b]please don't be toxic[/b]. Thanks ^^
 Please don't take my manga scores too seriously; I haven't balanced them yet.
 Discord: [url=DISCORD_LINK_HERE]DISCORD_LINK_HERE[/url]
 
-[center][url=https://myanimelist.net/animelist/Snolled][img width=258]https://snolled37.github.io/mal-list-css/dist/profile/btn-anime.png[/img][/url] [url=https://myanimelist.net/mangalist/Snolled][img width=258]https://snolled37.github.io/mal-list-css/dist/profile/btn-manga.png[/img][/url] [url=https://myanimelist.net/profile/Snolled/reviews][img width=258]https://snolled37.github.io/mal-list-css/dist/profile/btn-more.png[/img][/url][/center]
+[center][url=https://myanimelist.net/animelist/Snolled][img width=258]https://snolled37.github.io/mal-list-css/dist/profile/btn-anime.png?v=2[/img][/url] [url=https://myanimelist.net/mangalist/Snolled][img width=258]https://snolled37.github.io/mal-list-css/dist/profile/btn-manga.png?v=2[/img][/url] [url=https://myanimelist.net/profile/Snolled/reviews][img width=258]https://snolled37.github.io/mal-list-css/dist/profile/btn-more.png?v=2[/img][/url][/center]
 
-[center][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/stats.png[/img][/center]
+[center][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/stats.png?v=2[/img][/center]
 
 [size=120][b]About my anime scores[/b][/size]
 I use two scores, kept as tags on every title:
@@ -17,7 +17,7 @@ I use two scores, kept as tags on every title:
 [/list]
 My MAL score is a mix of the two.
 
-[center][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/score-guide.png[/img][/center]
+[center][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/score-guide.png?v=2[/img][/center]
 
 [spoiler="What each MAL score means"]
 [b]10[/b] – Like a 9, but as close to "perfect" as anime gets for me. A masterpiece.
@@ -33,11 +33,11 @@ My MAL score is a mix of the two.
 [/spoiler]
 
 [size=120][b]My top 10 of each year[/b][/size]
-[spoiler="2024"][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/top10-2024.jpg[/img][/spoiler]
-[spoiler="2023"][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/top10-2023.jpg[/img][/spoiler]
-[spoiler="2022"][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/top10-2022.jpg[/img][/spoiler]
-[spoiler="2021"][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/top10-2021.jpg[/img][/spoiler]
-[spoiler="2020"][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/top10-2020.jpg[/img][/spoiler]
+[spoiler="2024"][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/top10-2024.jpg?v=2[/img][/spoiler]
+[spoiler="2023"][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/top10-2023.jpg?v=2[/img][/spoiler]
+[spoiler="2022"][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/top10-2022.jpg?v=2[/img][/spoiler]
+[spoiler="2021"][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/top10-2021.jpg?v=2[/img][/spoiler]
+[spoiler="2020"][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/top10-2020.jpg?v=2[/img][/spoiler]
 [i]No ranking for 2025: I didn't watch enough of that year's anime.[/i]
 
 [center][url=https://malheatmap.com/users/snolled][img]https://malheatmap.com/users/snolled/signature[/img][/url]
