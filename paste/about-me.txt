@@ -7,7 +7,13 @@ Discord: [url=DISCORD_LINK_HERE]DISCORD_LINK_HERE[/url]
 
 [center][url=https://myanimelist.net/animelist/Snolled][img width=258]https://snolled37.github.io/mal-list-css/dist/profile/btn-anime.png?v=2[/img][/url] [url=https://myanimelist.net/mangalist/Snolled][img width=258]https://snolled37.github.io/mal-list-css/dist/profile/btn-manga.png?v=2[/img][/url] [url=https://myanimelist.net/profile/Snolled/reviews][img width=258]https://snolled37.github.io/mal-list-css/dist/profile/btn-more.png?v=2[/img][/url][/center]
 
+[center][url=https://www.facebook.com/%E0%B8%AD%E0%B8%99%E0%B8%B4%E0%B9%80%E0%B8%A1%E0%B8%B2%E0%B8%B0-259705168036493][img width=190]https://snolled37.github.io/mal-list-css/dist/profile/link-facebook.png?v=1[/img][/url] [url=https://x.com/AlexisAnimore][img width=190]https://snolled37.github.io/mal-list-css/dist/profile/link-x.png?v=1[/img][/url] [url=https://animemusicquiz.com][img width=190]https://snolled37.github.io/mal-list-css/dist/profile/link-amq.png?v=1[/img][/url] [url=https://amq-song-stats.vercel.app/][img width=190]https://snolled37.github.io/mal-list-css/dist/profile/link-amqstats.png?v=1[/img][/url][/center]
+
 [center][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/stats.png?v=2[/img][/center]
+
+[center][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/year.png?v=1[/img][/center]
+
+[center][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/favourites.png?v=1[/img][/center]
 
 [size=120][b]About my anime scores[/b][/size]
 I use two scores, kept as tags on every title:

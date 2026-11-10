@@ -18,6 +18,7 @@ import argparse
 import collections
 import datetime as dt
 import io
+import json
 import re
 import sys
 import urllib.request
@@ -163,8 +164,8 @@ def header(name: str) -> None:
 
 
 # ------------------------------------------------------------------ buttons
-def button(label: str, accent: tuple, name: str) -> None:
-    w, h = 258, 40
+def button(label: str, accent: tuple, name: str, w: int = 258) -> None:
+    h = 40
     img = canvas(w, h, SURFACE)
     p = Pen(img)
     p.rect((0, 0, w - 1, h - 1), 8, outline=LINE)
@@ -489,6 +490,133 @@ def top10_all(user: str) -> None:
         top10(year, picks)
 
 
+# ------------------------------------------------------------------ this year + year by year
+def ym(s) -> tuple[int | None, int | None]:
+    """MAL list date "dd-mm-yy" -> (year, month). 00 = unknown day/month (I only set the year)."""
+    s = str(s or "")
+    if not re.fullmatch(r"\d\d-\d\d-\d\d", s):
+        return None, None
+    m = int(s[3:5])
+    return 2000 + int(s[6:8]), (m if 1 <= m <= 12 else None)
+
+
+def year_card(user: str) -> None:
+    anime = fetch_list(user, "anime")
+    today = dt.date.today()
+    done = [(a, *ym(a.get("finish_date_string"))) for a in anime if a["status"] == 2]
+    this = [a for a, y, m in done if y == today.year]
+    eps = sum(a.get("num_watched_episodes") or 0 for a in this)
+    scored = [a["score"] for a in this if a.get("score")]
+    months = collections.Counter(m for a, y, m in done if y == today.year and m)
+    per_year = collections.Counter(y for a, y, m in done if y)
+    years = list(range(2019, today.year + 1))
+
+    H = 236
+    img = canvas(W, H)
+    sky(img, seed=today.year + 7, n=14, avoid=[(22, 10, 330, 30), (560, 12, 776, 30), (22, 36, 776, 40),
+                                                 (22, 48, 776, 226)])
+    p = Pen(img)
+    p.rect((0, 0, W - 1, H - 1), 10, outline=LINE)
+    p.text((22, 26), f"{today.year} so far", font(True, 12), TEXT, anchor="ls")
+    p.text((W - 22, 26), f"titles I finished · updated {today:%d %b %Y}", font(False, 9), MUTED, anchor="rs")
+    p.line([(22, 38), (W - 22, 38)], LINE)
+
+    nums = [(f"{len(this)}", "titles"), (f"{eps:,}", "episodes"),
+            (f"{sum(scored) / len(scored):.2f}" if scored else "-", "my mean score")]
+    for i, (n, lab) in enumerate(nums):
+        x = 22 + i * 120
+        p.text((x, 72), n, font(True, 17), TEXT, anchor="ls")
+        p.text((x, 90), lab, font(False, 9), MUTED, anchor="ls")
+
+    # titles finished per month (this year)
+    mx = max(months.values() or [1])
+    x0, base, bw, gap, hmax = 22, 200, 24, 9, 76
+    for m in range(1, 13):
+        x = x0 + (m - 1) * (bw + gap)
+        n = months.get(m, 0)
+        future = m > today.month
+        p.rect((x, base - hmax, x + bw, base), 3, fill=SURFACE)
+        if n:
+            p.rect((x, base - max(3, hmax * n / mx), x + bw, base), 3, fill=PINK)
+            p.text((x + bw / 2, base - hmax * n / mx - 5), str(n), font(False, 8), MUTED, anchor="ms")
+        p.text((x + bw / 2, base + 14), "JFMAMJJASOND"[m - 1], font(future, 9), LINE if future else MUTED,
+               anchor="ms")
+
+    # finished per year
+    gx = 470
+    p.line([(gx - 22, 52), (gx - 22, 216)], LINE)
+    p.text((gx, 64), "Finished per year", font(True, 10), MUTED, anchor="ls")
+    ymx = max([per_year.get(y, 0) for y in years] or [1])
+    row = min(18, 140 / max(len(years), 1))
+    for i, y in enumerate(years):
+        yy = 86 + i * row
+        n = per_year.get(y, 0)
+        cur = y == today.year
+        p.text((gx, yy), str(y), font(cur, 9), TEXT if cur else MUTED, anchor="ls")
+        p.line([(gx + 40, yy - 4), (gx + 40 + 220 * n / ymx, yy - 4)], PINK if cur else SKY, 3)
+        p.text((gx + 46 + 220 * n / ymx, yy), str(n), font(False, 8), MUTED, anchor="ls")
+    save(img, "year.png")
+
+
+# ------------------------------------------------------------------ most watched people
+CREDITS = ROOT / "data" / "credits"
+
+
+def favourites(user: str) -> None:
+    anime = [a for a in fetch_list(user, "anime") if a["status"] == 2]
+    studio, va, director, writer, singer = (collections.Counter() for _ in range(5))
+    have = 0
+    for a in anime:
+        for s in a.get("anime_studios") or []:
+            studio[s["name"]] += 1
+        f = CREDITS / f"{a['anime_id']}.json"
+        if not f.exists():
+            continue
+        have += 1
+        c = json.loads(f.read_text(encoding="utf-8"))
+        for name in {n for _, n, _ in c["va"]}:
+            va[name] += 1
+        has_sc = any("Series Composition" in r for _, _, r in c["staff"])
+        for name in {n for _, n, r in c["staff"] if "Director" in r}:
+            director[name] += 1
+        for name in {n for _, n, r in c["staff"]
+                     if "Series Composition" in r or (not has_sc and "Script" in r)}:
+            writer[name] += 1
+        for s in c["songs"]:
+            s = re.sub(r"\s*\([^)]*[^\x00-\x7f][^)]*\)", "", s).strip()  # drop "(南條愛乃)"
+            if s:
+                singer[s] += 1
+
+    H = 214
+    img = canvas(W, H)
+    sky(img, seed=99, n=12, avoid=[(22, 10, 330, 30), (520, 12, 776, 30), (22, 36, 776, 40), (22, 48, 776, 206)])
+    p = Pen(img)
+    p.rect((0, 0, W - 1, H - 1), 10, outline=LINE)
+    p.text((22, 26), "Who I watch the most", font(True, 12), TEXT, anchor="ls")
+    p.text((W - 22, 26), f"titles credited, of {len(anime)} completed", font(False, 9), MUTED, anchor="rs")
+    p.line([(22, 38), (W - 22, 38)], LINE)
+    cols = [("Studios", studio), ("Seiyuu", va), ("Directors", director),
+            ("Series composition", writer), ("OP / ED artists", singer)]
+    cw = (W - 44) / len(cols)
+    for i, (label, cnt) in enumerate(cols):
+        x = 22 + i * cw
+        p.text((x, 62), label, font(True, 9), MUTED, anchor="ls")
+        top = cnt.most_common(5)
+        if not top:
+            continue
+        f1 = font(True, 11)
+        p.text((x, 86), wrap(top[0][0], f1, cw - 12, 1)[0], f1, PINK, anchor="ls")
+        p.text((x, 102), f"{top[0][1]} titles", font(False, 9), MUTED, anchor="ls")
+        for j, (name, n) in enumerate(top[1:]):
+            y = 128 + j * 18
+            f2 = font(False, 9)
+            p.text((x, y), wrap(name, f2, cw - 36, 1)[0], f2, TEXT, anchor="ls")
+            p.text((x + cw - 14, y), str(n), f2, MUTED, anchor="rs")
+    if have < len(anime):
+        print(f"favourites: credits for {have}/{len(anime)} titles so far")
+    save(img, "favourites.png")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--user", default="Snolled")
@@ -504,9 +632,15 @@ def main() -> int:
         button("Anime List", PINK, "btn-anime.png")
         button("Manga List", SKY, "btn-manga.png")
         button("Stacks & Reviews", GOLD, "btn-more.png")
+        for label, accent, name in (("Facebook", SKY, "link-facebook.png"), ("X / Twitter", TEXT, "link-x.png"),
+                                    ("AMQ: Snolled", LAV, "link-amq.png"), ("AMQ song stats", PINK, "link-amqstats.png")):
+            button(label, accent, name, w=190)
         score_guide()
         top10_all(a.user)
     stats(a.user)
+    year_card(a.user)
+    if CREDITS.exists():
+        favourites(a.user)
     return 0
 
 

@@ -21,12 +21,14 @@ jobs:
       - name: Build extras (progress, title/season/studio cards, frames, banners)
         # cached data/ means only new or stale titles/seasons/studios are fetched; cap requests per run
         run: python scripts/build_extras.py --user Snolled --max-fetch 60
+      - name: Credits of newly completed titles (seiyuu, staff, theme songs)
+        run: python scripts/fetch_credits.py --user Snolled --max-fetch 60
       - name: Verdana for the profile images (MAL's own font)
         run: |
           echo "ttf-mscorefonts-installer msttcorefonts/accept-mscorefonts-eula select true" | sudo debconf-set-selections
           sudo apt-get update -qq && sudo apt-get install -y -qq ttf-mscorefonts-installer > /dev/null
           pip install -q pillow
-      - name: Rebuild the profile stats card
+      - name: Rebuild the daily profile cards (stats, this year, most watched)
         run: python scripts/build_profile.py --user Snolled --only-stats
       - name: Commit if changed
         run: |
