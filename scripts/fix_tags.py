@@ -44,7 +44,7 @@ TOKEN = ROOT / ".mal-token.json"
 BACKUPS = ROOT / "backups"
 REDIRECT = "http://localhost:8765/callback"
 SEED_STATUSES = {1, 2, 3, 4}  # watching/reading, completed, on hold, dropped
-MAX_TAGS_LEN = 255  # MAL rejects longer tag fields (HTTP 400)
+MAX_TAGS_BYTES = 255  # UTF-8 bytes (Thai = 3 bytes/char). Longer: 400, or MAL silently truncates
 
 SHOULD = re.compile(r"^should\s*(?:to\s*)?(?:watch|read)?\s*\??\s*:\s*(\S.*?)\s*/\s*10$", re.I)
 REVIEW = re.compile(r"^review\s*scores?\s*:\s*(\S.*?)\s*/\s*10$", re.I)
@@ -160,6 +160,13 @@ def main() -> int:
             if p:
                 title = str(it.get(f"{kind}_title") or "")
                 changes.append((kind, it[f"{kind}_id"], title, *p))
+    too_long = [c for c in changes if len(",".join(c[4]).encode("utf-8")) > MAX_TAGS_BYTES]
+    if too_long:
+        print(f"{len(too_long)} titles cannot get the tags (field would exceed {MAX_TAGS_BYTES} bytes); "
+              "shorten their text tags by hand:")
+        for kind, mid, title, *_ in too_long:
+            print(f"  - [{kind}] {title}")
+        changes = [c for c in changes if c not in too_long]
     fixed = sum(1 for c in changes if any(SHOULD.match(t) or REVIEW.match(t) for t in c[3]))
     print(f"{len(changes)} titles would change ({fixed} with a rating tag rewritten, "
           f"{len(changes) - fixed} only getting ?/10 placeholders)")
@@ -180,9 +187,9 @@ def main() -> int:
     todo = changes[: a.limit] if a.limit else changes
     skipped, failed = [], []
     for n, (kind, mid, title, old, new) in enumerate(todo, 1):
-        if len(",".join(new)) > MAX_TAGS_LEN:  # never cut the user's own text
+        if len(",".join(new).encode("utf-8")) > MAX_TAGS_BYTES:  # never cut the user's own text
             skipped.append(f"{kind} {mid} {title}")
-            print(f"[{n}/{len(todo)}] {kind} {mid} {title[:40]}: SKIPPED (tags would exceed {MAX_TAGS_LEN} chars)")
+            print(f"[{n}/{len(todo)}] {kind} {mid} {title[:40]}: SKIPPED (tags would exceed {MAX_TAGS_BYTES} bytes)")
             continue
         try:
             patch_tags(token, kind, mid, new)
