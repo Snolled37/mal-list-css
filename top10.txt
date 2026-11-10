@@ -1,0 +1,34 @@
+# My top 10 anime of each year -> dist/profile/top10-YYYY.png (scripts/build_profile.py)
+# Write a rank and part of the title; it is matched against my anime list, preferring
+# titles that aired that year. If it picks the wrong one, add the MAL id: "6 - re zero 2 #39587".
+# Text after a year line is shown instead of a ranking (e.g. a year with too few titles).
+# Empty ranks show as "?" slots.
+
+2020
+1 - Kaguya sama season 2
+2 - Fruits basket 2nd season
+3 - maoujou no oyasumi
+4 - Akudama drive
+5 - kakushigoto
+6 - re zero 2
+7 - deca dance
+8 - moriarty
+9 - yahari 3
+10 - koisuru asteroid
+
+2021
+1 - Fruits basket final season
+2 - 86 part 2
+3 - Uma musume season 2
+
+2022
+
+2023
+1 - Tengoku daimakyou
+
+2024
+1 - Kusuriya no hitorigoto
+
+2025 No ranking this year: I didn't watch enough of its anime.
+
+2026

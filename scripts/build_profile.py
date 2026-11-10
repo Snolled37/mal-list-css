@@ -140,7 +140,10 @@ def rounded(img: Image.Image, r: int) -> Image.Image:
 
 def save(img: Image.Image, name: str) -> None:
     OUT.mkdir(parents=True, exist_ok=True)
-    img.convert("RGB").save(OUT / name, optimize=True)
+    if name.endswith(".jpg"):  # cover-heavy images: PNG would be >1 MB
+        img.convert("RGB").save(OUT / name, quality=90, optimize=True, progressive=True)
+    else:
+        img.convert("RGB").save(OUT / name, optimize=True)
     print(f"{name}: {img.width}x{img.height}, {(OUT / name).stat().st_size:,} bytes")
 
 
@@ -318,17 +321,186 @@ def score_guide() -> None:
     save(img, "score-guide.png")
 
 
+# ------------------------------------------------------------------ top 10 of each year
+NUM_WORDS = {"2nd": "2", "second": "2", "ii": "2", "3rd": "3", "third": "3", "iii": "3",
+             "4th": "4", "iv": "4", "1st": "1", "first": "1"}
+
+
+def tokens(t: str) -> list[str]:
+    out = []
+    for w in re.findall(r"[a-z0-9]+", str(t).lower()):
+        out.append(NUM_WORDS.get(w, w))
+    return out
+
+
+def air_year(it: dict) -> int | None:
+    y = (it.get("anime_season") or {}).get("year")
+    if y:
+        return int(y)
+    d = str(it.get("anime_start_date_string") or "")
+    return 2000 + int(d[-2:]) if re.fullmatch(r"\d\d-\d\d-\d\d", d) else None
+
+
+def match(query: str, year: int, anime: list[dict]) -> dict | None:
+    m = re.search(r"#(\d+)", query)
+    if m:
+        return next((a for a in anime if a["anime_id"] == int(m.group(1))), None)
+    q = set(tokens(query))
+    if not q:
+        return None
+    weak = {"season", "part", "the", "no", "wa", "final", "1", "2", "3", "4", "5", "s"}
+    wt = lambda ts: sum(0.3 if t in weak else 1.0 for t in ts)  # noqa: E731
+    best, best_s = None, 0.0
+    for a in anime:
+        title_toks = set(tokens(a.get("anime_title"))) | set(tokens(a.get("anime_title_eng") or ""))
+        hit = wt(q & title_toks) / wt(q)
+        if hit < 0.5:
+            continue
+        s_ = (hit + (0.6 if air_year(a) == year else 0) - 0.01 * len(title_toks)
+              + (0.2 if a.get("anime_media_type_string") == "TV" else 0))
+        if s_ > best_s:
+            best, best_s = a, s_
+    return best
+
+
+def read_top10() -> list[tuple[int, str, dict[int, str]]]:
+    years, cur = [], None
+    for line in (ROOT / "top10.txt").read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        m = re.fullmatch(r"(\d{4})\s*(.*)", line)
+        if m:
+            cur = (int(m.group(1)), m.group(2).strip(), {})
+            years.append(cur)
+            continue
+        m = re.fullmatch(r"(\d{1,2})\s*[-.)]\s*(.*)", line)
+        if m and cur and m.group(2).strip():
+            cur[2][int(m.group(1))] = m.group(2).strip()
+    return years
+
+
+def wrap(text: str, f, width: float, lines: int) -> list[str]:
+    words, out, cur = str(text).split(), [], ""
+    for w in words:
+        t = (cur + " " + w).strip()
+        if f.getlength(t) <= sc(width):
+            cur = t
+        else:
+            out.append(cur)
+            cur = w
+    out.append(cur)
+    out = [o for o in out if o]
+    if len(out) > lines:
+        out = out[:lines]
+        while f.getlength(out[-1] + "...") > sc(width) and " " in out[-1]:
+            out[-1] = out[-1].rsplit(" ", 1)[0]
+        out[-1] += "..."
+    return out
+
+
+def name_of(a: dict) -> str:
+    eng, rom = str(a.get("anime_title_eng") or ""), str(a.get("anime_title") or "")
+    return eng if eng and len(eng) <= len(rom) + 6 else rom
+
+
+def top10(year: int, picks: dict[int, dict | None]) -> None:
+    H = 470
+    img = canvas(W, H)
+    sky(img, seed=year, n=16, avoid=[(22, 10, 300, 30), (540, 12, 776, 30), (22, 36, 776, 40), (22, 48, 776, 462)])
+    p = Pen(img)
+    p.rect((0, 0, W - 1, H - 1), 10, outline=LINE)
+    p.text((22, 26), f"My top 10 of {year}", font(True, 12), TEXT, anchor="ls")
+    p.text((W - 22, 26), "anime that aired that year", font(False, 9), MUTED, anchor="rs")
+    p.line([(22, 38), (W - 22, 38)], LINE)
+    medal = {1: GOLDS, 2: SILVER, 3: COPPER}
+
+    def cover(rank: int, x: float, y: float, w: float, h: float) -> None:
+        a = picks.get(rank)
+        im = fetch_img(a.get("anime_image_path") or "", (w, h)) if a else None
+        if rank in medal:
+            ring(p, (x - 1, y - 1, x + w, y + h), medal[rank], 2 if rank == 1 else 1.5)
+        if im:
+            img.alpha_composite(rounded(im.convert("RGBA"), 5), sc((x, y)))
+        else:
+            p.rect((x, y, x + w, y + h), 5, fill=SURFACE, outline=LINE)
+            p.text((x + w / 2, y + h / 2), "?", font(True, 18), LINE, anchor="mm")
+
+    def meta(a: dict) -> str:
+        season = (a.get("anime_season") or {}).get("season") or ""
+        studio = ", ".join(s["name"] for s in (a.get("anime_studios") or [])[:1])
+        return " · ".join(x for x in (season, studio) if x)
+
+    # #1: big cover with text beside it
+    cover(1, 22, 54, 136, 194)
+    a = picks.get(1)
+    p.text((176, 92), "1", font(True, 34), GOLDS[1], anchor="ls")
+    if a:
+        f = font(True, 14)
+        lines = wrap(name_of(a), f, 210, 3)
+        for i, ln in enumerate(lines):
+            p.text((176, 122 + i * 20), ln, f, TEXT, anchor="ls")
+        y = 122 + (len(lines) - 1) * 20 + 22
+        p.text((176, y), meta(a), font(False, 9), MUTED, anchor="ls")
+        if a.get("score"):
+            p.text((176, y + 16), f"my score {a['score']}/10", font(False, 9), MUTED, anchor="ls")
+    # #2, #3: medium covers, text underneath
+    for rank, x in ((2, 420), (3, 604)):
+        cover(rank, x, 54, 100, 142)
+        p.text((x + 112, 80), str(rank), font(True, 24), medal[rank][1], anchor="ls")
+        a = picks.get(rank)
+        if a:
+            f = font(True, 10)
+            lines = wrap(name_of(a), f, 172, 2)
+            for i, ln in enumerate(lines):
+                p.text((x, 214 + i * 15), ln, f, TEXT, anchor="ls")
+            p.text((x, 214 + len(lines) * 15 + 1), meta(a), font(False, 8), MUTED, anchor="ls")
+    # #4-#10: a row of small covers
+    w, gap = 96, (W - 44 - 7 * 96) / 6
+    for i, rank in enumerate(range(4, 11)):
+        x = 22 + i * (w + gap)
+        cover(rank, x, 278, w, 136)
+        p.rect((x + 5, 283, x + 25, 299), 4, fill=BG)
+        p.text((x + 15, 291), str(rank), font(True, 10), TEXT, anchor="mm")
+        a = picks.get(rank)
+        if a:
+            f = font(False, 9)
+            for j, ln in enumerate(wrap(name_of(a), f, w, 2)):
+                p.text((x, 430 + j * 13), ln, f, TEXT, anchor="ls")
+    save(img, f"top10-{year}.jpg")
+
+
+def top10_all(user: str) -> None:
+    anime = fetch_list(user, "anime")
+    for year, note, ranks in read_top10():
+        if note or not ranks:
+            print(f"{year}: {'note only' if note else 'empty'}, no image")
+            continue
+        picks = {}
+        for r, q in sorted(ranks.items()):
+            a = match(q, year, anime)
+            picks[r] = a
+            got = f"{a['anime_id']} {a.get('anime_title')} ({air_year(a)})" if a else "NOT FOUND"
+            print(f"  {year} #{r:<2} {q!r:32} -> {got}")
+        top10(year, picks)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--user", default="Snolled")
     ap.add_argument("--only-stats", action="store_true", help="daily run: rebuild just stats.png")
+    ap.add_argument("--only-top10", action="store_true", help="rebuild just the top-10 images from top10.txt")
     a = ap.parse_args()
+    if a.only_top10:
+        top10_all(a.user)
+        return 0
     if not a.only_stats:
         header(a.user)
         button("Anime List", PINK, "btn-anime.png")
         button("Manga List", SKY, "btn-manga.png")
         button("Stacks & Reviews", GOLD, "btn-more.png")
         score_guide()
+        top10_all(a.user)
     stats(a.user)
     return 0
 
