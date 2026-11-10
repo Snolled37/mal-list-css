@@ -44,6 +44,7 @@ TOKEN = ROOT / ".mal-token.json"
 BACKUPS = ROOT / "backups"
 REDIRECT = "http://localhost:8765/callback"
 SEED_STATUSES = {1, 2, 3, 4}  # watching/reading, completed, on hold, dropped
+MAX_TAGS_LEN = 255  # MAL rejects longer tag fields (HTTP 400)
 
 SHOULD = re.compile(r"^should\s*(?:to\s*)?(?:watch|read)?\s*\??\s*:\s*(\S.*?)\s*/\s*10$", re.I)
 REVIEW = re.compile(r"^review\s*scores?\s*:\s*(\S.*?)\s*/\s*10$", re.I)
@@ -177,11 +178,24 @@ def main() -> int:
                    ensure_ascii=False, indent=1), encoding="utf-8")
     token = get_token()
     todo = changes[: a.limit] if a.limit else changes
+    skipped, failed = [], []
     for n, (kind, mid, title, old, new) in enumerate(todo, 1):
-        patch_tags(token, kind, mid, new)
-        print(f"[{n}/{len(todo)}] {kind} {mid} {title[:40]}: ok")
+        if len(",".join(new)) > MAX_TAGS_LEN:  # never cut the user's own text
+            skipped.append(f"{kind} {mid} {title}")
+            print(f"[{n}/{len(todo)}] {kind} {mid} {title[:40]}: SKIPPED (tags would exceed {MAX_TAGS_LEN} chars)")
+            continue
+        try:
+            patch_tags(token, kind, mid, new)
+            print(f"[{n}/{len(todo)}] {kind} {mid} {title[:40]}: ok")
+        except Exception as e:
+            failed.append(f"{kind} {mid} {title}: {e}")
+            print(f"[{n}/{len(todo)}] {kind} {mid} {title[:40]}: FAILED {e}")
         time.sleep(1.1)
     print(f"Done. Backup: backups/tags-before-{stamp}.json")
+    for label, rows in (("Skipped (too long, edit these by hand)", skipped), ("Failed", failed)):
+        if rows:
+            print(f"\n{label}:")
+            print("\n".join(f"  - {r}" for r in rows))
     return 0
 
 
