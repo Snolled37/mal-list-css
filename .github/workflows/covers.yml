@@ -1,4 +1,4 @@
-name: Refresh cover + extras CSS
+name: Refresh list CSS + profile stats
 
 on:
   schedule:
@@ -18,25 +18,24 @@ jobs:
           python-version: "3.12"
       - name: Build covers
         run: python scripts/build_covers.py --user Snolled
-      - name: Build extras (progress, season/studio cards, badges)
-        # cached data/ means only new or stale seasons/studios are fetched; cap requests per run
+      - name: Build extras (progress, title/season/studio cards, frames, banners)
+        # cached data/ means only new or stale titles/seasons/studios are fetched; cap requests per run
         run: python scripts/build_extras.py --user Snolled --max-fetch 60
-      - name: Commit if changed
-        id: commit
+      - name: Verdana for the profile images (MAL's own font)
         run: |
-          if git diff --quiet -- dist/ data/ && [ -z "$(git ls-files --others --exclude-standard data/)" ]; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
+          echo "ttf-mscorefonts-installer msttcorefonts/accept-mscorefonts-eula select true" | sudo debconf-set-selections
+          sudo apt-get update -qq && sudo apt-get install -y -qq ttf-mscorefonts-installer > /dev/null
+          pip install -q pillow
+      - name: Rebuild the profile stats card
+        run: python scripts/build_profile.py --user Snolled --only-stats
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- dist/ data/ && [ -z "$(git ls-files --others --exclude-standard data/ dist/)" ]; then
+            echo "nothing changed"
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add dist/covers-*.css dist/extras-*.css data/
-            git commit -m "Refresh cover + extras CSS"
+            git add dist/ data/
+            git commit -m "Daily refresh: covers, extras, profile stats"
             git push
-            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-      - name: Purge jsDelivr cache
-        if: steps.commit.outputs.changed == 'true'
-        run: |
-          for f in covers-anime.css covers-manga.css extras-anime.css extras-manga.css; do
-            curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/dist/$f" > /dev/null
-          done
