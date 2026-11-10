@@ -11,10 +11,6 @@ Discord: [url=https://discord.gg/EsFyXgVZHT]discord.gg/EsFyXgVZHT[/url]
 
 [center][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/stats.png?v=2[/img][/center]
 
-[center][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/year.png?v=1[/img][/center]
-
-[center][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/favourites.png?v=1[/img][/center]
-
 [size=120][b]About my anime scores[/b][/size]
 I use two scores, kept as tags on every title:
 [list]
@@ -58,3 +54,7 @@ Video review of all 2021 anime we watched: [url=https://www.facebook.com/2597051
 [/spoiler][/center]
 
 My favorite characters: my top 5 waifus and top 5 favorite characters are in the Favorites section.
+
+[center][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/year.png?v=1[/img][/center]
+
+[center][img width=798]https://snolled37.github.io/mal-list-css/dist/profile/favourites.png?v=1[/img][/center]
